@@ -1,2 +1,7 @@
+.DS_Stone
 fuel/app/logs/*/*/*
 fuel/app/cache/*/*
+fuel/app/config/db.php
+fuel/app/config/development/*
+fuel/app/config/production/*
+fuel/app/config/staging/*
