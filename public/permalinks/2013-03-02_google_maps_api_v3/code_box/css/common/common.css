@@ -1,0 +1,144 @@
+@charset "utf-8";
+/*************
+デフォルト設定
+*************/
+body {
+	background-color: #FFFCF6;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5 {
+	color:#3f3f3f;
+	margin:0;
+}
+ul {
+	color:#4D4D4D;
+}
+p {
+	color:#4D4D4D;
+	margin:0;
+	font-size: 15px;
+}
+img {
+	border: medium none;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	-moz-text-decoration-style: dashed;
+}
+.clear {
+	clear: both;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+/*****************
+全体コンテンツ設定
+*****************/
+#wrapper {
+    width: 780px;
+    margin: 0 auto 50px;
+}
+/*****************
+スライドショー設定
+*****************/
+.slide_show {
+		background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #BFBFBF;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0 auto;
+    position: relative;
+}
+.slide_show_contents {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 620px;
+}
+.slide_show_contents span {
+	position: absolute;
+	width: 90px;
+}
+.slide_show_contents img {
+	margin: 25px 0 0;
+	width: 95px;
+	height: 65px;
+}
+.slide_show_contents ul {
+	height: 110px;
+	margin: 0;
+	padding: 0;
+	width: 5000px;
+	position: relative;
+}
+.slide_show_contents li {
+	list-style: none;
+	float: left;
+	margin: 0 10px 0 0px;
+	padding: 0;	
+	cursor: pointer;
+}
+.slide_show_contents li:hover {
+	opacity: 0.75;
+}
+.y_l_btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 110px;
+    cursor: pointer;
+}
+.y_l_btn:hover {
+	opacity: 0.75;
+}
+.y_r_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 110px;
+    cursor: pointer;
+}
+.y_r_btn:hover {
+	opacity: 0.75;
+}
+/*******************************
+ストリートビュー設定＆マップ設定
+*******************************/
+#svp_area {
+	width:780px;
+ height:400px;
+ margin: 0 auto;
+ padding: 5px 0px 10px 0px;
+ border-radius: 2px;
+}
+#svp {
+	width:780px;
+ height:400px;
+ margin: 0 auto;
+}
+#map {
+	width:460px;
+ height:300px;
+ margin: 0 auto;
+}
+#text_area {
+		margin: 0 10px 0 0;
+    float: left;
+    width: 310px;
+}

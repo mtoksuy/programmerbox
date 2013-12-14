@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>360°好きな駅ツアー</title>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/common/common.css" media="all">
+		<!-- Google Maps APIの読み込み -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<!-- jquery-1.7.1 -->
+		<script type="text/javascript" src="js/jquery/jquery-1.7.1.js"></script>
+		<!-- マップとストリートビューを表示させるjavascriptファイル -->
+		<script type="text/javascript" src="js/common/common.js"></script>
+	</head>
+	<body>
+		<!-- wrapper -->
+		<div id="wrapper">
+			<h1>Google Maps JavaScript API V3:サンプルページ</h1>
+			<p>現在の緯度・経度：<span id="res"></span></p>
+			<!-- slide_show -->
+			<div class="slide_show">
+				<span class="y_l_btn">
+					<img src="img/t_2_l.png">
+				</span>
+				<div class="slide_show_contents">
+					<ul class="clearfix">
+						<li><span>八丁堀駅</span><img width="100" height="75" alt="" src="img/li_1.jpg"></li>
+						<li><span>新宿駅</span><img width="100" height="75" alt="" src="img/li_2.jpg"></li>
+						<li><span>渋谷駅</span><img width="100" height="75" alt="" src="img/li_3.jpg"></li>
+						<li><span>秋葉原駅</span><img width="100" height="75" alt="" src="img/li_4.jpg"></li>
+						<li><span>池袋駅</span><img width="100" height="75" alt="" src="img/li_5.jpg"></li>
+						<li><span>原宿駅</span><img width="100" height="75" alt="" src="img/li_6.jpg"></li>
+						<li><span>吉祥寺駅</span><img width="100" height="75" alt="" src="img/li_7.jpg"></li>
+						<li><span>大森駅</span><img width="100" height="75" alt="" src="img/li_8.jpg"></li>
+					</ul>
+				</div> <!-- slide_show -->
+				<span class="y_r_btn">
+					<img src="img/t_2_r.png">
+				</span>
+			</div>
+			<!-- ストリートビュー表示 -->
+			<div id="svp_area">
+				<div id="svp"></div>
+			</div> <!-- ストリートビュー表示 -->
+			<!-- text_area -->
+			<div id="text_area">
+				<h3>八丁堀駅</h3>
+				<p>八丁堀駅（はっちょうぼりえき）は、東京都中央区八丁堀にある、東京地下鉄（東京メトロ）・東日本旅客鉄道（JR東日本）の駅である。</p>
+			</div> <!-- text_area -->
+			<!-- マップ表示 -->
+			<div id="map"></div>
+		</div> <!-- wrapper -->
+	</body>
+</html>
