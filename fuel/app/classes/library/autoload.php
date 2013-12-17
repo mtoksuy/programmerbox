@@ -51,4 +51,7 @@ class Library_Autoload {
 	public static function _init() {
 
 	}
+	public static function test() {
+		echo 'test';
+	}
 }
