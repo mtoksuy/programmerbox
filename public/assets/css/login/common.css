@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+body {
+	background-color: #F0F0F0;
+}
+/***********
+ログイン設定
+***********/
+.login {
+    height: 300px;
+    left: 50%;
+    margin: -200px 0 0 -108px;
+    position: absolute;
+    top: 50%;
+    width: 216px;
+}
+.login_form {
+
+}
+.input {
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    color: #3A3A3A;
+    font-size: 22px;
+    padding: 5px 7px;
+    width: 200px;
+}
+.login_button {
+    background-color: #599CFC;
+    border: 1px solid #4B8EFD;
+    border-radius: 3px;
+    color: #FCFCFC;
+    cursor: pointer;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+}
+.block {
+	margin: 0 0 15px;
+}
+/***********
+アドミン設定
+***********/
+.admin {
+
+}
+.admin_left {
+    background-color: #FCFBF9;
+    width: 150px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+
+}
+.admin_left_menu {
+	border-top: 2px solid #F1F1F1;
+}
+.admin_left_menu:first-child {
+    border-top: medium none;
+    margin: 0;
+}
+.admin_left_menu a {
+	color: #3A3A3A;
+    display: block;
+    padding: 10px;
+}
+.admin_left_menu a:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+  transition: all 0.3s ease 0s;
+}
+
+.admin_left_menu ol {
+    margin: 0;
+    padding: 0;
+}
+.admin_left_menu li {
+	list-style: none outside none;
+}
+.admin_left_menu dl {
+
+}
+.admin_left_menu dt {
+	padding: 10px;
+}
+.admin_left_menu dd {
+
+}
+.admin_left_menu dd a {
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+.admin_right {
+    background-color: #40E0D0;
+/*
+    float: right;
+    width: 200px;
+*/
+}
+.admin_right_block {
+
+}
+
+
+
+
+
+
+
+
+
