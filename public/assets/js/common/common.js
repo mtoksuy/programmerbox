@@ -130,7 +130,7 @@ $('.pluginBoxContainer').css( {
 	//全ページトップでトップにスクロールするボタン表示 非表示
 	//-------------------------------------------------------
  $(window).scroll(function() {
-	 if($(window).width() > 1080 && $(this).scrollTop() > 800) {
+	 if($(window).width() > 1080 && $(this).scrollTop() > 700) {
 			$('.scroll_top').fadeIn();
 	 }
 	 		else {
