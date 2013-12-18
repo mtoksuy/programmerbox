@@ -22,6 +22,10 @@ class Model_Login_Basis extends Model {
 	//ログインチェック
 	//----------------
 	public static function login_check() {
+			// エラー表示設定()
+			error_reporting(0);
+			ini_set('display_errors', 1);
+
 		$login_check = '';
 		if($_SESSION["programmerbox_id"]) {
 //			var_dump($_SESSION);
@@ -32,8 +36,13 @@ class Model_Login_Basis extends Model {
 			}
 		return $login_check;
 	}
-
-
-
-
+	//----------
+	//ログアウト
+	//----------
+	public static function logout() {
+		$_SESSION = array();
+		session_destroy();
+		header('location: '.HTTP.'');
+		exit;
+	}
 }

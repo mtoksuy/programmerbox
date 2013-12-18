@@ -169,4 +169,21 @@ class Model_Info_Basis extends Model {
 		}
 		return $article_count_number;
 	}
+	//
+	//
+	//
+	public static function category_info_get($category = null) {
+//		var_dump($category);
+		$category_info_array = array();
+		$res = DB::query("
+			SELECT *
+			FROM category_segment
+			WHERE category_name = '".$category."'
+			AND parmalink_check = 0")->execute();
+		foreach($res as $key => $value) {
+//				var_dump($value);
+			$category_info_array = $value;
+		}
+		return $category_info_array;		
+	}
 }

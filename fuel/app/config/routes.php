@@ -33,7 +33,7 @@ $segment_info_get_array = Model_Info_Basis::segment_info_get();
 // エラーページ
 if($segment_info_get_array["segment_error"] === FALSE) {
 	return array(
-//		'.*?'  => 'error/404', 
+		'.*?'  => 'error/404', 
 	);
 }
 	else {
@@ -45,6 +45,7 @@ if($segment_info_get_array["segment_error"] === FALSE) {
 			'login'                                                      => 'login',
 			'login/admin'                                                => 'login/admin',
 			'login/admin/post'                                           => 'login/admin/post',
+			'login/admin/logout'                                         => 'login/admin/logout',
 			'(([0-9]{0,4})(-|_)([0-9]{0,2})(-|_)([0-9]{0,2})(-|_)(.*))'  => 'article/index', // 記事
 			'[0-9]+?$'                                                   => 'root',          // トップ ページング
 			'.*?/.*?/[0-9].*?$'                                          => 'root',          // 子セグメントページング

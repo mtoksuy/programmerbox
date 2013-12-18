@@ -22,7 +22,7 @@ class Controller_Login_Template extends Controller {
 
 	public function after($response) {
 		if($response === null) {
-			$response = $this->basic_template;
+			$response = $this->login_template;
 		}
 		return parent::after($response);
 	}

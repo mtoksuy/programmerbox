@@ -7,11 +7,13 @@ body {
 ログイン設定
 ***********/
 .login {
+    bottom: 0;
     height: 300px;
-    left: 50%;
-    margin: -200px 0 0 -108px;
+    left: 0;
+    margin: auto;
     position: absolute;
-    top: 50%;
+    right: 0;
+    top: 0;
     width: 216px;
 }
 .login_form {
@@ -45,7 +47,7 @@ body {
 
 }
 .admin_left {
-    background-color: #FCFBF9;
+    background-color: #F0F0F0;
     width: 150px;
 		position: absolute;
 		top: 0;
@@ -98,7 +100,8 @@ body {
 
 
 .admin_right {
-    background-color: #40E0D0;
+    background-color: #EAEAEA;
+    margin-left: 150px;
 /*
     float: right;
     width: 200px;
@@ -107,6 +110,101 @@ body {
 .admin_right_block {
 
 }
+.admin_right_block_logout {
+	float: right;
+}
+.admin_right_block_logout a {
+	padding: 10px;
+}
+
+
+
+
+.columns_2 {
+	margin-right: 300px;
+padding: 30px 0 0;
+}
+.new_post {
+/*
+    background-color: #FCFBF9;
+    float: left;
+    margin: 0 0 0 10px;
+    width: 100%;
+*/
+    float: left;
+    width: 100%;
+}
+.new_post_contents {
+margin: 30px;
+}
+.new_post h1 {
+}
+
+
+
+
+
+
+
+.new_post form {
+
+}
+
+.new_post form input {
+    -moz-box-sizing: border-box;
+    background-color: #FBFBFB;
+    border: 1px solid #CFCFCF;
+    border-radius: 2px;
+    color: #393939;
+    padding: 10px;
+    width: 100%;
+}
+.new_post form input[type="text"] {
+
+}
+.new_post form input[type="file"] {
+
+}
+.new_post form input[type="submit"] {
+
+}
+
+.new_post form textarea {
+    -moz-box-sizing: border-box;
+    background-color: #FBFBFB;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    color: #3A3A3A;
+    font-size: 15px;
+    height: 500px;
+    padding: 5px 0 5px 5px;
+    width: 100%;
+}
+.postboxs {
+    float: right;
+    margin-right: -300px;
+    width: 300px;
+}
+.postbox {
+	margin: 30px 0 0;
+    background-color: #FCFBF9;
+    border-radius: 2px;
+    box-shadow: 1px 2px 0 2px rgba(0, 0, 0, 0.05);
+}
+.postbox_contents {
+	padding: 5px;
+
+}
+
+.postbox h3 {
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+
+.postbox {
+
+}
+
 
 
 
