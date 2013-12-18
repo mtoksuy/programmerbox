@@ -1,373 +1,2917 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
-		<channel>
-		<title>ProgrammerBOX -プログラマーボックス-</title>
-		<atom:link href="http://localhost/programmerbox/feed.xml" rel="self" type="application/rss+xml"/>
-		<link>http://localhost/programmerbox/</link>
-		<description>
-		<![CDATA[
-		プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
-		]]>
-		</description>
-		<language>ja</language>
-		<copyright>Copyright 2013</copyright>
-		
-		<generator uri="http://localhost/programmerbox/">ProgrammerBOX -プログラマーボックス-</generator>
-		
-		<sy:updatePeriod>hourly</sy:updatePeriod>
-		<sy:updateFrequency>1</sy:updateFrequency>
-		<lastBuildDate>Wed, 18 Dec 2013 18:34:43 +0900</lastBuildDate><item>
-			<title>fdkfjdkj</title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_kjkjk/
-			</link>
-			<description>
-			<![CDATA[
-			fsfd
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-			fsfd
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_kjkjk/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:34:42 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:31:29 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:31:07 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:13:16 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:13:05 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:12:50 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:12:37 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:09:38 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 18:07:01 +0900</pubDate>
-			</item>
-			<item>
-			<title></title>
-			<link>
-			http://localhost/programmerbox/2013-12-18_/
-			</link>
-			<description>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
-			]]>
-			</content:encoded>
-			<guid>
-			http://localhost/programmerbox/2013-12-18_/
-			</guid>
-			<pubDate>Wed, 18 Dec 2013 17:58:16 +0900</pubDate>
-			</item>
-			</channel>
-		</rss>
+							<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+							<channel>
+							<title>ProgrammerBOX -プログラマーボックス-</title>
+							<atom:link href="http://programmerbox.com/feed.xml" rel="self" type="application/rss+xml"/>
+							<link>http://programmerbox.com/</link>
+							<description>
+							<![CDATA[
+							プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
+							]]>
+							</description>
+							<language>ja</language>
+							<copyright>Copyright 2013</copyright>
+							
+							<generator uri="http://programmerbox.com/">ProgrammerBOX -プログラマーボックス-</generator>
+							
+							<sy:updatePeriod>hourly</sy:updatePeriod>
+							<sy:updateFrequency>1</sy:updateFrequency>
+							<lastBuildDate>Fri, 01 Nov 2013 11:39:17 +0900</lastBuildDate><item>
+								<title>2013年、フォントフリーサイトまとめをまとめてみた[保存版]</title>
+								<link>
+								http://programmerbox.com/2013-11-01_free_font_Install/
+								</link>
+								<description>
+								<![CDATA[
+								新しいフォントが無数に現れる時代になり、やはり情報と同じで多すぎると探しにくくなっています。そこでオススメのサイト2選を紹介しつつ、日本と海外のフォントポータルサイト...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>新しいフォントが無数に現れる時代になり、やはり情報と同じで多すぎると探しにくくなっています。そこでオススメのサイト2選を紹介しつつ、日本と海外のフォントポータルサイトや日本語フォントをメインに紹介している記事を集めてみました。</p>
+
+<p></p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">オススメの厳選サイト2選</span>
+		<li class="n_2"><span class="scroll_btn">無料フォントポータルサイト</span>
+			<ul class="nest">
+				<li><span class="nest_number">2-1.</span><span class="scroll_btn">日本サイト</span></li>
+				<li><span class="nest_number">2-2.</span><span class="scroll_btn">海外サイト</span></li>
+			</ul>
+		</li>
+		<li class="n_3"><span class="scroll_btn">比較的新しいフォント紹介記事</span>
+			<ul class="nest">
+				<li><span class="nest_number">3-1.</span><span class="scroll_btn">イケてるフォント紹介記事</span></li>
+				<li><span class="nest_number">3-2.</span><span class="scroll_btn">日本語フォント紹介記事</span></li>
+				<li><span class="nest_number">3-3.</span><span class="scroll_btn">英語フォント紹介記事</span></li>
+			</ul>
+		</li>
+		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+
+
+
+
+
+<h2 class="heading">オススメの厳選サイト2選</h2>
+
+<p>大体はこの2つのサイトでイケてるフォントは手に入りますので要チェックです。ですが、日本語のフォントがないので日本語のフォントをお探しならば目次の2-1や3-2を見て下さい。</p>
+
+
+
+
+<h3>Fonts.com（SkyFonts）</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.fonts.com/ja/web-fonts/google">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_228.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.fonts.com/ja/web-fonts/google">Fonts.com（SkyFonts）</a>
+</p>
+<p>個人的に超お気に入りのサービスです。現在1123種類のフォントをダウンロード出来るようになっていますのでやってない方は是非是非、お気に入りのフォントをダウンロードしましょう。</p>
+
+
+<blockquote cite="http://jp.techcrunch.com/2013/05/06/20130501google-brings-its-web-fonts-to-the-desktop/">
+<p>GoogleのオープンソースWeb Fontsコレクションが、デスクトップでも利用できるようになっている（MacおよびWindows）。「どういうことなのだ」と混乱する方もいらっしゃることだろう。Web Fontsとはそもそも、ウェブ上で自由にいろいろなフォントを利用できるようにするために用意されたものだ。デスクトップで利用できるもなにも、既にきちんと表示されるようになっているはずだ。ただ、表示の際にはフォントのデータをダウンロードする必要があった。これを予め手元にダウンロードしておけば時間の短縮になるというわけだ。</p>
+
+<p>今回の機能実装にあたりGoogleは、フォントビジネスを展開しているMonotypeのSkyFontsというツールを利用している。これを利用することにより、いったんダウンロードしたフォントに新たな文字が加わったり、何かしらの変更が加わった際には自動的に反映されるようになるのだそうだ。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://jp.techcrunch.com/2013/05/06/20130501google-brings-its-web-fonts-to-the-desktop/">Google、Monotypeとの提携によりWeb Fontsをデスクトップ用にも提供開始  |  TechCrunch Japan</a></cite></p>
+
+
+
+<h3>Font Squirrel</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.fontsquirrel.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_229.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.fontsquirrel.com/">Font Squirrel</a>
+</p>
+<p>ここも新しめなフォントが集まっており、フラットデザインで役に立ちそうなフォントが多いので個人的にオススメです。</p>
+
+
+
+
+
+
+
+
+<h2 class="heading">無料フォントポータルサイト</h2>
+<p>今回紹介するポータルサイトは新しいサイトではありませんが、古い分フォントの量が多いのが特徴です。新しいフォントから古いフォントまで網羅していますので目的のフォントが見つかるかも知れません。</p>
+
+
+
+
+<h3 class="heading">日本サイト</h3>
+
+<p>先ずは日本のサイトを紹介していきます。</p>
+
+
+
+<h3>FFONTS（日本版）</h3>
+<p class="m_0">
+	<a target="_blank" href="http://jp.ffonts.net/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_230.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://jp.ffonts.net/">FFONTS（日本版）</a>
+</p>
+<p>日本語版があったので紹介を。フォントカテゴリーに「頭のおかしい フォント」「気が狂って フォント」などがあり面白いサイトです。（全く使えませんが・・）</p>
+
+
+<h3>無料フリーフォント集　FREEフォントケンサク</h3>
+<p class="m_0">
+	<a target="_blank" href="http://cute-freefont.flop.jp/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_231.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://cute-freefont.flop.jp/">無料フリーフォント集　FREEフォントケンサク</a>
+</p>
+<p>フォントを作成しているサイトのフォントを載せていますので数が多いのが特徴ですね。</p>
+
+
+<h3>gau+ | ガウプラ</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.graphicartsunit.com/gaupra/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_232.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.graphicartsunit.com/gaupra/">gau+ | ガウプラ</a>
+</p>
+<p>ポータルサイトではないのですが個人的に好きなので紹介したいと思います。サイト自体が可愛くていい感じです。フォントの方は英語14種類、カタカナ9種類あります。</p>
+
+
+
+
+<h3>お得ＷＥＢ；無料フォント</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www7.ocn.ne.jp/~otoku/free-font.htm">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_233.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www7.ocn.ne.jp/~otoku/free-font.htm">お得ＷＥＢ；無料フォント</a>
+</p>
+<p>このサイト自体アレなので、古いフォントサイトを紹介しているのかと思いきや前衛的なサイトばかりですので要チェックです。</p>
+
+
+
+
+
+
+
+
+
+<h3 class="heading">海外サイト</h3>
+
+<p>次は海外サイトを。<p>
+
+
+
+<h3>MacAppware</h3>
+<p class="m_0">
+	<a target="_blank" href="http://macappware.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_234.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://macappware.com/">MacAppware</a>
+</p>
+<p>基本有料のフォントなのですが、サイトの右上にある<strong>Free Fonts</strong>と書かれているボタンをクリックして面倒ですがメールアドレス等を入力し送信するとすぐにメールが来ますので、そのメールに書かれているURLをクリックしますと56個のフォントを一括ダウンロード出来ます。</p>
+
+
+
+
+<h3>Fonts2u.com</h3>
+<p class="m_0">
+	<a target="_blank" href="http://ja.fonts2u.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_235.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://ja.fonts2u.com/">Fonts2u.com</a>
+</p>
+<p>こちらのサイトは海外なのですが複数の言語対応もしており、日本語でも閲覧出来るようになっていまして、フォントが探しやすくなっています。</p>
+
+<h3>dafont.com</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.dafont.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_236.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.dafont.com/">dafont.com</a>
+</p>
+<p>日本語対応になっていませんが上記のサイトと似ているUIの為、直感的にフォントが何処にあるか、わかりやすいかと思います。</p>
+
+
+
+
+<h3>1001 Fonts · Free Fonts Baby!</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.1001fonts.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_237.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.1001fonts.com/">1001 Fonts · Free Fonts Baby!</a>
+</p>
+<p>有名なサイトですが、少し古いフォントが多いなと感じました。大体全部見たのですが使えるのは新しいフォントから数えて350位までです。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="heading">比較的新しいフォント紹介記事</h2>
+
+<p>ポータルサイトだけではなく、他のブログではどのように紹介されているか個人的に気になり、基本的にバズった記事を集めてみました。色んな角度から紹介していますので目的のフォントにたどり着ける確率は高いです。<p>
+
+
+<h3 class="heading">イケてるフォント紹介記事</h3>
+
+<p>イケてるフォントを紹介している記事というかブログを紹介します。</p>
+
+
+<h3>フォントPhotoshopVIP | PhotoshopVIP</h3>
+<p class="m_0">
+	<a target="_blank" href="http://photoshopvip.net/archives/tag/font">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_239.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://photoshopvip.net/archives/tag/font">フォントPhotoshopVIP | PhotoshopVIP</a>
+</p>
+<p>PhotoshopVIPさんのフログは多くの記事を書きカテゴリー分けしてるので、ここに行けば良いデザインのフォントに行けるようになっています。</p>
+
+
+
+
+<h3 class="heading">日本語フォント紹介記事</h3>
+<p>上記で紹介したサイトは主に英語のフォントでしたので、日本語のフォントを紹介している記事をここでは紹介します。</p>
+
+
+<h3>漢字が使えるフリーの和文フォント242種類をまとめてみた。 - buena suerte!</h3>
+<p class="m_0">
+	<a target="_blank" href="http://blog.livedoor.jp/cie/archives/52129474.html">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_240.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://blog.livedoor.jp/cie/archives/52129474.html">漢字が使えるフリーの和文フォント242種類をまとめてみた。 - buena suerte!</a>
+</p>
+<p>とりあえず、見やすいです。ただ記事が少し古いので記事で追記されているように、商用で使用する時は気をつけた方が良いですね。</p>
+
+
+
+<h3>日本語フリーフォントまとめ最新版FreeFont一覧〜無料ダウンロード - デザインのブログ〜フォント作ったり素材作ったり</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.flopdesign.com/blog/font/65/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_241.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.flopdesign.com/blog/font/65/">日本語フリーフォントまとめ最新版FreeFont一覧〜無料ダウンロード - デザインのブログ〜フォント作ったり素材作ったり</a>
+</p>
+<p>割と新しめの記事ですので良い感じの日本語フォントを紹介しています。</p>
+
+
+
+<h3>【デザイナー必見】最強の日本語フリーフォントのまとめ - NAVER まとめ</h3>
+<p class="m_0">
+	<a target="_blank" href="http://matome.naver.jp/odai/2130244832975388701">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_242.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://matome.naver.jp/odai/2130244832975388701">【デザイナー必見】最強の日本語フリーフォントのまとめ - NAVER まとめ</a>
+</p>
+<p>かなりまとめられいてますので数を見たい方はこちらを。</p>
+
+
+
+
+<h3>漢字が使える！全部無料！日本語フォント41個【2013年最新版】</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.find-job.net/startup/41-japanese-free-fonts">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_243.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.find-job.net/startup/41-japanese-free-fonts">漢字が使える！全部無料！日本語フォント41個【2013年最新版】</a>
+</p>
+<p>殆ど引用している感じですが、見やすいので紹介を。</p>
+
+
+
+<h3>日本語フリーフォントまとめ63個 &#8211; 2013年7月 | 男子ハック</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.danshihack.com/2013/07/21/junp/freefont_2013.html">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_244.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.danshihack.com/2013/07/21/junp/freefont_2013.html">日本語フリーフォントまとめ63個 &#8211; 2013年7月 | 男子ハック</a>
+</p>
+<p>マニアックなフォントも紹介していて見ていて楽しいです。一番最後に記述してある「参考サイト一覧」も必見です。</p>
+
+
+<h3>perruche　～コンサル会社でHPを作っている人のBlog～　 - 漢字も使える74個の日本語フリーフォント　商用可（54）／商用不可（20）別</h3>
+<p class="m_0">
+	<a target="_blank" href="http://perruche15.blog134.fc2.com/blog-entry-36.html">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_245.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://perruche15.blog134.fc2.com/blog-entry-36.html">perruche　～コンサル会社でHPを作っている人のBlog～　 - 漢字も使える74個の日本語フリーフォント　商用可（54）／商用不可（20）別</a>
+</p>
+<p>もうかなり被って来ていますが、被ってないのもあるかもしれません。</p>
+
+
+<h3>CoreDrive - どんなファイルも見たまま共有（日本語フリーフォント ）</h3>
+<p class="m_0">
+	<a target="_blank" href="https://coredrive.com/boards/font">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_246.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="https://coredrive.com/boards/font">CoreDrive - どんなファイルも見たまま共有（日本語フリーフォント ）</a>
+</p>
+<p>新しい形で紹介しています。このwebサービス面白いですね。</p>
+
+
+
+<h3 class="heading">英語フォント紹介記事</h3>
+
+<p>最後に海外のフォントポータルサイトを紹介している記事を紹介します。</p>
+
+<h3>21 Most Visited Free Fonts Site(21のポータルサイト紹介記事)</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.hongkiat.com/blog/21-most-visited-free-fonts-site/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_247.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.hongkiat.com/blog/21-most-visited-free-fonts-site/">21 Most Visited Free Fonts Site</a>
+</p>
+<p class="m_0">いつ書かれたかは不明ですが</p>
+<p>知らなかったポータルサイトを紹介していましたので載せときます。</p>
+
+
+
+<h2 class="heading">まとめ</h2>
+<p>いかがだったでしょうか？フォントはデザインをする時に必ず必要になってきますので、多ければ多い程デザインのバリーションが広がるかもしれません。</p>
+<p>フォント自体SkyFonts等で便利になっている分、他のサイトの需要が低くなって来ましたが</p>
+<script type="text/javascript" src="//www.google.co.jp/trends/embed.js?hl=ja&q=%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88&cmpt=q&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=320&h=400"></script>
+
+<p class="m_0">ですが、検索数で考えるとかなりあるほうです。</p>
+<p>（執筆時点でフォントで月間33,100回日本で検索されています。）</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-11-01_free_font_Install/
+								</guid>
+								<pubDate>Fri, 01 Nov 2013 11:39:16 +0900</pubDate>
+								</item>
+								<item>
+								<title>もうPCメガネは必要ない！？色温度調整アプリ「f.lux」を試してみたよ</title>
+								<link>
+								http://programmerbox.com/2013-10-07_f.lux_app_revue/
+								</link>
+								<description>
+								<![CDATA[
+								先日、初めて会った人に色温度調整アプリ「f.lux」を教えてもらい、数日間利用しています。そして、このアプリはフリーなのですが、イケてるんですよ!調べてみたら様々なブログ...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>先日、初めて会った人に色温度調整アプリ「f.lux」を教えてもらい、数日間利用しています。そして、このアプリはフリーなのですが、イケてるんですよ!調べてみたら様々なブログで紹介されてるんですが、見なかった事にしてさらな状態で記事を書いていきます。</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">f.luxとは？</span></li>
+		<li class="n_2"><span class="scroll_btn">ダウンロード方法</span></li>
+		<li class="n_3"><span class="scroll_btn">f.luxの使い方</span></li>
+		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+<h2 class="heading">f.luxとは？</h2>
+<p class="m_0">PC画面の色温度を調整出来るMacのフリーアプリケーションです。機能としましては、現在いる場所を登録する事によって適切な調整も設定出来る機能のほか、時間の経過とともに画面の色を自動調整を行い目への刺激を極力防ぐ事が出来るようになります。</p>
+<p><small>※UX自体を取り除く事はもちろん出来ませんのでUXを取り除く事を目的とするならば効果はありません。</small></p>
+
+<p>ですが、<strong>ブルーライトを抑えられる</strong>ので目への刺激を和らげる事が出来ます。</p>
+
+
+
+<h2 class="heading">ダウンロード方法</h2>
+
+<h3>f.lux: software to make your life better</h3>
+<p class="m_0">
+	<a target="_blank" href="http://justgetflux.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_223.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a href="http://justgetflux.com/" target="_blank">f.lux: software to make your life better</a>
+</p>
+<p>f.luxのサイトにいきましたら「<em>Download f.lux</em>」をクリックしてダウンロード出来ます。</p>
+
+<p>ダウンロードが完了しましたらzipを解凍して下さい。</p>
+<p>解凍するとf.luxのappがダウンロードにありますのでクリックして起動しましょう。</p>
+<p>初めてアプリを起動すると、アプリを移動しますか？と聞かれるのですが、ここで問題が一つあります。ボクの環境だと、<em>ここで移動しますとバグります</em>。（アプリアイコンがなかったり、アプリがゴミ箱に行ったり）なのでここはアプリの移動しないを選びましょう。</p>
+<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_224.jpg" width="640" height="400" alt="" title=""></p>
+<p>あとは自由にアプリをアプリケーションフォルダに入れてお好みでDockに入れたりして下さい。</p>
+
+<h2 class="heading">f.luxの使い方</h2>
+<p>ダウンロードが終わりましたら次はf.luxの使い方を説明します。</p>
+
+<p class="m_0">f.luxを起動しますと、通常のアプリとは違ってDockで起動している事が確認出来ません。</p>
+<p>f.luxはここから操作出来ます。</p>
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_225.jpg" width="640" height="400" title="" alt=""></p>
+
+<p>設定は完全にお好みなんですが、ボクはこんな感じにしました。</p>
+
+<p><img class="press_mini_image m_0" src="../img/press/image/image_226.jpg" width="640" height="400" alt="" title=""></p>
+
+<h2 class="heading">まとめ</h2>
+<p>使い続けた感想は目が疲れにくくなり、集中力が増したかのようにも思えます。一つ難点がありデザインをする時に解除をするのですが、その時の違和感というか違いにビックリして3分くらい目を慣れさせなければいけません。逆に考えればそのくらい通常の画面は目への刺激が強いという事になります。</p>
+<p>ブラウジングしたりする時には有用ですので是非是非このアプリをためしましょー。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-10-07_f.lux_app_revue/
+								</guid>
+								<pubDate>Mon, 07 Oct 2013 23:00:51 +0900</pubDate>
+								</item>
+								<item>
+								<title>Mac標準アプリ「Automator」でファイル名を一括リネームする方法と作成したアクションを削除する方法</title>
+								<link>
+								http://programmerbox.com/2013-10-07_automator_image_batch_rename/
+								</link>
+								<description>
+								<![CDATA[
+								膨大にある画像を一括リネームする機会ってweb制作をしていると度々ありますよね？今回はそんな時に役立つ方法(macで)を紹介致します。
+					Automatorはデフォルトでmacに入っ...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>膨大にある画像を一括リネームする機会ってweb制作をしていると度々ありますよね？今回はそんな時に役立つ方法(macで)を紹介致します。</p>
+					<p>Automatorはデフォルトでmacに入っているアプリケーションです。これで何でも出来るらしいのですが、今回は画像を連番で一括リネームする事に焦点を当てたいと思います。</p>
+
+
+
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">Automatorとは？</span></li>
+		<li class="n_2"><span class="scroll_btn">Automatorアクションの作り方</span></li>
+		<li class="n_3"><span class="scroll_btn">Automatorアクションの使い方</span></li>
+		<li class="n_4"><span class="scroll_btn">Automatorアクションの削除の仕方</span></li>
+		<li class="n_5"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+<h2 class="heading">Automatorとは？</h2>
+<p></p>
+
+<blockquote cite="support.apple.com/kb/HT2488?viewlocale=ja_JP&locale=ja_JP">
+<p>Automator は、簡単に作業を効率化できるパーソナル自動化アシスタントです。Automator を使えば、単純なドラッグアンドドロップ操作で「自動化レシピ」を作成し、実行できます。自動化レシピは、単純なタスクも複雑なタスクも、必要なときに必要な場所で実行してくれます。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="support.apple.com/kb/HT2488?viewlocale=ja_JP&locale=ja_JP">Mac 101：Automator</a></cite></p>
+
+
+
+<h2 class="heading">Automatorアクションの作り方</h2>
+<p>では、早速方法を説明して行きます。</p>
+
+<p class="m_0">初めに<strong>Automator</strong>を開きましたら</p>
+<p>下の画像のように<em>サービスを選択</em>して下さい。</p>
+
+<h3></h3>
+
+<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_212.jpg" width="640" height="400" alt="" title="">
+</p>
+<p class="m_0">次は下の画像の手順通り進んでください。</p>
+<p class="m_0"><em>1.イメージファイルを選択</em></p>
+<p class="m_0"><em>2.Finderを選択</em></p>
+<p class="m_0"><em>3.ライブラリを選択</em></p>
+<p class="m_0"><em>4.Finder 項目を求めるを選択</em></p>
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_213.jpg" width="640" height="400" alt="" title=""></p>
+
+
+<p>選択しましたら、次は<em>「Finder 項目の名前を変更」</em>をドラッグ&ドロップしましょー</p>
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_214.jpg" width="640" height="400" alt="" title=""></p>
+
+<p class="m_0">ドラッグ&ドロップをしますと</p>
+<p>こんな感じのウィンドウが現れますのでお好みの設定にしましょう。</p>
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_215.jpg" width="640" height="400" alt="" title=""></p>
+
+<p>設定が完了しましたら、次の画像のように保存をして下さい。</p>
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_216.jpg" width="640" height="400" alt="" title=""></p>
+
+<p>これでアクションが完成しましたので、次はそのアクションの使い方を説明して行きます。</p>
+
+
+
+<h2 class="heading">Automatorアクションの使い方</h2>
+<p>作成したアクションを使うには下の画像のように画像ファイルを選んで右クリックしますと、先ほど作成したアクションが表示されます。</p>
+<p>作成したアクション名をクリックしますと実行されます。</p>
+
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_217.jpg" width="640" height="400" alt="" title=""></p>
+
+
+<p>アクションを実行しますと、こんな感じになります。</p>
+
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_218.jpg" width="640" height="400" alt="" title=""></p>
+
+
+<p>便利！！</p>
+
+
+
+
+
+<h2 class="heading">Automatorアクションの削除の仕方</h2>
+<p>次は作成したアクションの削除の方法を説明します。</p>
+
+
+<p class="m_0">アップルメニュー</p>
+<p class="m_0">↓</p>
+<p class="m_0">システム環境設定</p>
+<p class="m_0">↓</p>
+<p class="m_0">キーボード</p>
+<p class="m_0">↓</p>
+<p class="m_0">サービス</p>
+<p class="m_0">↓</p>
+<p class="m_0">消したいアクション名</p>
+<p class="m_0">↓</p>
+<p class="m_0">アクションファイル</p>
+<p class="m_0">↓</p>
+<p class="m_0">右クリック</p>
+<p class="m_0">↓</p>
+<p>ゴミ箱に入れる</p>
+
+
+<p><img class="press_mini_image m_0" src="../img/press/image/image_219.jpg" width="640" height="400" alt="" title=""></p>
+
+<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_220.jpg" width="640" height="400" alt="" title=""></p>
+
+<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_221.jpg" width="640" height="400" alt="" title=""></p>
+
+<p><img class="press_98_image m_0" src="../img/press/image/image_222.jpg" width="640" height="400" alt="" title=""></p>
+
+<p>これでアクションを削除完了です。</p>
+
+
+<h2 class="heading">まとめ</h2>
+<p class="m_0">普段は大量の画像を連番にしたい！なんて事は少ないかと思いますが</p>
+<p>この方法を知っていれば一気に時間短縮が出来ますね！</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-10-07_automator_image_batch_rename/
+								</guid>
+								<pubDate>Mon, 07 Oct 2013 17:51:38 +0900</pubDate>
+								</item>
+								<item>
+								<title>jQueryでDOM操作する際の基本記述を勉強し直してみたよ。</title>
+								<link>
+								http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
+								</link>
+								<description>
+								<![CDATA[
+								久し振りにJavaScriptを触ったら物凄く忘れていたので、まずはjQueryの基本記述をもう一度勉強し直してみました！DOMを操作する事って多々あると思いますので、ある意味チートシ...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>久し振りにJavaScriptを触ったら物凄く忘れていたので、まずはjQueryの基本記述をもう一度勉強し直してみました！DOMを操作する事って多々あると思いますので、ある意味チートシートのように見て頂くと嬉しいです。DOM以外にも偶数処理やクローン等も載せておきます。</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">親要素を取得する方法</span></li>
+		<li class="n_2"><span class="scroll_btn">子要素を取得する方法</span></li>
+		<li class="n_3"><span class="scroll_btn">兄弟要素を取得する方法</span></li>
+		<li class="n_4"><span class="scroll_btn">要素を書き換えする方法</span></li>
+		<li class="n_5"><span class="scroll_btn">HTMLを追加する方法</span></li>
+		<li class="n_6"><span class="scroll_btn">要素を移動する方法</span></li>
+		<li class="n_7"><span class="scroll_btn">要素を削除する方法</span></li>
+		<li class="n_8"><span class="scroll_btn">数字、奇数、偶数指定で処理したい時</span></li>
+		<li class="n_9"><span class="scroll_btn">要素のクローンを生成したい時</span></li>
+		<li class="n_10"><span class="scroll_btn">勉強する際に参考にした記事</span></li>
+		<li class="n_11"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+
+
+<style>
+
+.javascript_tab {
+    background-color: #343434;
+    border-color: #E0E0E0;
+    border-radius: 2px 2px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+		color: #2688CC;
+    font-size: 64%;
+    font-weight: bold;
+    margin: 0 0 0 30px;
+    max-width: 60px;
+    padding: 3px 0;
+    text-align: center;
+}
+.b_b_1 {
+    border-bottom: 1px solid #00A4E1;
+}
+.m_t_45 {
+	margin-top: 45px !important;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<h2 class="heading">親要素を取得する方法</h2>
+<p>まずは親要素の取得系からいきましょー。</p>
+
+
+
+<h3 class="b_b_1">一つ上の親要素取得</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 一つ上の親要素取得
+$(".hoge").parent();
+
+// 要素がdivなら取得する。divでなければ空(Objectは返ってくる)
+$(".hoge").parent("div");
+</pre>
+
+
+<h3 class="m_t_30 b_b_1">親全取得</h3>
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 親全取得
+$(".hoge").parents();
+
+// 親を指定して取得
+$(".hoge").parents(".class_name");
+</pre>
+
+<h3 class="m_t_30 b_b_1">開始要素から最も近い親要素を選択</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 開始要素から最も近い親要素を選択
+$(".hoge").closest("div");
+</pre>
+
+
+
+<h2 class="heading m_t_45">子要素を取得する方法</h2>
+
+<p>次は子要素の取得系。</p>
+
+<h3 class="b_b_1">全ての子要素取得</h3>
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 全ての子要素取得
+$(".hoge").children();
+
+// 指定したタグの要素を全取得。なければ空(Objectは返ってくる)
+$(".hoge").children("p");
+</pre>
+
+<h3 class="m_t_30 b_b_1">要素のテキストノードも含めた全子要素を取得</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 要素のテキストノードも含めた全子要素を取得
+$(".hoge").contents();
+</pre>
+
+
+
+<h3 class="m_t_30 b_b_1">全子孫要素から指定したタグの要素を全取得</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+
+// 全子孫要素から指定したタグの要素を全取得。なければ空(Objectは返ってくる)
+$(".hoge").find("div");
+</pre>
+
+
+
+<h2 class="heading m_t_45">兄弟要素を取得する方法</h2>
+
+<p>兄弟内の要素を取得するにはこんな感じで。</p>
+
+<h3 class="b_b_1">次にある要素取得(兄弟要素ならば)</h3>
+
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 次にある要素取得(兄弟要素ならば)
+$(".hoge").next();
+
+// 絞り込みも可能
+$(".hoge").next("div");
+
+// 現在の要素の次以降にある兄弟要素を全取得
+$(".hoge").nextAll();
+</pre>
+
+<h3 class="m_t_30 b_b_1">前にある要素取得(兄弟要素ならば)</h3>
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 前にある要素取得(兄弟要素ならば)
+$(".hoge").prev();
+
+// 絞り込みも可能
+$(".hoge").prev("div");
+
+// 現在の要素の前以降にある兄弟要素を全取得
+$(".hoge").prevAll();
+</pre>
+
+<h2 class="heading m_t_45">要素を書き換えする方法</h2>
+
+<p>取得系を覚えましたら、次は書き換えを。</p>
+
+<h3 class="b_b_1">テキスト書き換え</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// テキスト書き換え
+$(".hoge").text("書き換える");
+</pre>
+
+<h3 class="m_t_30 b_b_1">HTML書き換え</h3>
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// HTML書き換え
+$(".hoge").html("書き換える");
+</pre>
+
+<h2 class="heading m_t_30">HTMLを追加する方法</h2>
+
+<p>追加系はかなり重要なので覚えときましょう。</p>
+
+<h3 class="m_t_30 b_b_1">指定した要素内部の先頭に追加</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 先頭にHTML追加
+$(".hoge").prepend("追加");
+</pre>
+
+<h3 class="m_t_30 b_b_1">指定した要素内部の最後に追加</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 要素の内部の最後にHTML追加
+$(".hoge").append("追加");
+</pre>
+
+
+<h3 class="m_t_30 b_b_1">指定した要素の前に追加</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 指定した要素の前に追加
+$(".hoge").before("追加");
+</pre>
+
+<h3 class="m_t_30 b_b_1">指定した要素の後に追加</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 指定した要素の後に追加
+$(".hoge").after("追加");
+</pre>
+
+
+<h2 class="heading m_t_30">要素を移動する方法</h2>
+<p class="m_0">prependTo()、appendTo()、insertBefore()、insertAfter()を使用して移動する方法は</p>
+<p class="m_0">こちらの記事で簡潔に説明されています。</p>
+	<p><a href="http://d.hatena.ne.jp/awacio/20100320/1269090288" target="_blank">オブジェクトの操作その４（HTML 要素の移動） - awacio.log</a></p>
+
+<h3 class="m_t_30 b_b_1">一番上に移動</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 一番上に移動
+$(".hoge").click(function() {
+	var target = $(this);
+	$(".fuga").prepend(target);
+});
+</pre>
+
+<h3 class="m_t_30 b_b_1">一番下に移動</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 一番下に移動
+$(".hoge").click(function() {
+	var target = $(this);
+	$(".fuga").append(target);
+});</pre>
+
+<h3 class="m_t_30 b_b_1">一つ上に移動</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 一つ上に移動
+$(".hoge").click(function() {
+	var target = $(this);
+	var prev = target.prev();
+	prev.before(target);
+});
+</pre>
+
+<h3 class="m_t_30 b_b_1">一つ下に移動</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 一つ下に移動
+$(".hoge").click(function() {
+	var target = $(this);
+	var next = target.next();
+	next.after(target);
+});
+</pre>
+
+<h2 class="heading m_t_30">要素を削除する方法</h2>
+
+<p class="m_0">削除するにも細かい挙動がありますので気をつけたい所です。細かい挙動の説明はこの記事を見て頂くと良いかと思います。</p>
+
+	<p><a href="http://phpjavascriptroom.com/?t=ajax&p=jquery_manipulation_removing" target="_blank">DOM制御･更新処理：削除｜jQuery APIリファレンス｜Ajax｜PHP &amp; JavaScript Room</a></p>
+
+
+<h3 class="m_t_30 b_b_1">要素を削除</h3>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// DOMから削除
+$(".hoge").click(function() {
+	$(this).remove();
+});
+</pre>
+
+<h2 class="heading m_t_30">数字、奇数、偶数指定で処理したい時</h2>
+
+<p>短いコードで実装出来ますので便利です。</p>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// 3番目のliだけ処理
+$("ul li:nth-child(3)").each(function() {
+	$(this).css( {
+		background: "#ccc"
+	});
+})
+
+// 偶数のliだけ処理
+$("ul li:nth-child(2n)").each(function() {
+	$(this).css( {
+		background: "#ccc"
+	});
+})
+</pre>
+
+<h2 class="heading m_t_30">要素のクローンを生成したい時</h2>
+
+<p>使う機会はそこまでありませんがカンタンに出来ますので覚えといて損はないでしょう。</p>
+
+<div class="javascript_tab">jQuery</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+// クローン生成
+$(".hoge").click(function() {
+	var this_clone = $(this).clone();
+	$(this).after(this_clone);
+});
+</pre>
+
+<h2 class="heading m_t_30">勉強する際に参考にした記事</h2>
+
+	<p><a href="http://satussy.blogspot.jp/2011/05/jquery.html" target="_blank">make a record of&#8230;: jQuery親要素&#12289;子要素&#12289;兄弟要素取得のまとめ</a></p>
+
+
+	<p><a href="http://yakinikunotare.boo.jp/orebase/index.php?Javascript%2FjQuery%2F%BB%D2%CD%D7%C1%C7%A4%CE%C1%E0%BA%EE" target="_blank">Javascript/jQuery/子要素の操作 - 俺の基地</a></p>
+
+
+	<p><a href="http://www.geekzshu.com/jquery/126" target="_blank">jqueryでhtmlの書き換えを行う方法</a></p>
+
+
+	<p><a href="http://black-flag.net/jquery/20110601-3147.html" target="_blank">jQueryで（n）番目（ｎ倍数）の特定要素に処理を加える「:nth-child()」のちょっと便利な使い方 | BlackFlag</a></p>
+
+
+	<p><a href="http://d.hatena.ne.jp/awacio/20100320/1269090288" target="_blank">オブジェクトの操作その４（HTML 要素の移動） - awacio.log</a></p>
+
+
+	<p><a href="http://knt45.hatenablog.com/entry/2013/01/31/105806" target="_blank">jQueryで連続したDOM要素のいずれかをクリックした際に、その要素を一番上、一番下、一つ上、一つ下に移動する方法 - knt45の日記</a></p>
+
+
+	<p><a href="http://misato.moo.jp/jquery/jquery_dom_02.html" target="_blank">jqueryを使ってみよう | jqueryのＤＯＭ操作</a></p>
+
+	<p><a href="http://phpjavascriptroom.com/?t=ajax&p=jquery_manipulation_removing" target="_blank">DOM制御･更新処理：削除｜jQuery APIリファレンス｜Ajax｜PHP &amp; JavaScript Room</a></p>
+
+<h2 class="heading">まとめ</h2>
+<p>Jqueryの基本記述の記事なんて恥ずかしくて書けないと躊躇していたのですが、カンタンなコードの中にも細かい違いがありますし、DOM操作はかなり重要ですので、チートシート的な記事にしてみました。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
+								</guid>
+								<pubDate>Thu, 26 Sep 2013 12:05:22 +0900</pubDate>
+								</item>
+								<item>
+								<title>2013年度TIOBE発表プログラミング言語ランキングとweb系にオススメする言語</title>
+								<link>
+								http://programmerbox.com/2013-08-28_2013_Programming_ranking/
+								</link>
+								<description>
+								<![CDATA[
+								2013年度プログラミングランキングがTIOBEから8月に発表されました。少し記事にするのが遅くなってしまいましたが、ちょっとランキングがどうなってるのか気になったので記事に...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>2013年度プログラミングランキングがTIOBEから8月に発表されました。少し記事にするのが遅くなってしまいましたが、ちょっとランキングがどうなってるのか気になったので記事にしてみます。その他に人気のあるwebサービスがなんの言語で開発されているのかをちょびっとだけ集めてみましたので、今後勉強したい言語を選ぶ為の材料としていただけると嬉しいです。</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">2013年度プログラミングランキング表</span></li>
+		<li class="n_2"><span class="scroll_btn">webサービス別使用されている言語まとめ</span>
+			<ul class="nest">
+				<li><span class="nest_number">2.1</span><span class="scroll_btn">FaceBook</span></li>
+				<li><span class="nest_number">2.2</span><span class="scroll_btn">Twitter</span></li>
+				<li><span class="nest_number">2.3</span><span class="scroll_btn">mixi</span></li>
+				<li><span class="nest_number">2.4</span><span class="scroll_btn">GitHub</span></li>
+			</ul>
+		</li>
+		<li class="n_3"><span class="scroll_btn">webサービスを開発するにあたってオススメしたい言語</span></li>
+		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+<h2 class="heading">2013年度プログラミングランキング表</h2>
+<p>2012年とそんなに変わりはないのですが、10位以内の言語を合計すると物凄いシェア率になっているんだなと改めて実感してしまいました。言語名をクリックすると10年間のシェア遷移のグラフが見る事が出来ます。</p>
+
+<table class="type_1 table_responsive">
+<tbody>
+<tr>
+<th nowrap="" align="center">2013年</th>
+<th nowrap="" align="center">2012年</th>
+<th nowrap="" align="center">言語名</th>
+<th nowrap="" align="center">シェア率</th>
+</tr>
+<tr height="25">
+	<td align="center">1</td>
+	<td align="center">2</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Java.html">Java</a></td>
+	<td align="center">15.978%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">2</td>
+	<td align="center">1</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/C.html">C</a></td>
+	<td align="center">15.974%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">3</td>
+	<td align="center">4</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/C__.html">C++</a></td>
+	<td align="center">9.371%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">4</td>
+	<td align="center">3</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Objective-C.html">Objective-C</a></td>
+	<td align="center">8.082%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">5</td>
+	<td align="center">6</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/PHP.html">PHP</a></td>
+	<td align="center">6.694%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">6</td>
+	<td align="center">5</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/C_.html">C#</a></td>
+	<td align="center">6.117%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">7</td>
+	<td align="center">7</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/(Visual)_Basic.html">(Visual) Basic</a></td>
+	<td align="center">3.873%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">8</td>
+	<td align="center">8</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Python.html">Python</a></td>
+	<td align="center">3.603%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">9</td>
+	<td align="center">11</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/JavaScript.html">JavaScript</a></td>
+	<td align="center">2.093%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">10</td>
+	<td align="center">10</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Ruby.html">Ruby</a></td>
+	<td align="center">2.067%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">11</td>
+	<td align="center">9</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Perl.html">Perl</a></td>
+	<td align="center">2.041%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">12</td>
+	<td align="center">15</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Transact-SQL.html">Transact-SQL</a></td>
+	<td align="center">1.393%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">13</td>
+	<td align="center">14</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Visual_Basic__NET.html">Visual Basic .NET</a></td>
+	<td align="center">1.320%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">14</td>
+	<td align="center">12</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Delphi_Object_Pascal.html">Object Pascal</a></td>
+	<td align="center">0.918%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">15</td>
+	<td align="center">20</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/MATLAB.html">MATLAB</a></td>
+	<td align="center">0.841%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">16</td>
+	<td align="center">13</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Lisp.html">Lisp</a></td>
+	<td align="center">0.752%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">17</td>
+	<td align="center">19</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/PL_SQL.html">PL/SQL</a></td>
+	<td align="center">0.751%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">18</td>
+	<td align="center">16</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Pascal.html">Pascal</a></td>
+	<td align="center">0.620%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">19</td>
+	<td align="center">23</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/Assembly.html">Assembly</a></td>
+	<td align="center">0.616%</td>
+</tr>
+
+<tr height="25">
+	<td align="center">20</td>
+	<td align="center">22</td>
+	<td><a target="_blank" href="http://www.tiobe.com/content/paperinfo/tpci/SAS.html">SAS</a></td>
+	<td align="center">0.580%</td>
+</tr>
+
+</tbody></table>
+
+<p class="m_t_60">こちらは10位以内の言語シェアグラフ</p>
+
+<img class="press_98_image m_0" src="../img/press/image/image_206.jpg" width="640" height="400" title="" alt="">
+
+<blockquote cite="">
+
+</blockquote>
+<p class="text_right"><cite>引用元:<a target="_blank" href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE Software: The Coding Standards Company</a></cite></p>
+
+<p>ボクが応援しているPHPさんも中々がんばっている様子です。</p>
+
+
+<h2 class="heading">有名どころのwebサービスで使用されている言語</h2>
+
+<h3 class="heading">FaceBook</h3>
+<h4>開発言語：PHP、C++</h4>
+
+<blockquote cite="http://www.publickey1.jp/blog/09/facebook8php.html">
+<p>PHP を選んだ理由は、シンプルな言語で学びやすいからだ。書くのも簡単だし、読むのもデバッグも簡単。一方で、ダークサイドもある、ランタイムコストだ。 CPUとメモリの消費が大きいし、ほかの言語と統合するのも難しい。また大規模なプロジェクトでは、モジュール構造をうまくサポートしているとはいえない。</p>
+
+<p>それ以外にも、長い経験から発見したPHPの課題がある。新しく書いたコードが古いコードを遅くするということだ。例えば、PHPで書いたABCという機能にDEFという新機能を付け加えると、たとえABCからDEFを呼び出していなかったとしてもABCの動作が以前より遅くなるのだ。初期化コストなどが増加するためだ。PHPにはこうしたスケーラビリティの課題がある。</p>
+
+<p>そこでわれわれは、PHPの初期化を緩和するためのの拡張であるLazy loadingや、Cache priming、最近ではPHPをC++にコンパイルするといったアプローチを採用している。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://www.publickey1.jp/blog/09/facebook8php.html">Facebookが大規模スケーラビリティへの挑戦で学んだこと（前編）～800億枚の写真データとPHPのスケーラビリティ問題 － Publickey</a></cite></p>
+
+
+
+<h3 class="heading">Twitter</h3>
+<h4>開発言語：Scala</h4>
+
+<blockquote cite="http://it.slashdot.jp/story/09/04/10/0421223/Twitter%E3%80%81Ruby-on-Rails%E3%81%8B%E3%82%89Scala%E3%81%B8">
+<div class="p" id="text-82312">
+	<p>ある Anonymous Coward 曰く、</p><blockquote><div><p>Twitter は Ruby on Rails で構築されたそのインフラを徐々に Scala に置き換えているそうだ (<a href="http://www.technologyreview.com/blog/editors/23282/?nlid=1908">Technology Review の記事</a>, <a href="http://developers.slashdot.org/article.pl?sid=09/04/07/1928218">本家 /. 記事</a>) 。</p><p>Twitter ではフロントエンド、バックエンド共に Ruby on Rails が使われていたが、最近では大量のメッセージを処理できず「Fail Whale」出現の原因となったりしていた。このため Twitter の開発チームは代替言語として <a href="http://www.scala-lang.org/">Scala</a> を採用、少しずつバックエンドやインフラを Scala に置き換えているそうだ。スイス連邦工科大学ローザンヌ校の Martin Odersky 氏によって開発された比較的新しいプログラミング言語である Scala は並列プロセスの処理に長けている点が Twitter に向いており、また言語としてのフレキシビリティも開発にとっては魅力とのこと。短所としては、機能も多く、シンタックスも見慣れた感じでは無いため習得が簡単ではないことと、新しい言語であるため実績がまだ少ないことだという。それでもTwitterでは多くのテストケースを成功させており、Scala の方がメリットが多いと考えているようだ。</p><p>開発チームはフロントエンドは Ruby on Rails のまま、年内には API リクエストの一連の処理を Scala で行えるようにしたいとしている。</p></div></blockquote>
+	</div></blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://it.slashdot.jp/story/09/04/10/0421223/Twitter%E3%80%81Ruby-on-Rails%E3%81%8B%E3%82%89Scala%E3%81%B8">Twitter、Ruby on RailsからScalaへ | スラッシュドット・ジャパン IT</a></cite></p>
+
+
+
+
+<h3 class="heading">mixi</h3>
+<h4>開発言語：Perl</h4>
+
+<blockquote cite="http://techtarget.itmedia.co.jp/tt/news/0709/12/news01.html">
+<p>&#12288;ミクシィは、「LAMP（OSのLinux、WebサーバのApache、DBMSのMySQL、開発言語のPerl、PHP、Python）」と呼ばれるWebシステム向けの標準的なオープンソースソフトウェア（以下、OSS）でシステムを自社開発し、安価なPCサーバを1000台以上連ねる超分散構成でmixiのサービスを支えている（広告配信など周辺機能では、パッケージ製品を採用している部分もある）。このmixiのケースは、MySQLを採用するWebシステムとして、間違いなく世界有数の規模といえる。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://techtarget.itmedia.co.jp/tt/news/0709/12/news01.html">mixiの生みの親“バタラ氏”が語るMySQLの意外な利用法 － TechTargetジャパン システム開発</a></cite></p>
+
+
+
+
+
+<h3 class="heading">GitHub</h3>
+<h4>開発言語：Ruby</h4>
+
+<blockquote cite="http://matome.naver.jp/odai/2133699923370899501">
+<p class="mdMTMWidget01ItemTxt01View"><!--
+-->Rubyを採用しているWebサービスの一例：<br><br>Twilog ( <a href="http://twilog.org/" target="_blank">http://twilog.org/</a> )<br>GitHub ( <a href="https://github.com/" target="_blank">https://github.com/</a> )<br>Favstar.fm ( <a href="http://favstar.fm/" target="_blank">http://favstar.fm/</a> )<br>Twitter ( <a href="http://www.twitter.com/" target="_blank">http://www.twitter.com/</a> ) (昔の話。今はJava。)<!--
+--><!--
+--></p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://matome.naver.jp/odai/2133699923370899501">Webサービス構築に使われているプログラミング言語まとめ - NAVER まとめ</a></cite></p>
+
+<p class="m_0 m_t_60">やはりwebサービスはPHPが主流ですが、</p>
+<p>最近はRubyがwebサービスでもキテる感がありますね。(2011年あたりから)</p>
+
+<h2 class="heading">webサービスを開発するにあたってオススメしたい言語</h2>
+<p>webサービスを開発する時に使用するオススメの言語はRubyのRuby on Railsが良いのではないでしょうか。フレームワークは好きではないのですが、このフレームワークに限っては開発スピードがアップしますのでオススメです。</p>
+
+
+
+<h3>webサービスを構築するのに適している言語一覧表</h3>
+
+
+
+
+
+
+<table class="type_1 m_0">
+	<thead>
+		<tr>
+			<th>言語名</th>
+			<th>難易度</th>
+			<th>カッコ良さ度</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>PHP</td>
+			<td>★☆☆☆</td>
+			<td>★☆☆☆</td>
+		</tr>
+		<tr>
+			<td>Ruby</td>
+			<td>★★☆☆</td>
+			<td>★★★★</td>
+		</tr>
+		<tr>
+			<td>Python</td>
+			<td>★★☆☆</td>
+			<td>★★★☆</td>
+		</tr>
+		<tr>
+			<td>Perl</td>
+			<td>★★☆☆</td>
+			<td>★★☆☆</td>
+		</tr>
+	</tbody>
+</table>
+<p><small>※ ボクの勝手な偏見です。</small></p>
+
+<p>200種類以上あると言われているプログラム言語ですがwebサービスを構築するのにはやはり<strong>RubyのフレームワークであるRuby on Railsが一番カンタンでカッコいい</strong>と思います。</p>
+
+
+<h3>プログラム全般を勉強出来る<a href="http://www.buzzword.jp/profile/" target="_blank">TATSUO IKURA</a>さんのブログがオススメです。</h3>
+<blockquote cite="">
+
+<p>Ruby on RailsはWebアプリケーション作成のためのフレームワークの一つであり、プログラミング言語としてRubyを使用するフレームワークの代表的なものです。ここではRailsを使ったアプリケーション作成の方法について順に解説を行ないます。</p>
+
+<p>
+			事前に「<a href="../railsinstall/">Railsインストール</a>」を参照して頂きRailsのインストールを行なって下さい。またプログラミング言語のRubyに関しては「<a href="../ini/">Ruby入門</a>」をご参照下さい。
+			</p>
+
+<p>
+			関連サイト:<a href="http://www.dbonline.jp/sqlite/">SQLite入門</a>, <a href="http://www.adminweb.jp/apache/">Apache入門</a>
+			</p>
+
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://www.rubylife.jp/rails/">Ruby on Rails入門</a></cite></p>
+
+
+
+
+<h2 class="heading">まとめ</h2>
+<p>Ruby on Rails以外にはボクがメインで使っているPHPもオススメです。バージョンも5.5になり古いバージョンを使う習慣があったPHPですが、最近ではPHPをアップデートして開発する会社も多くなって来たと感じています。プログラム言語はあくまで手段ですので、個人、プロジェクトチームに合った言語を使用してwebサービスを開発していけたらいいですね。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-08-28_2013_Programming_ranking/
+								</guid>
+								<pubDate>Wed, 28 Aug 2013 06:19:05 +0900</pubDate>
+								</item>
+								<item>
+								<title>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</title>
+								<link>
+								http://programmerbox.com/2013-08-13_cute_emoticon_download/
+								</link>
+								<description>
+								<![CDATA[
+								iPhoneに可愛い顔文字が入っていなくって入れたいなって考えて顔文字をまとめてみました。Twitterで人気の顔文字を主に集めてかわいいやつだけを厳選してカテゴリ分けしましたの...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>iPhoneに可愛い顔文字が入っていなくって入れたいなって考えて顔文字をまとめてみました。Twitterで人気の顔文字を主に集めてかわいいやつだけを厳選してカテゴリ分けしましたので選びやすくなっていると思います。使いたい顔文字をコピペしてユーザー辞書登録しましょー。</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">Twitterで大人気の顔文字(特殊系顔文字)</span>
+			<ul class="nest">
+				<li><span class="nest_number">1-1.</span><span class="scroll_btn">ʕ•̬͡•ʔ系</span></li>
+				<li><span class="nest_number">1-2.</span><span class="scroll_btn">ʕ·ᴥ·ʔ系</span></li>
+				<li><span class="nest_number">1-3.</span><span class="scroll_btn"> ૂི•̮͡• ૂ ྀ系</span></li>
+				<li><span class="nest_number">1-4.</span><span class="scroll_btn">(¦3[▓▓]系</span></li>
+				<li><span class="nest_number">1-5.</span><span class="scroll_btn">(๑˃̵ᴗ˂̵)و系</span></li>
+				<li><span class="nest_number">1-6.</span><span class="scroll_btn">(｡╹ω╹｡)系</span></li>
+				<li><span class="nest_number">1-7.</span><span class="scroll_btn">٩(๑`ȏ´๑)۶系</span></li>
+				<li><span class="nest_number">1-8.</span><span class="scroll_btn">꒰๑´•.̫ • `๑꒱系</span></li>
+				<li><span class="nest_number">1-9.</span><span class="scroll_btn">(੭ु´͈ ᐜ `͈)੭ु⁾⁾系</span></li>
+				<li><span class="nest_number">1-10.</span><span class="scroll_btn">スーパーマン系</span></li>
+				<li><span class="nest_number">1-11.</span><span class="scroll_btn">すごいですね系</span></li>
+				<li><span class="nest_number">1-12.</span><span class="scroll_btn">激おこﾌﾟﾝﾌﾟﾝ丸系</span></li>
+				<li><span class="nest_number">1-13.</span><span class="scroll_btn">キラキラ・♡系</span></li>
+				<li><span class="nest_number">1-14.</span><span class="scroll_btn">楽しい！！系</span></li>
+				<li><span class="nest_number">1-15.</span><span class="scroll_btn">くそねみ系</span></li>
+				<li><span class="nest_number">1-16.</span><span class="scroll_btn">ちんちん系</span></li>
+				<li><span class="nest_number">1-17.</span><span class="scroll_btn">ジョジョ系</span></li>
+				<li><span class="nest_number">1-18.</span><span class="scroll_btn">ヘタ文字系</span></li>
+				<li><span class="nest_number">1-19.</span><span class="scroll_btn">モミモミ系</span></li>
+				<li><span class="nest_number">1-20.</span><span class="scroll_btn">キモい系</span></li>
+				<li><span class="nest_number">1-21.</span><span class="scroll_btn">ﾃﾍﾍﾟﾛ系</span></li>
+				<li><span class="nest_number">1-22.</span><span class="scroll_btn">ﾎﾓｫ…系</span></li>
+				<li><span class="nest_number">1-23.</span><span class="scroll_btn">白目系</span></li>
+				<li><span class="nest_number">1-24.</span><span class="scroll_btn">はみ出る系(書体によりはみ出ませんがスマホで見るとはみでます。)</span></li>
+			</ul>
+	</li>
+		<li class="n_2"><span class="scroll_btn">2ch(2ちゃんねる)系顔文字</span>
+			<ul class="nest">
+				<li><span class="nest_number">2-1.</span><span class="scroll_btn">ショボーン系</span></li>
+				<li><span class="nest_number">2-2.</span><span class="scroll_btn">キリッ系</span></li>
+				<li><span class="nest_number">2-3.</span><span class="scroll_btn">キター系</span></li>
+				<li><span class="nest_number">2-4.</span><span class="scroll_btn">オワタ系</span></li>
+				<li><span class="nest_number">2-5.</span><span class="scroll_btn">ガクブル系</span></li>
+				<li><span class="nest_number">2-6.</span><span class="scroll_btn">シャキーン系</span></li>
+				<li><span class="nest_number">2-7.</span><span class="scroll_btn">ハァハァ系</span></li>
+			</ul>
+		</li>
+		<li class="n_3"><span class="scroll_btn">ニコニコ系顔文字</span>
+			<ul class="nest">
+				<li><span class="nest_number">3-1.</span><span class="scroll_btn">ニコニコ系</span></li>
+			</ul>
+	</li>
+		<li class="n_4"><span class="scroll_btn">海外顔文字</span>
+			<ul class="nest">
+				<li><span class="nest_number">4-1.</span><span class="scroll_btn">笑顔系</span></li>
+				<li><span class="nest_number">4-2.</span><span class="scroll_btn">悲しい系</span></li>
+				<li><span class="nest_number">4-3.</span><span class="scroll_btn">泣き顔系</span></li>
+				<li><span class="nest_number">4-4.</span><span class="scroll_btn">その他系</span></li>
+			</ul>
+		</li>
+		<li class="n_5"><span class="scroll_btn">定番顔文字</span>
+			<ul class="nest">
+				<li><span class="nest_number">5-1.</span><span class="scroll_btn">ω系(個人的に好きなのでここに置かせて頂きます)</span></li>
+				<li><span class="nest_number">5-2.</span><span class="scroll_btn">恥ずかしい・照れる系</span></li>
+				<li><span class="nest_number">5-3.</span><span class="scroll_btn">楽しい系</span></li>
+				<li><span class="nest_number">5-4.</span><span class="scroll_btn">悲しい系</span></li>
+				<li><span class="nest_number">5-5.</span><span class="scroll_btn">笑顔系</span></li>
+				<li><span class="nest_number">5-6.</span><span class="scroll_btn">泣く系</span></li>
+				<li><span class="nest_number">5-7.</span><span class="scroll_btn">殴る系</span></li>
+				<li><span class="nest_number">5-8.</span><span class="scroll_btn">ぺろ系</span></li>
+				<li><span class="nest_number">5-9.</span><span class="scroll_btn">眠い系</span></li>
+				<li><span class="nest_number">5-10.</span><span class="scroll_btn">汗系</span></li>
+			</ul>
+		</li>
+		<li class="n_6"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+
+
+
+<style>
+.detail_press h3 {
+	border-bottom: 1px solid #00A4E1;
+}
+</style>
+
+
+
+
+
+
+
+
+<h2 class="heading">Twitterで大人気の顔文字(特殊顔文字)</h2>
+<p>Twitterで飛び交う顔文字達はもうスゴい事になっています。2ちゃんもスゴいと思いましたがTwitterユーザーの作る顔文字もとんでもない事になっていてかわいいのから気持悪いのまで様々ですね。ネタ系の顔文字が使いやすいのでオススメです。</p>
+
+<h3 class="heading">ʕ•̬͡•ʔ系</h3>
+<p>
+ʕ•̫͡•ʔ
+</p>
+<p>
+    ʕ•̫͡•ོʔ
+</p>
+<p>
+ʕु•̫͡•ʔु☂
+</p>
+<p>
+(っ˘зʕ•̫͡•ʔ
+</p>
+<p>
+ʕ•̫͑͡•ʔͦʕͮ•̫ͤ͡•ʔ
+</p>
+<p>
+ʕ•̬͡•ʕ•̫͡•♥
+</p>
+<p>
+ʕ·͡ˑ·ཻʔෆ⃛ʕ•̫͡•ོʔ
+</p>
+<p>
+ʕ•͡ω•ʔʕ•͡-•ʔ
+</p>
+<p>
+ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
+</p>
+<p>
+ʕ•ི̮͡•ྀʕ•̹͡-ʔ•ི̬͡•ྀʔ
+</p>
+<p>
+ʕ•̼͡•ʕ-̺͡•ʔ•̮͡•ʔ
+</p>
+<p>
+ʕ•̫͡•ིʔྀʕ•̫͡•ིʔྀʕ•̫͡•ིʔྀ
+</p>
+<p>
+ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ
+</p>
+<p>
+•̫͡•ʔʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•
+</p>
+<p>
+ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ♡
+</p>
+<p>
+ʕ•͕͡•ʔ ʕ•̫͡•ʔ ʕ•͡•ʔ ʕ•͓͡•ʔ ʕ•͈͡•ʔ ʕ•̬͡•ʔ ʕ•̥͡•ʔ ʕ•̠͡•ʔ ʕ•̮͡•ʔ
+</p>
+
+<p>
+ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ
+</p>
+
+<h3 class="heading">ʕ·ᴥ·ʔ系</h3>
+<p>
+ʕ·ᴥ·ʔ
+</p>
+<p>
+ʕ　•ᴥ•ʔ ʕ·ᴥ·ʔ
+</p>
+
+<h3 class="heading"> ૂི•̮͡• ૂ ྀ系</h3>
+<p>
+ ૂི•̮͡• ૂ ྀ
+</p>
+
+<h3 class="heading">(¦3[▓▓]系</h3>
+
+<p>
+(¦3[▓▓]
+</p>
+<p>
+(:˒ꇤ[▓▓]
+</p>
+
+
+<h3 class="heading">(๑˃̵ᴗ˂̵)و系</h3>
+<p>
+(๑˃̵ᴗ˂̵)و
+</p>
+
+<p>
+    (•̀ᴗ•́)و ̑̑
+</p>
+<p>
+    (๑•̀ㅂ•́)و✧
+</p>
+
+<p>
+٩( "ω" )و
+</p>
+
+<p>
+٩( ᐛ )و
+</p>
+<p>
+( ᐛ )و
+</p>
+<p>
+(ง •̀_•́)ง‼
+</p>
+
+<h3 class="heading">(｡╹ω╹｡)系</h3>
+
+<p>
+(｡╹ω╹｡)
+</p>
+<p>
+ლ(╹◡╹ლ)
+</p>
+<p>
+(๑╹ڡ╹๑)
+</p>
+<p>
+    (▰╹◡╹▰)
+</p>
+<p>
+    ヾ(๑╹◡╹)ﾉ"
+</p>
+
+<p>
+    ٩(╹⌓╹ )۶
+</p>
+<p>
+    ✖╹◡╹✖
+</p>
+<p>
+(⑅๑╹ڡ╹)
+</p>
+<p>
+(✿╹◡╹)ﾉ
+</p>
+<p>
+ღゝ◡╹)ノ♡
+</p>
+<p>
+(๑╹ڡ╹)╭ ～ ♡
+</p>
+<p>
+(๑´╹‸╹`๑)
+</p>
+<p>
+(灬╹ω╹灬)
+</p>
+
+<h3 class="heading">٩(๑`ȏ´๑)۶系</h3>
+<p>
+٩(๑`ȏ´๑)۶
+</p>
+<p>
+٩(๑˃̌ۿ˂̌๑)۶
+</p>
+<p>
+٩(๑•̀ω•́๑)۶
+</p>
+<p>
+٩(๑´0`๑)۶
+</p>
+<p>
+   ٩(●˙▿˙●)۶
+</p>
+<p>
+⁽⁽٩(๑˃̶͈̀ ᗨ ˂̶͈́)۶⁾⁾
+</p>
+
+<p>
+٩(๑´3｀๑)۶
+</p>
+<p>
+٩(๑❛ᴗ❛๑)۶
+</p>
+
+<h3 class="heading">꒰๑´•.̫ • `๑꒱系</h3>
+
+<p>
+꒰๑´•.̫ • `๑꒱
+</p>
+
+<p>
+٩꒰๑❛▿❛ ॢ̩꒱
+</p>
+
+<p>
+꒰✩"ω`ૢ✩꒱
+</p>
+
+<p>
+꒰˘̩̩̩⌣˘̩̩̩๑꒱ ♡
+</p>
+
+<p>
+◟꒰◍´Д‵◍꒱◞
+</p>
+<p>
+    ٩꒰｡•◡•｡꒱۶
+</p>
+
+
+<h3 class="heading">(੭ु´͈ ᐜ `͈)੭ु⁾⁾系</h3>
+<p>
+(੭ु ‾̑ω‾̑)੭ु⁾⁾
+</p>
+<p>
+(● ˃̶͈̀ロ˂̶͈́)੭ु⁾⁾
+</p>
+<p>
+(੭ु ›ω‹ )੭ु⁾⁾♡
+</p>
+
+<p>
+    (੭ु╹▿╹)੭ु⁾⁾
+</p>
+
+<p>
+  (੭ु´͈ ᐜ `͈)੭ु⁾⁾
+</p>
+<p>
+    (੭ु ˃̣̣̥᷄⌓˂̣̣̥᷅ )੭ु⁾⁾
+</p>
+<p>
+    =͟͟͞͞٩(๑☉ᴗ☉)੭ु⁾⁾
+</p>
+<p>
+   (੭ु ´ω` )੭ु⁾⁾
+</p>
+<p>
+(੭ ˃̣̣̥ ω˂̣̣̥)੭ु⁾⁾
+</p>
+
+<p>
+(੭ ˃̣̣̥ ω˂̣̣̥)੭ु⁾⁾
+</p>
+
+<h3 class="heading">スーパーマン系</h3>
+<p>
+─=≡Σ((( つ•̀ω•́)つ
+</p>
+<p>
+ ～=͟͟͞͞⊂(⊂ "ω")
+</p>
+
+<h3 class="heading">すごいですね系</h3>
+<p>
+(´,,•ω•,,｀)
+</p>
+<p>
+(๑´╹‸╹`๑)
+</p>
+<p>
+ヾ(๑╹◡╹)ﾉ"
+</p>
+<h3 class="heading">激おこﾌﾟﾝﾌﾟﾝ丸系</h3>
+
+
+<p>
+٩(◦`꒳´◦)۶ ｵｺﾀﾞﾖ！
+</p>
+<p>
+٩(๑òωó๑)۶　ｵｺﾀﾞﾖ！
+</p>
+<p>
+\٩(๑`ȏ´๑)۶//　激ｵｺ！
+</p>
+<p>
+٩(๑`^´๑)۶ 激おこﾌﾟﾝﾌﾟﾝ丸
+</p>
+<p>
+＼＼\٩(๑`^´๑)۶//／／　激おこﾌﾟﾝﾌﾟﾝ丸！
+</p>
+<p>
+
+ムカ着火ファイアー！
+٩(๑`^´๑)۶༄༅༄༅༄༅༄༅)`Д´)ｱﾁﾞｨ!
+</p>
+<p>
+
+カム着火ｲﾝﾌｪﾙﾉｫｫｫｵｵｵｳ！
+
+( つ•̀ω•́)つ・・*:・:・゜:==≡≡Σ=͟͟͞͞(✡)`Д´）ｸﾞﾍｯ!
+</p>
+<p>
+
+
+げきオコｽﾃｨｯｸﾌｧｲﾅﾘｱﾘﾃｨぷんぷんドリーム！
+
+▒▒▓█▇▅▂∩( ✧Д✧)∩▂▅▇█▓▒▒
+┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨┣¨
+</p>
+<h3 class="heading">キラキラ・♡系</h3>
+<p>
+(்͂ॢ⁰்͂ॢ)३३३∾♪
+</p>
+<p>
+(̂⁰̴̶̷ꇵ͒ॢ ⁰̴̶̷ૢෆ)̂⋆̥*̥̥⋆̥
+</p>
+<p>
+(*˘︶˘*).｡.:*♡
+</p>
+<p>
+(⁎⁍̴̛ᴗ⁍̴̛⁎)
+</p>
+<p>
+(๑॔˃̶ॢ◟◞ ˂̶ॢ๑॓)♡
+</p>
+<p>
+( ᵒ̴̶̷̤̀ुωᵒ̴̶̷̤́ू )･*♡
+</p>
+<p>
+(๑॔˃̶ॢ◟◞ ˂̶ॢ๑॓)*೨⋆*✩‼‼
+</p>
+<p>
+₍₍ ( ๑॔˃̶◡ ˂̶๑॓)◞♡
+</p>
+
+<p>
+₍₍ ( ๑॔˃̶◡ ˂̶๑॓)◞♡
+</p>
+<p>
+ヾ(｡&gt;﹏&lt;｡)ﾉﾞ✧*。
+</p>
+<p>
+(੭ु ›ω‹ )੭ु⁾⁾♡
+</p>
+<p>
+(♡ &gt;ω&lt; ♡)
+</p>
+<p>
+( •ॢ◡-ॢ)-♡
+</p>
+<h3 class="heading">楽しい！！系</h3>
+<p>
+✌("ω"✌ )三✌("ω")✌三( ✌"ω")✌
+</p>
+<h3 class="heading">くそねみ系</h3>
+
+<p>
+(˘ω˘)
+</p>
+<p>
+( ˇωˇ )
+</p>
+
+<h3 class="heading">ちんちん系</h3>
+<p>
+ﾖｼﾖｼ( ๑´•ω•)۶"╰⋃╯
+</p>
+<p>
+    っ✄╰⋃╯
+</p>
+<p>
+    ՇƷƕ╰ꂹ╯ՇƷƕ
+</p>
+
+<h3 class="heading">ジョジョ系</h3>
+<p>
+┣¨┣¨┣¨┣¨┣¨ ｺﾞｺﾞｺﾞｺﾞｺﾞ
+</p>
+
+<h3 class="heading">ヘタ文字系</h3>
+
+
+<p>
+( ′～‵)ŧ‹”ŧ‹”ŧ‹”ŧ‹”
+</p>
+
+<p>
+㌰⋋( "Θ")⋌㌰㌰
+</p>
+<p>
+    ㄑㄜ੭(΄◞ิ۝◟ิ‵)
+</p>
+<p>
+(｡╹ω╹｡)ㄘんㄘんㄟ⁰ㄋㄟ⁰ㄋㄜㄝㄋ
+</p>
+<p>
+    (⌯꒪͒ ૢ∀ ૢ꒪͒) ੭ੇ৴ડેং৴ડેং
+</p>
+<p>
+(ღˇ◡ˇ)♥ℒᵒᵛᵉᵧᵤ♥
+</p>
+<p>
+(๑&gt;◡&lt;๑) ɭ ɿ兯ƕ❤
+</p>
+<p>
+　(⑅ ॣ•͈૦•͈ ॣ)꒳ᵒ꒳ᵎᵎᵎ
+</p>
+<p>
+♪:*:･Ⴛ̅̀⊃תʅփ━ヽ(´∀｀ヽ)(/＇∀＇)/━♪:*:･
+</p>
+<p>
+(´▽`) "`,、"`,、
+</p>
+
+<p>
+(்͂ॢ⁰்͂ॢ)३३३∾♪
+</p>
+
+<h3 class="heading">モミモミ系</h3>
+<p>
+ლ(╹◡╹ლ
+</p>
+<p>
+ლ(･ิω･ิლ)
+</p>
+<p>
+ლ(◕‿◕。)ლ
+</p>
+<p>
+ლ(´ڡ`ლ)
+</p>
+
+
+<h3 class="heading">キモい系</h3>
+<p>
+༼;´༎ຶ ۝ ༎ຶ༽
+</p>
+
+
+<p>
+    ༽΄◞ิ౪◟ิ‵༼
+</p>
+<p>
+    ༼･ิɷ･ิ༽
+</p>
+<p>
+    ༼ꉺ✪ꉺ༽
+</p>
+<p>
+    ༼☉ɷ⊙༽
+</p>
+<p>
+    ༼☁ɷ☁༽
+</p>
+<p>
+    ༼≖ɷ≖༽
+</p>
+<p>
+    ༼•̃༼´◓ɷ◔`༽
+</p>
+<p>
+    ༼•̃͡ ɷ•̃͡༽
+</p>
+<p>
+    ༼இɷஇ༽
+</p>
+<p>
+༼ ˇɷˇ ༽
+</p>
+<p>
+(ી(΄◞ิ౪◟ิ‵)ʃ)
+</p>
+<p>
+(;´༎ຶД༎ຶ`)
+</p>
+<p>
+(･:ﾟдﾟ:･)ﾊｧﾊｧ
+</p>
+<p>
+(;;ﾟ;;ё;;ﾟ;;)
+</p>
+<p>
+(☝◉ਊ ◉)☝
+</p>
+<p>
+（◞≼⓪≽◟⋌⋚⋛⋋◞≼⓪≽)
+</p>
+<p>
+     三ʕ̡̢̡ʘ̅͟͜͡ʘ̲̅ʔ̢̡̢))ω((ʕ̡̢̡ʘ̅͟͜͡ʘ̲̅ʔ̢̡̢三
+</p>
+<p>
+    ၄ စ ౪ စ ၃
+</p>
+<h3 class="heading">ﾃﾍﾍﾟﾛ系</h3>
+<p>
+ˉ̞̭ ( ›◡ु‹ ) ˄̻ ̊
+</p>
+<p>
+(･◡ु‹ ) ✧*ﾃﾍﾍﾟﾛ
+</p>
+<p>
+ˉ̞̭ ( ›◡ु‹ ) ˄̻ ̊
+</p>
+
+<h3 class="heading">ﾎﾓｫ…系</h3>
+<p>
+┌（┌ ＾o＾）┐ﾎﾓｫ…
+</p>
+
+<h3 class="heading">白目系</h3>
+<p>
+( ꒪⌓꒪)
+</p>
+
+<h3 class="heading">はみ出る系(書体によりはみ出ませんがスマホで見るとはみでます。)</h3>
+<p>
+✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩
+</p>
+
+<p>
+(；°̥̥̥̥̥̥̥̥艸°̥̥̥̥̥̥̥̥)
+</p>
+
+<p>
+(((;⁻̦̦̦̦̦̦̦̦̦̦̦̦̦д⁻̦̦̦̦̦̦̦̦̦̦̦̦̦̦᷅;)))
+</p>
+
+<p>
+o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮(;´༎ຶД༎ຶ`)╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡
+</p>
+
+<p>
+(⁻̦̦̦̦̦̦̦̦̦̦̦̦̦ν⁻̦̦̦̦̦̦̦̦̦̦̦̦̦̦᷅｡)
+</p>
+
+<p>
+(°̥̥̥̥̥̥̥̥o°̥̥̥̥̥̥̥̥ )人 (°̥̥̥̥̥̥̥̥-°̥̥̥̥̥̥̥̥ )
+</p>
+
+<p>
+o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮(。❛ᴗ❛。)╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡
+</p>
+
+<p>
+(꒪.̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̸̨̨̨̨̨̨̨̨̨̨̨̨.̸̸̨̨꒪ )
+</p>
+
+
+
+
+
+
+<h2 class="heading">2ch(2ちゃんねる)系顔文字</h2>
+<p>既に2ちゃんねるの顔文字は定番になってしまう程浸透しました。10年前では考えられない流れで少々驚いていますが2ちゃんねるの顔文字はかわいいのでかなり利用頻度が高くてオススメです。</p>
+
+<h3 class="heading">ショボーン系</h3>
+<p>(´･ω･`) ｼｮﾎﾞｰﾝ</p>
+<p>|ω･`) ｼｮﾎﾞーーﾝ</p>
+<p>(´・ω・｀)</p>
+
+
+<h3 class="heading">キリッ系</h3>
+<p>(｀・ω・´)ｷﾘｯ</p>
+
+<h3 class="heading">キター系</h3>
+<p>ｷﾀ━(ﾟ∀ﾟ)━!</p>
+<p>ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!</p>
+
+
+<h3 class="heading">オワタ系</h3>
+<p>＼(^o^)／ｵﾜﾀ</p>
+
+<h3 class="heading">ガクブル系</h3>
+<p>（（（ ；゜ Д ゜）））</p>
+
+
+<h3 class="heading">シャキーン系</h3>
+<p>(｀･ω･´)ｼｬｷｰﾝ</p>
+<p>m9っ`･ω･´)ｼｬｷｰﾝ</p>
+
+
+<h3 class="heading">ハァハァ系</h3>
+<p>(；´Д｀)ﾊｱﾊｱ</p>
+<p>(*´д`*)</p>
+<p>(*´Д`)ﾊｧﾊｧ</p>
+<p>"`ｧ,､ｧ(*´Д｀*)"`ｧ,､ｧ</p>
+
+
+
+
+<h2 class="heading">ニコニコ系顔文字</h2>
+<p>特に項目に入れなくて良かったんですがニコ生の人がTwitterでつぶやく時に必ずこの顔文字を使っているなーって感じましたので一応の載せておきます。</p>
+<h3 class="heading">ニコニコ系</h3>
+<p>
+    （◞‸◟）
+</p>
+<p>
+(◞‸ლ)
+</p>
+<p>
+(◞‸◟ㆀ)ｼｮﾎﾞﾝ
+</p>
+
+<h2 class="heading">海外顔文字</h2>
+<p class="m_0">最近お気に入りの顔文字です。</p>
+<p>ほとんどの方が使わないので、ブログの締め等で使わせて頂いています。</p>
+
+<h3 class="heading">笑顔系</h3>
+<p>
+:)
+</p>
+<p>
+:^)
+</p>
+<p>
+:-)
+</p>
+<p>
+8->
+</p>
+<p>
+:-))
+</p>
+
+<h3 class="heading">悲しい系</h3>
+<p>
+:(
+</p>
+<p>
+:-(
+</p>
+<p>
+8^(
+</p>
+<p>
+:-<
+</p>
+<p>
+(:-
+</p>
+
+
+<h3 class="heading">泣き顔系</h3>
+<p>
+:"-(
+</p>
+<p>
+:,-(
+</p>
+<p>
+&-|
+</p>
+<p>
+:"-D
+</p>
+<p>
+:"-)
+</p>
+
+
+<h3 class="heading">その他系</h3>
+<p>
+:P
+</p>
+<p>
+:-@
+</p>
+<p>
+:-c
+</p>
+<p>
+=)
+</p>
+<p>
+:-o
+</p>
+
+<h2 class="heading">定番顔文字</h2>
+
+<p>定番と言っても新しめの顔文字を集めてみました。ω系が大好きなのですが、かなりかわいくて使いやすいと思いますのでオススメです。</p>
+
+
+<h3 class="heading">ω系(個人的に好きなのでここに置かせて頂きます)</h3>
+
+<p>
+(｡･ω･｡)
+</p>
+<p>
+(*´ω｀*)
+</p>
+<p>
+(/ω＼)
+</p>
+<p>
+(･`ω･´๑)
+</p>
+<p>
+(・ω・́)
+</p>
+<p>
+ヽ(・ω・)/
+</p>
+<p>
+(๑¯ω¯๑)
+</p>
+<p>
+(°ω°)
+</p>
+<p>
+(´-ω-`)
+</p>
+<p>
+|ω・)ｼﾞｰ
+</p>
+<p>
+(つω`*)
+</p>
+
+<h3 class="heading">恥ずかしい・照れる系</h3>
+<p>
+(,, ´ ・・` ,,)
+</p>
+<p>
+    (灬ºωº灬)
+</p>
+
+
+<h3 class="heading">楽しい系</h3>
+<p>
+ヾ(˹ᆺ˺✿)ﾉﾞ
+</p>
+<p>
+(๑˃́ꇴ˂̀๑)
+</p>
+<p>
+٩(๑❛ᴗ❛๑)۶
+</p>
+<p>
+(๑"ᴗ"๑)
+</p>
+<p>
+(๑•́ ₃ •̀๑)ｴｰ
+</p>
+
+
+
+<h3 class="heading">悲しい系</h3>
+<p>
+    (ू˃̣̣̣̣̣̣︿˂̣̣̣̣̣̣ ू)
+</p>
+<p>
+(｡•́︿•̀｡)
+</p>
+<p>
+(๑•﹏•)
+</p>
+
+
+
+<h3 class="heading">笑顔系</h3>
+<p>
+(੭•̀ᴗ•̀)੭
+</p>
+
+<p>
+（˶′◡‵˶）
+</p>
+<p>
+(。≖ˇ◡◡ˇ≖｡)
+</p>
+<p>
+✩⃛( ͒ ु•·̫• ू ͒)
+</p>
+<p>
+(ෆ❛ั◡❛ัෆ)‼
+</p>
+<p>
+(ू•‧̫•ू⑅)
+</p>
+
+<p>
+( •ॢᴗ•ॢ⋈)
+</p>
+<p>
+(´ . .̫ . `) ༘ؓ ँั๊ྃ
+</p>
+<p>
+٩(๑′∀ ‵๑)۶•*¨*•.¸¸♪
+</p>
+
+
+
+
+<h3 class="heading">泣く系</h3>
+<p>
+( ˃ ⌑ ˂ഃ )
+</p>
+<p>
+(´；ω；｀)
+</p>
+<p>
+(☍﹏⁰)｡
+</p>
+<p>
+(´；д；`)
+</p>
+<p>
+(&gt;A&lt;。)
+</p>
+
+
+<h3 class="heading">殴る系</h3>
+<p>
+    ( ‘д‘⊂彡☆))³´) ﾊﾟｰﾝ
+</p>
+
+
+
+
+<h3 class="heading">ぺろ系</h3>
+<p>
+(●´ڡ`●)
+</p>
+<p>
+(⑅๑´ڡ`๑)
+</p>
+
+
+
+<h3 class="heading">眠い系</h3>
+<p>
+(⊃д⊂)ﾈﾑｲﾖ-
+</p>
+<p>
+(σ．＿・　)ﾈﾑｲﾖ
+</p>
+<p>
+Zz(ρω-)o゜。
+</p>
+
+<h3 class="heading">汗系</h3>
+<p>
+(ﾉω&lt;；)
+</p>
+<p>
+(´д｀ι)
+</p>
+<p>
+(･∀･；)
+</p>
+
+
+<h2 class="heading">まとめ</h2>
+<p>この記事を書いている時に1タッチでクリップボードにコピーするツールも作ろうかなって思ったんですがiPhoneでコピーしようとする時に、その場でユーザー辞書に登録出来る事を知ってビックリしました。デフォルト機能も便利なんですねー。:)</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-08-13_cute_emoticon_download/
+								</guid>
+								<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
+								</item>
+								<item>
+								<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
+								<link>
+								http://programmerbox.com/2013-08-09_long_shadow_animation/
+								</link>
+								<description>
+								<![CDATA[
+								ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">ネタ元：Bisous les copains</span></li>
+		<li class="n_2"><span class="scroll_btn">Bisous les copainsギャラリー</span></li>
+		<li class="n_3"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+<h2 class="heading">ネタ元：Bisous les copains</h2>
+
+<h3>Bisous les copains</h3>
+<p class="m_0">
+	<a target="_blank" href="http://bisouslescopains.tumblr.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_204.jpg" width="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://bisouslescopains.tumblr.com/">Bisous les copains</a>
+</p>
+<p>超かわいいgifを公開しています。スゴい、スゴいよ!!</p>
+
+<h2 class="heading">Bisous les copainsギャラリー</h2>
+
+<p>
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_169.gif" width="500" height="350" alt="" title="">
+</p>
+
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_170.gif" width="500" height="450" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_171.gif" width="500" height="475" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_172.gif" width="500" height="375" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_173.gif" width="500" height="450" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_174.gif" width="500" height="462" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_175.gif" width="500" height="420" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_176.gif" width="500" height="361" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_177.gif" width="500" height="431" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_178.gif" width="500" height="530" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_179.gif" width="500" height="600" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_180.gif" width="500" height="500" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_181.gif" width="500" height="400" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_182.gif" width="500" height="450" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_183.gif" width="500" height="410" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_184.gif" width="500" height="362" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_185.gif" width="500" height="350" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_186.gif" width="500" height="475" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_187.gif" width="500" height="325" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_188.gif" width="500" height="375" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_189.gif" width="500" height="450" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_190.gif" width="500" height="400" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_191.gif" width="500" height="300" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_192.gif" width="500" height="300" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_193.gif" width="500" height="346" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_194.gif" width="500" height="419" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_195.gif" width="500" height="500" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_196.gif" width="500" height="358" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_197.gif" width="500" height="309" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_198.gif" width="500" height="350" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_199.gif" width="500" height="500" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_200.gif" width="500" height="612" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_201.gif" width="500" height="425" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_202.gif" width="500" height="375" alt="" title="">
+</p>
+
+<p class="m_t_60">
+		<img class="press_screen_shot_image m_0" src="../img/press/image/image_203.gif" width="500" height="475" alt="" title="">
+</p>
+
+
+<h2 class="heading">まとめ</h2>
+<p>いかがでしたか?超かわいくないですか!?こうゆう遊び心のあるデザインって素敵ですよね。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-08-09_long_shadow_animation/
+								</guid>
+								<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
+								</item>
+								<item>
+								<title>ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]</title>
+								<link>
+								http://programmerbox.com/2013-08-06_one_million_pv_way/
+								</link>
+								<description>
+								<![CDATA[
+								みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの状態がわかり最適な手が打てるようになります。今回は誰でもブログでカンタンに100万PVを叩き出せるやり方と理由を説明していきたいと思います。</p>
+
+<p>その前にwebの流れを理解していなくてはお話しになりませんので、先ずは読み流すだけでも良いのでwebの流れを見て下さい。</p>
+
+
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">webの流れを理解する</span>
+			<ul class="nest">
+				<li><span class="nest_number">1-1.</span><span class="scroll_btn">検索されるのに必要な項目</span>
+
+				</li>
+				<li><span class="nest_number">1-2.</span><span class="scroll_btn">ソーシャルで拡散されるのに必要な項目</span>
+
+				</li>
+				<li><span class="nest_number">1-3.</span><span class="scroll_btn">ブックマーク、RSSに登録されるのに必要な項目</span>
+
+				</li>
+				<li><span class="nest_number">1-4.</span><span class="scroll_btn">アプリケーションから紹介されるのに必要な項目</span>
+				</li>
+			</ul>
+		</li>
+		<li class="n_2"><span class="scroll_btn">100万PVの方程式</span>
+			<ul class="nest">
+				<li><span class="nest_number">2-1.</span><span class="scroll_btn">100万PVの方程式を計算する[ツール]</span></li>
+				<li><span class="nest_number">2-2.</span><span class="scroll_btn">アベレージランク確認リスト表</span></li>
+			</ul>
+
+		</li>
+
+
+
+		<li class="n_3"><span class="scroll_btn">必要な記事数がわかった所で更新度合いで逆算する</span>
+			<ul class="nest">
+				<li><span class="nest_number">3-1.</span><span class="scroll_btn">更新する頻度を調節して短期間で達成する目標を立てよう</span></li>
+				<li><span class="nest_number">3-2.</span><span class="scroll_btn">ランク別に見直す点を考える</span></li>
+			</ul>
+		</li>
+
+		<li class="n_4"><span class="scroll_btn">これからブログを始めるあなたへ</span>
+			<ul class="nest">
+				<li><span class="nest_number">4-1.</span><span class="scroll_btn">始めたばかりのPVに絶望しないで下さい</span></li>
+				<li><span class="nest_number">4-2.</span><span class="scroll_btn">アフィリエイトから自分コンテンツを売る時代へ</span></li>
+				<li><span class="nest_number">4-3.</span><span class="scroll_btn">自分自身をブランディングする</span></li>
+				<li><span class="nest_number">4-4.</span><span class="scroll_btn">ブログという場を考える</span></li>
+				<li><span class="nest_number">4-5.</span><span class="scroll_btn">最終目標はコロコロ変えても良い</span></li>
+				<li><span class="nest_number">4-6.</span><span class="scroll_btn">一人の友人に書くように</span></li>
+			</ul>
+		</li>
+		<li class="n_5"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+<style>
+#Average_1 {
+	font-weight: bold;
+}
+#ArticlesMinimum {
+	font-weight: bold;
+}
+
+.detail_press h3 {
+	border-bottom: 1px solid #00A4E1;
+}
+</style>
+
+
+
+<h2 class="heading">webの流れを理解する</h2>
+
+
+<p>アクセスを増やしたいって思っていてもwebを理解していないと残念ながら記事を書いていても努力は実りません。そこで詳細な方法は省きますが流れを説明していきます。大まかな流れを知っているだけでもだいぶアクセスが増える感覚が身に付きますのでささーっと読み流しましょう。</p>
+
+<h3 class="heading">検索されるのに必要な項目</h3>
+<h4>HTMLを適切に記述する事</h4>
+<p><em class="blue_2">ここが一番重要</em>です。<strong>HTML5できちっとマークアップ</strong>している事がまず最低条件なのですが、出来ているサイトは少ないです。文章のマークアップを重点的に見直してロボットに時間を教えたりする事もかなり重要ですので忘れないで下さい。</p>
+
+
+<h4>ブログを構造化する事</h4>
+<p>記事のカテゴリ分けやパンくずは当たり前に行い、もっと深く掘り下げるならディレクトリ構造も最適化する事が望ましいです。この部分は後で変更するのが難しいので<em class="blue_2">一番最初の設計で決めておくべきポイント</em>でもあります。</p>
+
+<h4>表示スピードが速い事</h4>
+<p class="m_0">かなり重要な部分ですが、最近のブログはソーシャルのプラグインを大量に読み込んでいて平均3秒程遅れています。ですが、ボタンがない事には始まりませんので3秒遅くなるという事実に関してほとんどの方が目をつぶっているのが現状です。</p>
+
+<p>この遅れをプラグインの非同期以外で解消するにはぱっと思い浮かんだ仕組みを書いてみます。プラグインのボタンを全く同じデザインで擬似的に見せかけて数値はcronで回して定期的に取得してDBに入れといてページが読み込まれた時にDBを参照。クリックされたらAjaxでデータを送信して同じ挙動をさせるようにすれば一気に他のブログを出し抜ける事が出来るかもしれません。</p>
+
+
+<h4>レスポンシブである事</h4>
+<p class="m_0"><em class="blue_2">Google自体がレスポンシブを推奨</em>するようになりました。更にモバイルでレスポンシブでないと検索結果でマイナスポイントになりますので早急にレスポンシブにしましょう。</p>
+
+<p>参考記事:<a href="http://programmerbox.com/2013-02-18_responsive_design_seo_ux/" target="_blank">レスポンシブwebデザインの作り方とSEOとUXを考察</a></p>
+
+<h4>平均ページ滞在時間が長い事</h4>
+<p>感覚値としてはこの項目はかなり重要です。ロングテールで<em class="blue_2">検索順位を上げていくには平均5分以上滞在</em>されている事が大切です。</p>
+
+
+
+<h4>平均ページ滞在時間が極端に短いページを消す事</h4>
+<p>平均滞在時間が20秒以下の記事がありませんか?残念ながらその記事はブログ全体の足を引っ張っている可能性が高いです。<em class="blue_2">記事内容をてこ入れするか削除する</em>かどちらかを行いましょう。</p>
+
+
+<h4>ユーザーが何回も訪問している事</h4>
+<p>これも感覚値になるのですが多ければ多い程、検索結果の順位が上がっています。</p>
+
+
+<h4>適切な被リンクが多い事</h4>
+<p>適切とはなんなのかという議論はありますが、不自然な相互リンク等はマイナス点です。(友達同士の相互リンクもやめた方がいいです)</p>
+
+
+<h4>ソーシャルで拡散されている事</h4>
+<p>検索結果にあまり関係ないと言われていますがボクは大いにあると思います。ソーシャル全体で<em class="blue_2">200以上拡散されると3ヶ月くらいは検索結果で上位に</em>なります。理由の一つは拡散されるという事は被リンクを得られると同義ですので(短いスパンで)やはり重要なポイントです。</p>
+
+
+
+<h3 class="heading">ソーシャルで拡散されるのに必要な項目</h3>
+
+<h4>記事自体が面白い or 為になる事</h4>
+<p>当たり前と言ったら当たり前なんですが、それが意外と難しいです。流行の先を読みすぎて記事を書いても共感は得られません。</p>
+
+<h4>ブログ自体が有名である事</h4>
+<p>有名な事は一つの指標ですので良くも悪くも有名になるように心掛けていきましょう。</p>
+
+
+<h4>適切な場所にソーシャルボタンがある事</h4>
+<p>初めと最後にあれば問題ないです。追従型はお好みで良いかと思います。</p>
+
+<h4>Twitter、Facebook、Google+のアカウントを作って活発に更新している事</h4>
+<p>時間がなくて活発に更新出来ない事が多いかと思いますが活発である事は忘れられない為にも必要です。更新のしすぎには注意が必要ですが。</p>
+
+
+
+<h4>ブログカテゴリによって拡散されるソーシャルが違う事を理解する事</h4>
+<p>ブログカテゴリによって力を入れるソーシャルの場を変えた方が良いですね。ライフハッカー系、ビジネス系、ストーリーのある話題等はFacebookで拡散される事が多いです。炎上系、社会風刺系、釣り系、IT関連の記事はもっぱらはてブで拡散される傾向が高いです。最後にTwitterですがどんな記事でも拡散されますね。あえて上げるなら、2ちゃんねる系、お笑い・ネタ系が拡散される傾向が高いです。</p>
+
+
+
+<h3 class="heading">ブックマーク、RSSに登録されるのに必要な項目</h3>
+<h4>三度、面白い or 為になる記事を読まれる事</h4>
+<p>検索をして欲しい情報を探す訳ですが、その工程の中で<em class="blue_2">三度同じブログで為になる記事があった時にRSSを登録するというアクションを行う人が多い</em>です。</p>
+
+<h4>適切な場所にRSSリンクがある事</h4>
+<p>肝心のRSSのリンクが解りづらい場所にあっては機会損失になってしまいます。</p>
+
+<h4>適切なRSS記述がされている事</h4>
+<p>RSSを登録してもらっても配信するRSSの内容がひどかったらRSSを解除されてしまいます。(RSSに広告を載せたりetc..)</p>
+
+<h3 class="heading">アプリケーションから紹介されるのに必要な項目</h3>
+<h4>ソーシャルで拡散されている事</h4>
+<p>大体のアプリケーションが<em class="blue_2">ソーシャル値を参考にして話題の記事を集めています</em>のでGunosyなどのアプリに紹介されるにはソーシャルで拡散されている事は必須です。</p>
+
+<h4>アプリケーションの運営にブロックされない事</h4>
+<p>アプリを運営する企業や人はユーザー体験が損なわれるようなブログや記事をブロックする事が出来ます。嫌われないカテゴリ、内容で記事を書く事をお勧め致します。</p>
+
+
+<h2 class="heading">100万PVの方程式</h2>
+
+<p>100万PVの方程式に当てはめる為に<strong>アベレージランク</strong>という概念を考えてみました。近直の3ヶ月PV数と記事数だけでブログのアベレージランクと100万PVを達成する為に必要な記事数がわかるようになります。カンタンに計算出来るスクリプトも作りましたので確認してみましょー。</p>
+
+
+<h3 class="heading">100万PVの方程式を計算する[ツール]</h3>
+
+
+<h4>アベレージ算出</h4>
+<p>
+最新の3ヶ月PV数：<input type="number" class="equation_input" id="NewestPV" name="NewestPV" maxlength="20">
+ ÷ 日数：<span id="Days">90</span>
+ = 1日平均のPV：<span id="DayPV_1"></span>
+</p>
+<p>
+1日平均のPV：<span id="DayPV_2"></span> ÷ 現在の記事数：<input type="number" class="equation_input" id="NumberArticles" name="NumberArticles" maxlength="20"> = ブログのアベレージ：<span id="Average_1"></span>
+</p>
+
+
+<h4>必要な記事数算出</h4>
+<p>
+33,333(1日のPV) ÷ ブログのアベレージ：<span id="Average_2"></span>
+ = 必要な記事数：<span id="ArticlesMinimum"></span>
+</p>
+
+
+<p>追記：<span style="color: red;">ツールが動かない場合は古いキャッシュが読み込まれていますのでお手数かけますが、再読み込みを宜しくお願い致します。</span></p>
+
+
+<h3 class="heading">アベレージランク確認リスト表</h3>
+
+<table class="type_1">
+	<thead>
+		<tr>
+			<th>アベレージ数</th>
+			<th>ランク</th>
+			<th>想定必要記事数</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>0〜20</td>
+			<td>E</td>
+			<td>3333</td>
+		</tr>
+		<tr>
+			<td>21〜40</td>
+			<td>D</td>
+			<td>1111</td>
+		</tr>
+		<tr>
+			<td>41〜60</td>
+			<td>C</td>
+			<td>666</td>
+		</tr>
+		<tr>
+			<td>61〜80</td>
+			<td>B</td>
+			<td>476</td>
+		</tr>
+		<tr>
+			<td>80〜100</td>
+			<td>A</td>
+			<td>370</td>
+		</tr>
+		<tr>
+			<td>101〜</td>
+			<td>S</td>
+			<td>330</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+<h2 class="heading">必要な記事数がわかった所で更新度合いで逆算する</h2>
+<p>必要な記事数がわかるという事は先の見えない状態ではなくなりました。確実に100万PVになるイメージが出来るように逆算していきましょう。</p>
+
+<h3 class="heading">更新する頻度を調節して短期間で達成する目標を立てよう</h3>
+
+<p>アベレージランクがE以外なら100万PVは達成出来ます。そこで更新頻度のお話になるのですが<strong>毎日更新はオススメしません。</strong>何故かと言いますと記事の質が下がり<em class="blue_2">ロングテールで考えた時に圧倒的に不利になりアベレージ数が下がり効率が悪くなります</em>。下がらないように「webの流れを理解する」の章を読み直して施策を打ち記事の質を上げていきましょう。</p>
+
+<p>記事の質がそこまで下がらないような更新頻度で更新していくべきですが、記事の質を下げずに更新頻度を上げれるようなら上げていってもいいかと思います。</p>
+
+
+<p>ブログを始めて<strong>最短で100万PVを達成するには10ヶ月は必要</strong>です。ブログが仕事という意識で更新していけば、かなりの確率で達成出来るかと思いますが、情熱が必要ですね。</p>
+
+
+<h3 class="heading">ランク別に見直す点を考える</h3>
+<h4>ランクEの場合</h4>
+<p>ブログカテゴリがニッチすぎる場合か、そもそも「webの流れを理解する」を理解していない場合があります。このランクの人は早急にブログ運営を見直すべきです。</p>
+
+<h4>ランクDの場合</h4>
+<p>一番このランクが多いかと思われます。悪くはありませんが良くもありません。検索対策を初めに行うべき。</p>
+
+<h4>ランクCの場合</h4>
+<p>ここからが合格ラインですね。もう1ランク上がれるように足りない部分を探し出し改善を行えれば良いかと思います。</p>
+
+<h4>ランクBの場合</h4>
+<p>3ヶ月PVで計算した時にこのランクだとかなりレベルが高いです。そのまま更新していけば問題ないですね。ここらへんのレベルのままブログ運営をすると1年半で100万PVになります。</p>
+
+<h4>ランクAの場合</h4>
+<p>ランクAだとプロ・セミプロの領域に入るんじゃないでしょうか。ソーシャルで拡散される常連のブログがここら辺にあたります。</p>
+
+<h4>ランクSの場合</h4>
+<p>まれにこのランクのブログはありますね。大概、文章を書く事を生業にしているプロの集団で更新している場合が多いです。</p>
+
+
+<h2 class="heading">これからブログを始めるあなたへ</h2>
+<p>ブログを始めるにあたって必要な事は何もありません。ただ、好きなジャンルを絞って書いていった方が見ているユーザーに優しいブログになります。もう一つは<em class="blue_2">自分自身の為になるブログ</em>である事。これが最重要なんじゃないかなって考えています。</p>
+
+
+<h3 class="heading">始めたばかりのPVに絶望しないで下さい</h3>
+<p>始めたばかりのブログは自分以外見ていないんじゃないかっていうくらい人が訪問して来てくれません。ですが、よくよく考えれば当たり前の事です。誰もあなたの居る住所を知らないのにたどり着ける訳ありません。そこで、ボクはここに居ますよ、こんな情報の事を書いていますよって発信していくのがソーシャルであり、その情報をストックする場所がブログであり、その情報を拾ってくれるのがGoogleやYahoo!です。</p>
+<p>プログラマーボックスは全くの0から始めました。新たにTwitter、Facebook、Google+のアカウントを取得して宣伝なしで書いていったらどうなるのかなって研究を含めて書かせて頂いています。そして、<em class="blue_2">最初の一ヶ月は本当に地獄でして、ボク以外のユーザーはいませんでした</em>。</p>
+
+<p>現在の記事数はこの記事を含めて29です。スタートしてからの期間を考えればかなり少ない本数です。ですが運良く、はてブユーザーに見て頂く事が多いのかアクセスが少ない割にたまにバズったりします。拡散して頂いているみなさん、いつもありがとうございます。</p>
+
+<h3 class="heading">アフィリエイトから自分コンテンツを売る時代へ</h3>
+<p>アフィリエイトを載せる事はもちろんいいのですが本業があるなら本業の仕事を活かせるカタチでブログを発信していく事が望ましいです。お金で換算するのもアレですが、そっちの方が人脈も増えて様々な観点から考えて有益になる筈です。<em class="blue_2">どうかアフィリエイトしかないという風にならないで欲しい</em>です。このブログのアドセンスはデザインという考えで表示しています。</p>
+
+<h3 class="heading">自分自身をブランディングする</h3>
+<p>アフィリエイトをしないという事は自分自身のブランディング力をあげなくてはなりません。ですが、そこまで考えなくとも自然で良くて、見ている人全員に少しでも有益な記事が書けたらいいなって考えているだけでいいのではないでしょうか？</p>
+
+<h3 class="heading">ブログという場を考える</h3>
+<p>とは言っても様々なブログやサイトがありますので<em class="blue_2">自分とブログとユーザーの立ち位置を考えてデザインしたり記事を書いていく</em>ように意識して運営していくのが理想ですね。</p>
+
+
+<h3 class="heading">最終目標はコロコロ変えても良い</h3>
+<p>最終目標なんてコロコロ変えちゃえば良いんです。縛られると良い事なんて一つもありません。このブログも当初の目的や目標なんてどこかに行ってしまいました。ですが、それは悪い事ではありません。世の中が変わっていくのに対応出来ないのではマズいのと同じで、生活の中で自分自身が変化していくと考えが変わります。逆にどんどん変わっていきましょう!</p>
+
+
+<h3 class="heading">一人の友人に書くように</h3>
+<p>お友達とお話している時に色んな話題になりますよね？そこで悩んでいる事やこれが面白いという情報を聞ける時があります。そして、その悩みを解決したいなって思った時にボクは記事を書くようにしています。
+1人悩んでいる人が居れば日本の中でかなりの人数が悩んでいる可能性があるかもしれません。数字だけでは解らない時は一人の友人に書くようにするといいかもしれません。</p>
+
+
+<h2 class="heading">まとめ</h2>
+
+
+<p>初めてバズった記事<a target="_blank" href="http://programmerbox.com/2013-02-18_responsive_design_seo_ux/">レスポンシブwebデザインの作り方とSEOとUXを考察</a>はたった一人の友人の為に書きました。その頃、閲覧してくれるユーザーは3日に2人くらいでしたが、その3日に2人くらいしか来ない人が、はてブとTwitterユーザーで拡散をしてくれました。23:00頃に。で、1時間で40はてブくらいついて、その次の日にGunosyに載り最終的に180はてブくらい付きました。記事をアップしてから5日後くらいの出来事でしたので本当に驚きました。</p>
+<p>ボク自身のwebの経歴とかAboutに書いていないんですが、ここで簡易に書きます。ボクはメールマガジンを配信する所から始めました。17才の時で3誌くらい発行していて45000部(購読数)くらいまで成長しました。始めたばかりのwebサイトも一ヶ月平均PVが個人サイトで30万PV、携帯向け画像サイトで50万〜70万とか。</p>
+
+<p>大人になってからも色々運営していますが、多すぎるのでここでは省略させて頂きます。で、何が言いたいかというとWebって年齢関係ないし、技術も意外とカンタンだし、やったもん勝ちだよーって事です。</p>
+<p class="m_0">何度も言いますがブログで100万PVは意外とカンタンなんです。</p>
+<p>時々<em>アベレージランク</em>を測ってブログを修正していけば達成する日付も大体わかりますので、是非是非<strong>100万PVの方程式ツール</strong>を使って下さい。</p>
+
+<p class="m_0">では、そんな感じで終わりにしたいと思います。</p>
+<p>webを楽しみましょう。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-08-06_one_million_pv_way/
+								</guid>
+								<pubDate>Tue, 06 Aug 2013 11:56:25 +0900</pubDate>
+								</item>
+								<item>
+								<title>超便利なMac・UNIXのターミナルコマンドチートシートサイト2選inボク的ブクマですいません。</title>
+								<link>
+								http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
+								</link>
+								<description>
+								<![CDATA[
+								ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そ...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そのサイトのブクマ記事にしたいと思います。たまにしかいじらないから忘れてしまうんですけど、そんな時にこのターミナルコマンドチートシートを見ましょう!</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">UNIXのターミナルコマンドチートシート</span></li>
+		<li class="n_2"><span class="scroll_btn">Macの設定を変更するターミナルコマンドチートシート</span></li>
+		<li class="n_3"><span class="scroll_btn">知っておきたいUNIXコマンド（追記）</span></li>
+		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+<h2 class="heading">UNIXのターミナルコマンドチートシート</h2>
+<p></p>
+
+
+<h3>ジャンル別UNIXコマンド一覧 By 68user"s page</h3>
+<p class="m_0">
+	<a target="_blank" href="http://x68000.q-e-d.net/~68user/unix/genre.html">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_166.jpg" width="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://x68000.q-e-d.net/~68user/unix/genre.html">ジャンル別UNIXコマンド一覧</a>
+</p>
+<p>コマンドの一覧が綺麗にカテゴリ分けされていてかなり見やすいです。このサイト自体、勉強になる情報しか置いていないので必見です。</p>
+
+
+
+
+<h2 class="heading">Macのターミナルコマンドチートシート</h2>
+
+
+<h3>Macの隠された設定を変更する84個のハック集</h3>
+<p class="m_0">
+	<a target="_blank" href="http://tukaikta.blog135.fc2.com/blog-entry-251.html">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_167.jpg" width="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://tukaikta.blog135.fc2.com/blog-entry-251.html">Macの隠された設定を変更する84個のハック集</a>
+</p>
+<p class="m_0">こちらはMacの設定ターミナルコマンド集ですね。</p>
+<p>色々設定をカスタマイズするのもいいかもしれません。</p>
+
+
+<h2 class="heading">知っておきたいUNIXコマンド（追記）</h2>
+
+<h3>知っておきたいUNIXコマンド</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.amays.com/~mizusawa/namazu_kaisetu/comand.html">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_227.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.amays.com/~mizusawa/namazu_kaisetu/comand.html">知っておきたいUNIXコマンド</a>
+</p>
+<p>基本中の基本のコマンドを紹介していて、かつ見やすいのでオススメです。</p>
+
+
+
+<h2 class="heading">まとめ</h2>
+<p>完全にボクのブクマ記事になってしまいましたが、コマンドを使う機会はそんなに多くはありませんが、サーバの設定をする時なんかは使わないといけないのでコマンドを網羅したサイトをここにブクマしときます。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
+								</guid>
+								<pubDate>Mon, 05 Aug 2013 12:49:10 +0900</pubDate>
+								</item>
+								<item>
+								<title>大流行した画像のブラー加工をJSでささっと実装出来る「Vague.js」が面白い。</title>
+								<link>
+								http://programmerbox.com/2013-08-01_blur_vague_js/
+								</link>
+								<description>
+								<![CDATA[
+								ブラー加工とは画像をぼやけさせる加工の事を言うのですが、この加工した画像を使いランディングページを作るアプリが多くあります。ぼやけさせる事により明確にユーザーに見て...
+								]]>
+								</description>
+								<content:encoded>
+								<![CDATA[
+								<p>ブラー加工とは画像をぼやけさせる加工の事を言うのですが、この加工した画像を使いランディングページを作るアプリが多くあります。ぼやけさせる事により明確にユーザーに見て欲しい文字に焦点を当てられます。</p>
+
+<p>さて、そんなブラー加工ですがPhotoshop等の画像編集ソフトを使わなくてもJS上で加工して表示出来るプラグインがありますので、今回はその「Vague.js」を紹介したいと思います。</p>
+<nav class="detail_press_index clearfix">
+	<h2 id="s_0p"><span class="color">目次</span></h2>
+	<ul class="left no_width">
+		<li class="n_0"><span class="scroll_btn">Vague.js</span></li>
+		<li class="n_1"><span class="scroll_btn">Vague.jsの使い方</span>
+			<ul class="nest">
+				<li><span class="nest_number">1-1.</span><span class="scroll_btn">実装ソースコード</span></li>
+				<li><span class="nest_number">1-2.</span><span class="scroll_btn">オプション</span></li>
+			</ul>
+		</li>
+		<li class="n_9"><span class="scroll_btn">実装する際の注意点</span></li>
+		<li class="n_9"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+<h2 class="heading">Vague.js</h2>
+<p></p>
+
+<h3>Vague.js</h3>
+<p class="m_0">
+	<a target="_blank" href="http://gianlucaguarini.github.io/vague.js/">
+		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_165.jpg" width="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://gianlucaguarini.github.io/vague.js/">Vague.js</a>
+</p>
+<p>このページ自体にブラーがかかっていますので、そこから実装方法も見れます。</p>
+
+
+<h2 class="heading">Vague.jsの使い方</h2>
+<p class="m_0">Vague.jsのgitHubに行ってファイルをダウンロードして来ましたら次は実装ですね。</p>
+<p>こんな感じのソースコードで動きます。</p>
+
+<h3 class="heading">実装ソースコード</h3>
+<div class="html_tab">HTML</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+	&lt;title&gt;Vague.jsの最小実装コード&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- js読み込み --&gt;
+	&lt;script src="http://code.jquery.com/jquery-1.8.2.min.js"&gt;&lt;/script&gt;
+	&lt;script src="Vague.js"&gt;&lt;/script&gt;
+	&lt;!-- ブラーをかけたい画像を用意 --&gt;
+	&lt;img class="container" src="../img/press/image/image_.jpg" width="640" height="400"&gt;
+	&lt;!-- 実装コード --&gt;
+	&lt;script&gt;
+		var vague = $(".container").Vague({intensity:30});
+		vague.blur();
+	&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p class="m_t_30">
+	<a href="demo.php" target="_blank">デモ</a>
+</p>
+
+<h3 class="heading">オプション</h3>
+<p class="m_0">オプションは1つしかありません。シンプル!</p>
+<p><em>intensity</em>の数値を動かすだけでブラーの強度が変わります。</p>
+
+<p>なお、この数値を動的にする事によって<strong>アニメーションのようなブラー</strong>も可能です。</p>
+
+<h2 class="heading">実装する際の注意点</h2>
+
+<p>本来なら一番最初に記述しておくべき事だったんですが、このJSはJqueryがないと動きません。<strong>Vague.jsを読み込む前に必ずJqueryを読み込みましょう。</strong></p>
+
+
+<h2 class="heading">まとめ</h2>
+<p>なんだか本当にJSってなんでも出来る言語になってしまいましたね。このプラグイン自体もかなり軽量なので導入する事をお勧め致します。まぁ、そんな感じでささっと終わりにします。</p>
+								]]>
+								</content:encoded>
+								<guid>
+								http://programmerbox.com/2013-08-01_blur_vague_js/
+								</guid>
+								<pubDate>Thu, 01 Aug 2013 08:00:17 +0900</pubDate>
+								</item>
+								</channel>
+							</rss>
