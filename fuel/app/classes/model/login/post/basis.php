@@ -10,10 +10,11 @@ class Model_Login_Post_Basis extends Model {
 		$title            = $post["title"];
 		$path             = $post["path"];
 		$press            = $post["press"];
+		$press            = htmlspecialchars_decode($post["press"], ENT_COMPAT);
 		// 削除array
 		$del_r_array = array("'");
 		// 不要文字置換
-		$press = str_replace($del_r_array, '"', $press);
+		$press            = str_replace($del_r_array, '"', $press);
 		$tag              = $post["tag"];
 		$thumbnail_imeg   = $_FILES["file"];
 		$now_time         = time();
@@ -21,6 +22,7 @@ class Model_Login_Post_Basis extends Model {
 		$press_year_time  = date('Y', $now_time);
 		// 記事のパス
 		$link = ($now_date.'_'.$path);
+/*
 		// カテゴリー情報取得
 		$category_info_array = Model_Info_Basis::category_info_get($category);
 		// サムネイル作成
@@ -51,6 +53,7 @@ class Model_Login_Post_Basis extends Model {
 								'".$now_time."')")->execute();
 		// rss作成
 		Model_Login_Post_Basis::rss_create();
+*/
 	}
 	//--------------
 	//サムネイル作成

@@ -1,40 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-							<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
-							<channel>
-							<title>ProgrammerBOX -プログラマーボックス-</title>
-							<atom:link href="http://programmerbox.com/feed.xml" rel="self" type="application/rss+xml"/>
-							<link>http://programmerbox.com/</link>
-							<description>
-							<![CDATA[
-							プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
-							]]>
-							</description>
-							<language>ja</language>
-							<copyright>Copyright 2013</copyright>
-							
-							<generator uri="http://programmerbox.com/">ProgrammerBOX -プログラマーボックス-</generator>
-							
-							<sy:updatePeriod>hourly</sy:updatePeriod>
-							<sy:updateFrequency>1</sy:updateFrequency>
-							<lastBuildDate>Fri, 01 Nov 2013 11:39:17 +0900</lastBuildDate><item>
-								<title>2013年、フォントフリーサイトまとめをまとめてみた[保存版]</title>
-								<link>
-								http://programmerbox.com/2013-11-01_free_font_Install/
-								</link>
-								<description>
-								<![CDATA[
-								新しいフォントが無数に現れる時代になり、やはり情報と同じで多すぎると探しにくくなっています。そこでオススメのサイト2選を紹介しつつ、日本と海外のフォントポータルサイト...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>新しいフォントが無数に現れる時代になり、やはり情報と同じで多すぎると探しにくくなっています。そこでオススメのサイト2選を紹介しつつ、日本と海外のフォントポータルサイトや日本語フォントをメインに紹介している記事を集めてみました。</p>
+		<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+		<channel>
+		<title>ProgrammerBOX -プログラマーボックス-</title>
+		<atom:link href="http://localhost/programmerbox/feed.xml" rel="self" type="application/rss+xml"/>
+		<link>http://localhost/programmerbox/</link>
+		<description>
+		<![CDATA[
+		プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
+		]]>
+		</description>
+		<language>ja</language>
+		<copyright>Copyright 2013</copyright>
+		
+		<generator uri="http://localhost/programmerbox/">ProgrammerBOX -プログラマーボックス-</generator>
+		
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<lastBuildDate>Thu, 19 Dec 2013 07:46:55 +0900</lastBuildDate><item>
+			<title>テスト</title>
+			<link>
+			http://localhost/programmerbox/2013-12-19_test_carnibaru/
+			</link>
+			<description>
+			<![CDATA[
+							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
+				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
+					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
+					&lt;ul class=&quot;left no_width&quot;&gt;
+						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/nav&gt;
+				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
+				&lt;p&gt;&lt;/p&gt;
+				
+				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
+				&lt;p&gt;&lt;/p&gt;					
+				
+				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
+				&lt;p&gt;&lt;/p&gt;
+								
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-12-19_test_carnibaru/
+			</guid>
+			<pubDate>Thu, 19 Dec 2013 07:46:54 +0900</pubDate>
+			</item>
+			<item>
+			<title>2013年、フォントフリーサイトまとめをまとめてみた[保存版]</title>
+			<link>
+			http://localhost/programmerbox/2013-11-01_free_font_Install/
+			</link>
+			<description>
+			<![CDATA[
+			新しいフォントが無数に現れる時代になり、やはり情報と同じで多すぎると探しにくくなっています。そこでオススメのサイト2選を紹介しつつ、日本と海外のフォントポータルサイト...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>新しいフォントが無数に現れる時代になり、やはり情報と同じで多すぎると探しにくくなっています。そこでオススメのサイト2選を紹介しつつ、日本と海外のフォントポータルサイトや日本語フォントをメインに紹介している記事を集めてみました。</p>
 
-<p></p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
-		<li class="n_1"><span class="scroll_btn">オススメの厳選サイト2選</span>
+		<li class="n_1"><span class="scroll_btn">オススメの厳選サイト2選</span></li>
 		<li class="n_2"><span class="scroll_btn">無料フォントポータルサイト</span>
 			<ul class="nest">
 				<li><span class="nest_number">2-1.</span><span class="scroll_btn">日本サイト</span></li>
@@ -54,9 +90,6 @@
 
 
 
-
-
-
 <h2 class="heading">オススメの厳選サイト2選</h2>
 
 <p>大体はこの2つのサイトでイケてるフォントは手に入りますので要チェックです。ですが、日本語のフォントがないので日本語のフォントをお探しならば目次の2-1や3-2を見て下さい。</p>
@@ -67,7 +100,7 @@
 <h3>Fonts.com（SkyFonts）</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.fonts.com/ja/web-fonts/google">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_228.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_228.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -88,7 +121,7 @@
 <h3>Font Squirrel</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.fontsquirrel.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_229.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_229.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -109,7 +142,7 @@
 
 
 
-<h3 class="heading">日本サイト</h3>
+<h3 class="heading b_b_1">日本サイト</h3>
 
 <p>先ずは日本のサイトを紹介していきます。</p>
 
@@ -118,7 +151,7 @@
 <h3>FFONTS（日本版）</h3>
 <p class="m_0">
 	<a target="_blank" href="http://jp.ffonts.net/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_230.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_230.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -130,7 +163,7 @@
 <h3>無料フリーフォント集　FREEフォントケンサク</h3>
 <p class="m_0">
 	<a target="_blank" href="http://cute-freefont.flop.jp/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_231.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_231.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -142,7 +175,7 @@
 <h3>gau+ | ガウプラ</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.graphicartsunit.com/gaupra/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_232.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_232.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -156,7 +189,7 @@
 <h3>お得ＷＥＢ；無料フォント</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www7.ocn.ne.jp/~otoku/free-font.htm">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_233.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_233.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -172,16 +205,16 @@
 
 
 
-<h3 class="heading">海外サイト</h3>
+<h3 class="heading b_b_1">海外サイト</h3>
 
-<p>次は海外サイトを。<p>
+<p>次は海外サイトを。</p>
 
 
 
 <h3>MacAppware</h3>
 <p class="m_0">
 	<a target="_blank" href="http://macappware.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_234.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_234.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -195,7 +228,7 @@
 <h3>Fonts2u.com</h3>
 <p class="m_0">
 	<a target="_blank" href="http://ja.fonts2u.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_235.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_235.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -206,7 +239,7 @@
 <h3>dafont.com</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.dafont.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_236.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_236.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -220,7 +253,7 @@
 <h3>1001 Fonts · Free Fonts Baby!</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.1001fonts.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_237.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_237.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -244,10 +277,10 @@
 
 <h2 class="heading">比較的新しいフォント紹介記事</h2>
 
-<p>ポータルサイトだけではなく、他のブログではどのように紹介されているか個人的に気になり、基本的にバズった記事を集めてみました。色んな角度から紹介していますので目的のフォントにたどり着ける確率は高いです。<p>
+<p>ポータルサイトだけではなく、他のブログではどのように紹介されているか個人的に気になり、基本的にバズった記事を集めてみました。色んな角度から紹介していますので目的のフォントにたどり着ける確率は高いです。</p>
 
 
-<h3 class="heading">イケてるフォント紹介記事</h3>
+<h3 class="heading b_b_1">イケてるフォント紹介記事</h3>
 
 <p>イケてるフォントを紹介している記事というかブログを紹介します。</p>
 
@@ -255,7 +288,7 @@
 <h3>フォントPhotoshopVIP | PhotoshopVIP</h3>
 <p class="m_0">
 	<a target="_blank" href="http://photoshopvip.net/archives/tag/font">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_239.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_239.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -266,14 +299,14 @@
 
 
 
-<h3 class="heading">日本語フォント紹介記事</h3>
+<h3 class="heading b_b_1">日本語フォント紹介記事</h3>
 <p>上記で紹介したサイトは主に英語のフォントでしたので、日本語のフォントを紹介している記事をここでは紹介します。</p>
 
 
 <h3>漢字が使えるフリーの和文フォント242種類をまとめてみた。 - buena suerte!</h3>
 <p class="m_0">
 	<a target="_blank" href="http://blog.livedoor.jp/cie/archives/52129474.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_240.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_240.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -286,7 +319,7 @@
 <h3>日本語フリーフォントまとめ最新版FreeFont一覧〜無料ダウンロード - デザインのブログ〜フォント作ったり素材作ったり</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.flopdesign.com/blog/font/65/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_241.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_241.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -299,7 +332,7 @@
 <h3>【デザイナー必見】最強の日本語フリーフォントのまとめ - NAVER まとめ</h3>
 <p class="m_0">
 	<a target="_blank" href="http://matome.naver.jp/odai/2130244832975388701">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_242.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_242.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -313,7 +346,7 @@
 <h3>漢字が使える！全部無料！日本語フォント41個【2013年最新版】</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.find-job.net/startup/41-japanese-free-fonts">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_243.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_243.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -326,7 +359,7 @@
 <h3>日本語フリーフォントまとめ63個 &#8211; 2013年7月 | 男子ハック</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.danshihack.com/2013/07/21/junp/freefont_2013.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_244.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_244.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -338,7 +371,7 @@
 <h3>perruche　～コンサル会社でHPを作っている人のBlog～　 - 漢字も使える74個の日本語フリーフォント　商用可（54）／商用不可（20）別</h3>
 <p class="m_0">
 	<a target="_blank" href="http://perruche15.blog134.fc2.com/blog-entry-36.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_245.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_245.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -350,7 +383,7 @@
 <h3>CoreDrive - どんなファイルも見たまま共有（日本語フリーフォント ）</h3>
 <p class="m_0">
 	<a target="_blank" href="https://coredrive.com/boards/font">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_246.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_246.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -360,14 +393,14 @@
 
 
 
-<h3 class="heading">英語フォント紹介記事</h3>
+<h3 class="heading b_b_1">英語フォント紹介記事</h3>
 
 <p>最後に海外のフォントポータルサイトを紹介している記事を紹介します。</p>
 
 <h3>21 Most Visited Free Fonts Site(21のポータルサイト紹介記事)</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.hongkiat.com/blog/21-most-visited-free-fonts-site/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_247.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_247.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -381,30 +414,30 @@
 <h2 class="heading">まとめ</h2>
 <p>いかがだったでしょうか？フォントはデザインをする時に必ず必要になってきますので、多ければ多い程デザインのバリーションが広がるかもしれません。</p>
 <p>フォント自体SkyFonts等で便利になっている分、他のサイトの需要が低くなって来ましたが</p>
-<script type="text/javascript" src="//www.google.co.jp/trends/embed.js?hl=ja&q=%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88&cmpt=q&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=320&h=400"></script>
+<script type="text/javascript" src="//www.google.co.jp/trends/embed.js?hl=ja&q=%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88&geo=JP&cmpt=geo&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=270&h=400"></script>
 
-<p class="m_0">ですが、検索数で考えるとかなりあるほうです。</p>
+<p class="m_0">検索数で考えるとまだまだ需要はあるようです。</p>
 <p>（執筆時点でフォントで月間33,100回日本で検索されています。）</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-11-01_free_font_Install/
-								</guid>
-								<pubDate>Fri, 01 Nov 2013 11:39:16 +0900</pubDate>
-								</item>
-								<item>
-								<title>もうPCメガネは必要ない！？色温度調整アプリ「f.lux」を試してみたよ</title>
-								<link>
-								http://programmerbox.com/2013-10-07_f.lux_app_revue/
-								</link>
-								<description>
-								<![CDATA[
-								先日、初めて会った人に色温度調整アプリ「f.lux」を教えてもらい、数日間利用しています。そして、このアプリはフリーなのですが、イケてるんですよ!調べてみたら様々なブログ...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>先日、初めて会った人に色温度調整アプリ「f.lux」を教えてもらい、数日間利用しています。そして、このアプリはフリーなのですが、イケてるんですよ!調べてみたら様々なブログで紹介されてるんですが、見なかった事にしてさらな状態で記事を書いていきます。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-11-01_free_font_Install/
+			</guid>
+			<pubDate>Fri, 01 Nov 2013 11:39:16 +0900</pubDate>
+			</item>
+			<item>
+			<title>もうPCメガネは必要ない！？色温度調整アプリ「f.lux」を試してみたよ</title>
+			<link>
+			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
+			</link>
+			<description>
+			<![CDATA[
+			先日、初めて会った人に色温度調整アプリ「f.lux」を教えてもらい、数日間利用しています。そして、このアプリはフリーなのですが、イケてるんですよ!調べてみたら様々なブログ...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>先日、初めて会った人に色温度調整アプリ「f.lux」を教えてもらい、数日間利用しています。そして、このアプリはフリーなのですが、イケてるんですよ!調べてみたら様々なブログで紹介されてるんですが、見なかった事にしてさらな状態で記事を書いていきます。</p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
@@ -427,7 +460,7 @@
 <h3>f.lux: software to make your life better</h3>
 <p class="m_0">
 	<a target="_blank" href="http://justgetflux.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_223.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_223.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -438,7 +471,7 @@
 <p>ダウンロードが完了しましたらzipを解凍して下さい。</p>
 <p>解凍するとf.luxのappがダウンロードにありますのでクリックして起動しましょう。</p>
 <p>初めてアプリを起動すると、アプリを移動しますか？と聞かれるのですが、ここで問題が一つあります。ボクの環境だと、<em>ここで移動しますとバグります</em>。（アプリアイコンがなかったり、アプリがゴミ箱に行ったり）なのでここはアプリの移動しないを選びましょう。</p>
-<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_224.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_224.jpg" width="640" height="400" alt="" title=""></p>
 <p>あとは自由にアプリをアプリケーションフォルダに入れてお好みでDockに入れたりして下さい。</p>
 
 <h2 class="heading">f.luxの使い方</h2>
@@ -447,36 +480,36 @@
 <p class="m_0">f.luxを起動しますと、通常のアプリとは違ってDockで起動している事が確認出来ません。</p>
 <p>f.luxはここから操作出来ます。</p>
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_225.jpg" width="640" height="400" title="" alt=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_225.jpg" width="640" height="400" title="" alt=""></p>
 
 <p>設定は完全にお好みなんですが、ボクはこんな感じにしました。</p>
 
-<p><img class="press_mini_image m_0" src="../img/press/image/image_226.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_mini_image m_0" src="../assets/img/press/image/image_226.jpg" width="640" height="400" alt="" title=""></p>
 
 <h2 class="heading">まとめ</h2>
 <p>使い続けた感想は目が疲れにくくなり、集中力が増したかのようにも思えます。一つ難点がありデザインをする時に解除をするのですが、その時の違和感というか違いにビックリして3分くらい目を慣れさせなければいけません。逆に考えればそのくらい通常の画面は目への刺激が強いという事になります。</p>
 <p>ブラウジングしたりする時には有用ですので是非是非このアプリをためしましょー。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-10-07_f.lux_app_revue/
-								</guid>
-								<pubDate>Mon, 07 Oct 2013 23:00:51 +0900</pubDate>
-								</item>
-								<item>
-								<title>Mac標準アプリ「Automator」でファイル名を一括リネームする方法と作成したアクションを削除する方法</title>
-								<link>
-								http://programmerbox.com/2013-10-07_automator_image_batch_rename/
-								</link>
-								<description>
-								<![CDATA[
-								膨大にある画像を一括リネームする機会ってweb制作をしていると度々ありますよね？今回はそんな時に役立つ方法(macで)を紹介致します。
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
+			</guid>
+			<pubDate>Mon, 07 Oct 2013 23:00:51 +0900</pubDate>
+			</item>
+			<item>
+			<title>Mac標準アプリ「Automator」でファイル名を一括リネームする方法と作成したアクションを削除する方法</title>
+			<link>
+			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
+			</link>
+			<description>
+			<![CDATA[
+			膨大にある画像を一括リネームする機会ってweb制作をしていると度々ありますよね？今回はそんな時に役立つ方法(macで)を紹介致します。
 					Automatorはデフォルトでmacに入っ...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>膨大にある画像を一括リネームする機会ってweb制作をしていると度々ありますよね？今回はそんな時に役立つ方法(macで)を紹介致します。</p>
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>膨大にある画像を一括リネームする機会ってweb制作をしていると度々ありますよね？今回はそんな時に役立つ方法(macで)を紹介致します。</p>
 					<p>Automatorはデフォルトでmacに入っているアプリケーションです。これで何でも出来るらしいのですが、今回は画像を連番で一括リネームする事に焦点を当てたいと思います。</p>
 
 
@@ -509,7 +542,7 @@
 
 <h3></h3>
 
-<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_212.jpg" width="640" height="400" alt="" title="">
+<p><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_212.jpg" width="640" height="400" alt="" title="">
 </p>
 <p class="m_0">次は下の画像の手順通り進んでください。</p>
 <p class="m_0"><em>1.イメージファイルを選択</em></p>
@@ -517,21 +550,21 @@
 <p class="m_0"><em>3.ライブラリを選択</em></p>
 <p class="m_0"><em>4.Finder 項目を求めるを選択</em></p>
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_213.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_213.jpg" width="640" height="400" alt="" title=""></p>
 
 
 <p>選択しましたら、次は<em>「Finder 項目の名前を変更」</em>をドラッグ&ドロップしましょー</p>
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_214.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_214.jpg" width="640" height="400" alt="" title=""></p>
 
 <p class="m_0">ドラッグ&ドロップをしますと</p>
 <p>こんな感じのウィンドウが現れますのでお好みの設定にしましょう。</p>
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_215.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_215.jpg" width="640" height="400" alt="" title=""></p>
 
 <p>設定が完了しましたら、次の画像のように保存をして下さい。</p>
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_216.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_216.jpg" width="640" height="400" alt="" title=""></p>
 
 <p>これでアクションが完成しましたので、次はそのアクションの使い方を説明して行きます。</p>
 
@@ -542,13 +575,13 @@
 <p>作成したアクション名をクリックしますと実行されます。</p>
 
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_217.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_217.jpg" width="640" height="400" alt="" title=""></p>
 
 
 <p>アクションを実行しますと、こんな感じになります。</p>
 
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_218.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_218.jpg" width="640" height="400" alt="" title=""></p>
 
 
 <p>便利！！</p>
@@ -578,13 +611,13 @@
 <p>ゴミ箱に入れる</p>
 
 
-<p><img class="press_mini_image m_0" src="../img/press/image/image_219.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_mini_image m_0" src="../assets/img/press/image/image_219.jpg" width="640" height="400" alt="" title=""></p>
 
-<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_220.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_220.jpg" width="640" height="400" alt="" title=""></p>
 
-<p><img class="press_screen_shot_image m_0" src="../img/press/image/image_221.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_221.jpg" width="640" height="400" alt="" title=""></p>
 
-<p><img class="press_98_image m_0" src="../img/press/image/image_222.jpg" width="640" height="400" alt="" title=""></p>
+<p><img class="press_98_image m_0" src="../assets/img/press/image/image_222.jpg" width="640" height="400" alt="" title=""></p>
 
 <p>これでアクションを削除完了です。</p>
 
@@ -592,26 +625,26 @@
 <h2 class="heading">まとめ</h2>
 <p class="m_0">普段は大量の画像を連番にしたい！なんて事は少ないかと思いますが</p>
 <p>この方法を知っていれば一気に時間短縮が出来ますね！</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-10-07_automator_image_batch_rename/
-								</guid>
-								<pubDate>Mon, 07 Oct 2013 17:51:38 +0900</pubDate>
-								</item>
-								<item>
-								<title>jQueryでDOM操作する際の基本記述を勉強し直してみたよ。</title>
-								<link>
-								http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
-								</link>
-								<description>
-								<![CDATA[
-								久し振りにJavaScriptを触ったら物凄く忘れていたので、まずはjQueryの基本記述をもう一度勉強し直してみました！DOMを操作する事って多々あると思いますので、ある意味チートシ...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>久し振りにJavaScriptを触ったら物凄く忘れていたので、まずはjQueryの基本記述をもう一度勉強し直してみました！DOMを操作する事って多々あると思いますので、ある意味チートシートのように見て頂くと嬉しいです。DOM以外にも偶数処理やクローン等も載せておきます。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
+			</guid>
+			<pubDate>Mon, 07 Oct 2013 17:51:38 +0900</pubDate>
+			</item>
+			<item>
+			<title>jQueryでDOM操作する際の基本記述を勉強し直してみたよ。</title>
+			<link>
+			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
+			</link>
+			<description>
+			<![CDATA[
+			久し振りにJavaScriptを触ったら物凄く忘れていたので、まずはjQueryの基本記述をもう一度勉強し直してみました！DOMを操作する事って多々あると思いますので、ある意味チートシ...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>久し振りにJavaScriptを触ったら物凄く忘れていたので、まずはjQueryの基本記述をもう一度勉強し直してみました！DOMを操作する事って多々あると思いますので、ある意味チートシートのように見て頂くと嬉しいです。DOM以外にも偶数処理やクローン等も載せておきます。</p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
@@ -952,26 +985,26 @@ $(".hoge").click(function() {
 
 <h2 class="heading">まとめ</h2>
 <p>Jqueryの基本記述の記事なんて恥ずかしくて書けないと躊躇していたのですが、カンタンなコードの中にも細かい違いがありますし、DOM操作はかなり重要ですので、チートシート的な記事にしてみました。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
-								</guid>
-								<pubDate>Thu, 26 Sep 2013 12:05:22 +0900</pubDate>
-								</item>
-								<item>
-								<title>2013年度TIOBE発表プログラミング言語ランキングとweb系にオススメする言語</title>
-								<link>
-								http://programmerbox.com/2013-08-28_2013_Programming_ranking/
-								</link>
-								<description>
-								<![CDATA[
-								2013年度プログラミングランキングがTIOBEから8月に発表されました。少し記事にするのが遅くなってしまいましたが、ちょっとランキングがどうなってるのか気になったので記事に...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>2013年度プログラミングランキングがTIOBEから8月に発表されました。少し記事にするのが遅くなってしまいましたが、ちょっとランキングがどうなってるのか気になったので記事にしてみます。その他に人気のあるwebサービスがなんの言語で開発されているのかをちょびっとだけ集めてみましたので、今後勉強したい言語を選ぶ為の材料としていただけると嬉しいです。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
+			</guid>
+			<pubDate>Thu, 26 Sep 2013 12:05:22 +0900</pubDate>
+			</item>
+			<item>
+			<title>2013年度TIOBE発表プログラミング言語ランキングとweb系にオススメする言語</title>
+			<link>
+			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
+			</link>
+			<description>
+			<![CDATA[
+			2013年度プログラミングランキングがTIOBEから8月に発表されました。少し記事にするのが遅くなってしまいましたが、ちょっとランキングがどうなってるのか気になったので記事に...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>2013年度プログラミングランキングがTIOBEから8月に発表されました。少し記事にするのが遅くなってしまいましたが、ちょっとランキングがどうなってるのか気になったので記事にしてみます。その他に人気のあるwebサービスがなんの言語で開発されているのかをちょびっとだけ集めてみましたので、今後勉強したい言語を選ぶ為の材料としていただけると嬉しいです。</p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
@@ -1143,7 +1176,7 @@ $(".hoge").click(function() {
 
 <p class="m_t_60">こちらは10位以内の言語シェアグラフ</p>
 
-<img class="press_98_image m_0" src="../img/press/image/image_206.jpg" width="640" height="400" title="" alt="">
+<img class="press_98_image m_0" src="../assets/img/press/image/image_206.jpg" width="640" height="400" title="" alt="">
 
 <blockquote cite="">
 
@@ -1276,26 +1309,26 @@ $(".hoge").click(function() {
 
 <h2 class="heading">まとめ</h2>
 <p>Ruby on Rails以外にはボクがメインで使っているPHPもオススメです。バージョンも5.5になり古いバージョンを使う習慣があったPHPですが、最近ではPHPをアップデートして開発する会社も多くなって来たと感じています。プログラム言語はあくまで手段ですので、個人、プロジェクトチームに合った言語を使用してwebサービスを開発していけたらいいですね。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-08-28_2013_Programming_ranking/
-								</guid>
-								<pubDate>Wed, 28 Aug 2013 06:19:05 +0900</pubDate>
-								</item>
-								<item>
-								<title>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</title>
-								<link>
-								http://programmerbox.com/2013-08-13_cute_emoticon_download/
-								</link>
-								<description>
-								<![CDATA[
-								iPhoneに可愛い顔文字が入っていなくって入れたいなって考えて顔文字をまとめてみました。Twitterで人気の顔文字を主に集めてかわいいやつだけを厳選してカテゴリ分けしましたの...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>iPhoneに可愛い顔文字が入っていなくって入れたいなって考えて顔文字をまとめてみました。Twitterで人気の顔文字を主に集めてかわいいやつだけを厳選してカテゴリ分けしましたので選びやすくなっていると思います。使いたい顔文字をコピペしてユーザー辞書登録しましょー。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
+			</guid>
+			<pubDate>Wed, 28 Aug 2013 06:19:05 +0900</pubDate>
+			</item>
+			<item>
+			<title>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</title>
+			<link>
+			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
+			</link>
+			<description>
+			<![CDATA[
+			iPhoneに可愛い顔文字が入っていなくって入れたいなって考えて顔文字をまとめてみました。Twitterで人気の顔文字を主に集めてかわいいやつだけを厳選してカテゴリ分けしましたの...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>iPhoneに可愛い顔文字が入っていなくって入れたいなって考えて顔文字をまとめてみました。Twitterで人気の顔文字を主に集めてかわいいやつだけを厳選してカテゴリ分けしましたので選びやすくなっていると思います。使いたい顔文字をコピペしてユーザー辞書登録しましょー。</p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
@@ -1650,13 +1683,13 @@ $(".hoge").click(function() {
 ٩(๑òωó๑)۶　ｵｺﾀﾞﾖ！
 </p>
 <p>
-\٩(๑`ȏ´๑)۶//　激ｵｺ！
+٩(๑`ȏ´๑)۶//　激ｵｺ！
 </p>
 <p>
 ٩(๑`^´๑)۶ 激おこﾌﾟﾝﾌﾟﾝ丸
 </p>
 <p>
-＼＼\٩(๑`^´๑)۶//／／　激おこﾌﾟﾝﾌﾟﾝ丸！
+＼＼٩(๑`^´๑)۶//／／　激おこﾌﾟﾝﾌﾟﾝ丸！
 </p>
 <p>
 
@@ -2222,26 +2255,26 @@ Zz(ρω-)o゜。
 
 <h2 class="heading">まとめ</h2>
 <p>この記事を書いている時に1タッチでクリップボードにコピーするツールも作ろうかなって思ったんですがiPhoneでコピーしようとする時に、その場でユーザー辞書に登録出来る事を知ってビックリしました。デフォルト機能も便利なんですねー。:)</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-08-13_cute_emoticon_download/
-								</guid>
-								<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
-								</item>
-								<item>
-								<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
-								<link>
-								http://programmerbox.com/2013-08-09_long_shadow_animation/
-								</link>
-								<description>
-								<![CDATA[
-								ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
+			</guid>
+			<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
+			</item>
+			<item>
+			<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
+			<link>
+			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
+			</link>
+			<description>
+			<![CDATA[
+			ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。</p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
@@ -2255,7 +2288,7 @@ Zz(ρω-)o゜。
 <h3>Bisous les copains</h3>
 <p class="m_0">
 	<a target="_blank" href="http://bisouslescopains.tumblr.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_204.jpg" width="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_204.jpg" width="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -2266,169 +2299,169 @@ Zz(ρω-)o゜。
 <h2 class="heading">Bisous les copainsギャラリー</h2>
 
 <p>
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_169.gif" width="500" height="350" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_169.gif" width="500" height="350" alt="" title="">
 </p>
 
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_170.gif" width="500" height="450" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_170.gif" width="500" height="450" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_171.gif" width="500" height="475" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_171.gif" width="500" height="475" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_172.gif" width="500" height="375" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_172.gif" width="500" height="375" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_173.gif" width="500" height="450" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_173.gif" width="500" height="450" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_174.gif" width="500" height="462" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_174.gif" width="500" height="462" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_175.gif" width="500" height="420" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_175.gif" width="500" height="420" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_176.gif" width="500" height="361" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_176.gif" width="500" height="361" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_177.gif" width="500" height="431" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_177.gif" width="500" height="431" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_178.gif" width="500" height="530" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_178.gif" width="500" height="530" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_179.gif" width="500" height="600" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_179.gif" width="500" height="600" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_180.gif" width="500" height="500" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_180.gif" width="500" height="500" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_181.gif" width="500" height="400" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_181.gif" width="500" height="400" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_182.gif" width="500" height="450" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_182.gif" width="500" height="450" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_183.gif" width="500" height="410" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_183.gif" width="500" height="410" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_184.gif" width="500" height="362" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_184.gif" width="500" height="362" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_185.gif" width="500" height="350" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_185.gif" width="500" height="350" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_186.gif" width="500" height="475" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_186.gif" width="500" height="475" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_187.gif" width="500" height="325" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_187.gif" width="500" height="325" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_188.gif" width="500" height="375" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_188.gif" width="500" height="375" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_189.gif" width="500" height="450" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_189.gif" width="500" height="450" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_190.gif" width="500" height="400" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_190.gif" width="500" height="400" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_191.gif" width="500" height="300" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_191.gif" width="500" height="300" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_192.gif" width="500" height="300" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_192.gif" width="500" height="300" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_193.gif" width="500" height="346" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_193.gif" width="500" height="346" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_194.gif" width="500" height="419" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_194.gif" width="500" height="419" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_195.gif" width="500" height="500" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_195.gif" width="500" height="500" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_196.gif" width="500" height="358" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_196.gif" width="500" height="358" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_197.gif" width="500" height="309" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_197.gif" width="500" height="309" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_198.gif" width="500" height="350" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_198.gif" width="500" height="350" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_199.gif" width="500" height="500" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_199.gif" width="500" height="500" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_200.gif" width="500" height="612" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_200.gif" width="500" height="612" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_201.gif" width="500" height="425" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_201.gif" width="500" height="425" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_202.gif" width="500" height="375" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_202.gif" width="500" height="375" alt="" title="">
 </p>
 
 <p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../img/press/image/image_203.gif" width="500" height="475" alt="" title="">
+		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_203.gif" width="500" height="475" alt="" title="">
 </p>
 
 
 <h2 class="heading">まとめ</h2>
 <p>いかがでしたか?超かわいくないですか!?こうゆう遊び心のあるデザインって素敵ですよね。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-08-09_long_shadow_animation/
-								</guid>
-								<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
-								</item>
-								<item>
-								<title>ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]</title>
-								<link>
-								http://programmerbox.com/2013-08-06_one_million_pv_way/
-								</link>
-								<description>
-								<![CDATA[
-								みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの状態がわかり最適な手が打てるようになります。今回は誰でもブログでカンタンに100万PVを叩き出せるやり方と理由を説明していきたいと思います。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
+			</guid>
+			<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
+			</item>
+			<item>
+			<title>ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]</title>
+			<link>
+			http://localhost/programmerbox/2013-08-06_one_million_pv_way/
+			</link>
+			<description>
+			<![CDATA[
+			みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの状態がわかり最適な手が打てるようになります。今回は誰でもブログでカンタンに100万PVを叩き出せるやり方と理由を説明していきたいと思います。</p>
 
 <p>その前にwebの流れを理解していなくてはお話しになりませんので、先ずは読み流すだけでも良いのでwebの流れを見て下さい。</p>
 
@@ -2733,26 +2766,26 @@ Zz(ρω-)o゜。
 
 <p class="m_0">では、そんな感じで終わりにしたいと思います。</p>
 <p>webを楽しみましょう。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-08-06_one_million_pv_way/
-								</guid>
-								<pubDate>Tue, 06 Aug 2013 11:56:25 +0900</pubDate>
-								</item>
-								<item>
-								<title>超便利なMac・UNIXのターミナルコマンドチートシートサイト2選inボク的ブクマですいません。</title>
-								<link>
-								http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
-								</link>
-								<description>
-								<![CDATA[
-								ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そ...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そのサイトのブクマ記事にしたいと思います。たまにしかいじらないから忘れてしまうんですけど、そんな時にこのターミナルコマンドチートシートを見ましょう!</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-08-06_one_million_pv_way/
+			</guid>
+			<pubDate>Tue, 06 Aug 2013 11:56:25 +0900</pubDate>
+			</item>
+			<item>
+			<title>超便利なMac・UNIXのターミナルコマンドチートシートサイト2選inボク的ブクマですいません。</title>
+			<link>
+			http://localhost/programmerbox/2013-08-05_terminal_command_cheat_sheet/
+			</link>
+			<description>
+			<![CDATA[
+			ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そ...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そのサイトのブクマ記事にしたいと思います。たまにしかいじらないから忘れてしまうんですけど、そんな時にこのターミナルコマンドチートシートを見ましょう!</p>
 <nav class="detail_press_index clearfix">
 	<h2 id="s_0p"><span class="color">目次</span></h2>
 	<ul class="left no_width">
@@ -2769,7 +2802,7 @@ Zz(ρω-)o゜。
 <h3>ジャンル別UNIXコマンド一覧 By 68user"s page</h3>
 <p class="m_0">
 	<a target="_blank" href="http://x68000.q-e-d.net/~68user/unix/genre.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_166.jpg" width="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_166.jpg" width="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -2786,7 +2819,7 @@ Zz(ρω-)o゜。
 <h3>Macの隠された設定を変更する84個のハック集</h3>
 <p class="m_0">
 	<a target="_blank" href="http://tukaikta.blog135.fc2.com/blog-entry-251.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_167.jpg" width="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_167.jpg" width="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -2801,7 +2834,7 @@ Zz(ρω-)o゜。
 <h3>知っておきたいUNIXコマンド</h3>
 <p class="m_0">
 	<a target="_blank" href="http://www.amays.com/~mizusawa/namazu_kaisetu/comand.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_227.jpg" widht="640" height="400" alt="" title="">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_227.jpg" widht="640" height="400" alt="" title="">
 	</a>
 </p>
 <p class="m_0">
@@ -2813,105 +2846,12 @@ Zz(ρω-)o゜。
 
 <h2 class="heading">まとめ</h2>
 <p>完全にボクのブクマ記事になってしまいましたが、コマンドを使う機会はそんなに多くはありませんが、サーバの設定をする時なんかは使わないといけないのでコマンドを網羅したサイトをここにブクマしときます。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
-								</guid>
-								<pubDate>Mon, 05 Aug 2013 12:49:10 +0900</pubDate>
-								</item>
-								<item>
-								<title>大流行した画像のブラー加工をJSでささっと実装出来る「Vague.js」が面白い。</title>
-								<link>
-								http://programmerbox.com/2013-08-01_blur_vague_js/
-								</link>
-								<description>
-								<![CDATA[
-								ブラー加工とは画像をぼやけさせる加工の事を言うのですが、この加工した画像を使いランディングページを作るアプリが多くあります。ぼやけさせる事により明確にユーザーに見て...
-								]]>
-								</description>
-								<content:encoded>
-								<![CDATA[
-								<p>ブラー加工とは画像をぼやけさせる加工の事を言うのですが、この加工した画像を使いランディングページを作るアプリが多くあります。ぼやけさせる事により明確にユーザーに見て欲しい文字に焦点を当てられます。</p>
-
-<p>さて、そんなブラー加工ですがPhotoshop等の画像編集ソフトを使わなくてもJS上で加工して表示出来るプラグインがありますので、今回はその「Vague.js」を紹介したいと思います。</p>
-<nav class="detail_press_index clearfix">
-	<h2 id="s_0p"><span class="color">目次</span></h2>
-	<ul class="left no_width">
-		<li class="n_0"><span class="scroll_btn">Vague.js</span></li>
-		<li class="n_1"><span class="scroll_btn">Vague.jsの使い方</span>
-			<ul class="nest">
-				<li><span class="nest_number">1-1.</span><span class="scroll_btn">実装ソースコード</span></li>
-				<li><span class="nest_number">1-2.</span><span class="scroll_btn">オプション</span></li>
-			</ul>
-		</li>
-		<li class="n_9"><span class="scroll_btn">実装する際の注意点</span></li>
-		<li class="n_9"><span class="scroll_btn">まとめ</span></li>
-	</ul>
-</nav>
-<h2 class="heading">Vague.js</h2>
-<p></p>
-
-<h3>Vague.js</h3>
-<p class="m_0">
-	<a target="_blank" href="http://gianlucaguarini.github.io/vague.js/">
-		<img class="press_screen_shot_image o_8 m_0" src="../img/press/image/image_165.jpg" width="640" height="400" alt="" title="">
-	</a>
-</p>
-<p class="m_0">
-	<a target="_blank" href="http://gianlucaguarini.github.io/vague.js/">Vague.js</a>
-</p>
-<p>このページ自体にブラーがかかっていますので、そこから実装方法も見れます。</p>
-
-
-<h2 class="heading">Vague.jsの使い方</h2>
-<p class="m_0">Vague.jsのgitHubに行ってファイルをダウンロードして来ましたら次は実装ですね。</p>
-<p>こんな感じのソースコードで動きます。</p>
-
-<h3 class="heading">実装ソースコード</h3>
-<div class="html_tab">HTML</div>
-<pre class="brush: html; light:true; tab-size: 2;">
-&lt;!DOCTYPE html&gt;
-&lt;head&gt;
-	&lt;title&gt;Vague.jsの最小実装コード&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-	&lt;!-- js読み込み --&gt;
-	&lt;script src="http://code.jquery.com/jquery-1.8.2.min.js"&gt;&lt;/script&gt;
-	&lt;script src="Vague.js"&gt;&lt;/script&gt;
-	&lt;!-- ブラーをかけたい画像を用意 --&gt;
-	&lt;img class="container" src="../img/press/image/image_.jpg" width="640" height="400"&gt;
-	&lt;!-- 実装コード --&gt;
-	&lt;script&gt;
-		var vague = $(".container").Vague({intensity:30});
-		vague.blur();
-	&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-<p class="m_t_30">
-	<a href="demo.php" target="_blank">デモ</a>
-</p>
-
-<h3 class="heading">オプション</h3>
-<p class="m_0">オプションは1つしかありません。シンプル!</p>
-<p><em>intensity</em>の数値を動かすだけでブラーの強度が変わります。</p>
-
-<p>なお、この数値を動的にする事によって<strong>アニメーションのようなブラー</strong>も可能です。</p>
-
-<h2 class="heading">実装する際の注意点</h2>
-
-<p>本来なら一番最初に記述しておくべき事だったんですが、このJSはJqueryがないと動きません。<strong>Vague.jsを読み込む前に必ずJqueryを読み込みましょう。</strong></p>
-
-
-<h2 class="heading">まとめ</h2>
-<p>なんだか本当にJSってなんでも出来る言語になってしまいましたね。このプラグイン自体もかなり軽量なので導入する事をお勧め致します。まぁ、そんな感じでささっと終わりにします。</p>
-								]]>
-								</content:encoded>
-								<guid>
-								http://programmerbox.com/2013-08-01_blur_vague_js/
-								</guid>
-								<pubDate>Thu, 01 Aug 2013 08:00:17 +0900</pubDate>
-								</item>
-								</channel>
-							</rss>
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2013-08-05_terminal_command_cheat_sheet/
+			</guid>
+			<pubDate>Mon, 05 Aug 2013 12:49:10 +0900</pubDate>
+			</item>
+			</channel>
+		</rss>

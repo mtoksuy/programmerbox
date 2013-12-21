@@ -1644,13 +1644,32 @@ background: none repeat scroll 0 0 rgba(255, 255, 35, 0.35);
     overflow: auto;
     width: 100%;
 }
+.command {
+    background-color: #FCFBF9;
+    border-radius: 3px;
+    color: #3A3A3A;
+    padding: 3px 5px;
+}
+.command pre {
+    background-color: #FCFBF9 !important;
+    border: 1px solid #C0C0C0 !important;
+    border-radius: 3px !important;
+    color: #3A3A3A !important;
+    font-size: 14px !important;
+		margin: 0;
+    max-height: 3000px !important;
+    overflow: auto !important;
+    padding: 5px !important;
+}
+
+
+
 /***************
 テーブルデザイン
 ***************/
 .type_1 {
     border: 1px solid #AAAAAA;
     border-radius: 2px 2px 2px 2px;
-
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -1669,6 +1688,46 @@ background: none repeat scroll 0 0 rgba(255, 255, 35, 0.35);
     border-right: 1px solid #D7D7D7;
     padding: 5px !important;
 }
+.type_2 {
+/*
+    border-top: 1px solid #D7D7D7;
+    border-right: 0px solid #D7D7D7;
+    border-bottom: 0px solid #D7D7D7;
+    border-left: 1px solid #D7D7D7;
+*/
+    border-collapse: collapse;
+    border-radius: 2px;
+    border-spacing: 0;
+    display: list-item;
+    overflow: auto;
+}
+
+.type_2 thead tr {
+    border-top: 1px solid #D7D7D7;
+}
+
+.type_2 tr {
+
+}
+.type_2 tr th:first-child {
+    border-left: 1px solid #D7D7D7;
+}
+.type_2 th {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-bottom: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+    padding: 5px !important;
+    text-align: left;
+}
+.type_2 td {
+    border-bottom: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+    padding: 5px !important;
+}
+
+/*
+
+*/
 .css_tab {
     background-color: #343434;
     border-color: #E0E0E0;
@@ -1700,6 +1759,7 @@ background: none repeat scroll 0 0 rgba(255, 255, 35, 0.35);
     padding: 3px 0;
     text-align: center;
 }
+
 .html_tab.m_t_30 {
 	margin: 30px 0 0 30px;
 }
