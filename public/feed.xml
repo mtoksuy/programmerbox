@@ -2,8 +2,8 @@
 		<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 		<channel>
 		<title>ProgrammerBOX -プログラマーボックス-</title>
-		<atom:link href="http://localhost/programmerbox/feed.xml" rel="self" type="application/rss+xml"/>
-		<link>http://localhost/programmerbox/</link>
+		<atom:link href="http://programmerbox.com/feed.xml" rel="self" type="application/rss+xml"/>
+		<link>http://programmerbox.com/</link>
 		<description>
 		<![CDATA[
 		プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
@@ -12,51 +12,1773 @@
 		<language>ja</language>
 		<copyright>Copyright 2013</copyright>
 		
-		<generator uri="http://localhost/programmerbox/">ProgrammerBOX -プログラマーボックス-</generator>
+		<generator uri="http://programmerbox.com/">ProgrammerBOX -プログラマーボックス-</generator>
 		
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
-		<lastBuildDate>Thu, 19 Dec 2013 07:46:55 +0900</lastBuildDate><item>
-			<title>テスト</title>
+		<lastBuildDate>Tue, 24 Dec 2013 11:59:35 +0900</lastBuildDate><item>
+			<title>VPSの構築をマスターする手順書 in ボクとサーバの2週間戦争。</title>
 			<link>
-			http://localhost/programmerbox/2013-12-19_test_carnibaru/
+			http://programmerbox.com/2013-12-24_vps_construct_procedure manual/
 			</link>
 			<description>
 			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
+			突然ですが、Programmerboxのサーバを移行しました。移行にあたってどんなレンタルサーバが良いのか迷いましたが、お名前.comのVPS(KVM)に致しました。移行にする時のサーバ構築...
 			]]>
 			</description>
 			<content:encoded>
 			<![CDATA[
-							&lt;p&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/p&gt;
-				&lt;nav class=&quot;detail_press_index clearfix&quot;&gt;
-					&lt;h2 id=&quot;s_0p&quot;&gt;&lt;span class=&quot;color&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;
-					&lt;ul class=&quot;left no_width&quot;&gt;
-						&lt;li class=&quot;n_0&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_1&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-						&lt;li class=&quot;n_9&quot;&gt;&lt;span class=&quot;scroll_btn&quot;&gt;まとめ&lt;/span&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/nav&gt;
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;					
-				
-				&lt;h2 class=&quot;heading&quot;&gt;&lt;/h2&gt;
-				&lt;p&gt;&lt;/p&gt;
-								
+			<p>突然ですが、Programmerboxのサーバを移行しました。移行にあたってどんなレンタルサーバが良いのか迷いましたが、お名前.comのVPS(KVM)に致しました。移行にする時のサーバ構築にちょくちょくハマってしまいましたので次に構築する時にハマらないようにここに忘備録として手順と設定方法を書いていきたいと思います。</p>
+
+
+<nav class="detail_press_index clearfix">
+	<p id="s_0p"><span class="color">目次</span></p>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">構築するサーバの目的</span>
+			<ul class="nest">
+				<li><span class="nest_number">1-1.</span><span class="scroll_btn">お名前.comのVPS(KVM)で構築する</span></li>
+				<li><span class="nest_number">1-2.</span><span class="scroll_btn">VPSとは？</span></li>
+				<li><span class="nest_number">1-3.</span><span class="scroll_btn">VPS(KVM)メモリ2GBプランの性能を試してみました</span></li>
+				<li><span class="nest_number">1-4.</span><span class="scroll_btn">OSはCent OS 6.2 (64bit)で構築します</span></li>
+			</ul>
+		</li>
+		<li class="n_2"><span class="scroll_btn">便利なコマンド集</span></li>
+		<li class="n_3"><span class="scroll_btn">SSHで接続出来るようにする</span></li>
+		<li class="n_4"><span class="scroll_btn">開発環境を整える</span>
+			<ul class="nest">
+				<li><span class="nest_number">4-1.</span><span class="scroll_btn">yum関連</span></li>
+				<li><span class="nest_number">4-2.</span><span class="scroll_btn">便利なコマンドをインストールする</span></li>
+			</ul>
+		</li>
+		<li class="n_5"><span class="scroll_btn">パケットフィルタリングの設定をする</span></li>
+		<li class="n_6"><span class="scroll_btn">DNS設定</span></li>
+		<li class="n_7"><span class="scroll_btn">FTPサーバ構築</span>
+			<ul class="nest">
+				<li><span class="nest_number">7-1.</span><span class="scroll_btn">vsftpdインストール</span></li>
+				<li><span class="nest_number">7-2.</span><span class="scroll_btn">vsftpdの設定</span></li>
+			</ul>
+		</li>
+		<li class="n_8"><span class="scroll_btn">webサーバ構築</span>
+			<ul class="nest">
+				<li><span class="nest_number">8-1.</span><span class="scroll_btn">Apacheインストール</span></li>
+				<li><span class="nest_number">8-2.</span><span class="scroll_btn">Apacheの設定</span></li>
+				<li><span class="nest_number">8-3.</span><span class="scroll_btn">バーチャルホストの設定</span></li>
+			</ul>
+		</li>
+		<li class="n_9"><span class="scroll_btn">dbサーバ構築</span></li>
+		<li class="n_10"><span class="scroll_btn">PHPインストール</span>
+			<ul class="nest">
+				<li><span class="nest_number">10-1.</span><span class="scroll_btn">PHP.iniの設定</span></li>
+			</ul>
+		</li>
+		<li class="n_11"><span class="scroll_btn">phpMyAdminインストール</span>
+			<ul class="nest">
+				<li><span class="nest_number">11-1.</span><span class="scroll_btn">phpMyAdmin.confの設定</span></li>
+			</ul>
+		</li>
+		<li class="n_12"><span class="scroll_btn">メールサーバ構築</span>
+			<ul class="nest">
+				<li><span class="nest_number">12-1.</span><span class="scroll_btn">Dovecotインストール</span></li>
+				<li><span class="nest_number">12-2.</span><span class="scroll_btn">Dovecotの設定</span></li>
+				<li><span class="nest_number">12-3.</span><span class="scroll_btn">Postfixの基本構築</span></li>
+				<li><span class="nest_number">12-4.</span><span class="scroll_btn">サーバの秘密鍵を作成</span></li>
+				<li><span class="nest_number">12-5.</span><span class="scroll_btn">証明書の作成</span></li>
+				<li><span class="nest_number">12-6.</span><span class="scroll_btn">認証マフィアの説明とメールサーバでは自己認証で問題ない理由。</span></li>
+				<li><span class="nest_number">12-7.</span><span class="scroll_btn">PostfixのSSL暗号化設定</span></li>
+				<li><span class="nest_number">12-8.</span><span class="scroll_btn">DovecotのSSL暗号化設定</span></li>
+			</ul>
+		</li>
+		<li class="n_13"><span class="scroll_btn">ユーザー作成とメール動作確認</span>
+			<ul class="nest">
+				<li><span class="nest_number">13-1.</span><span class="scroll_btn">ユーザーを作成した時に自動でユーザーフォルダ直下にMaildirフォルダ作成する</span></li>
+				<li><span class="nest_number">13-2.</span><span class="scroll_btn">ユーザー作成</span></li>
+				<li><span class="nest_number">13-3.</span><span class="scroll_btn">メール動作確認 & メールクライアント設定</span></li>
+			</ul>
+		</li>
+		<li class="n_14"><span class="scroll_btn">NTPサーバ構築</span>
+			<ul class="nest">
+				<li><span class="nest_number">14-1.</span><span class="scroll_btn">NTPインストール</span></li>
+				<li><span class="nest_number">14-2.</span><span class="scroll_btn">手動で時間を合わせる</span></li>
+				<li><span class="nest_number">14-3.</span><span class="scroll_btn">NTPサーバの設定</span></li>
+				<li><span class="nest_number">14-4.</span><span class="scroll_btn">同期の確認</span></li>
+			</ul>
+		</li>
+		<li class="n_15"><span class="scroll_btn">参考にしたサイト</span>
+			<ul class="nest">
+				<li><span class="nest_number">15-1.</span><span class="scroll_btn">全体で勉強になったサイト</span></li>
+				<li><span class="nest_number">15-2.</span><span class="scroll_btn">sshで勉強になったサイト</span></li>
+				<li><span class="nest_number">15-3.</span><span class="scroll_btn">iptablesで勉強になったサイト</span></li>
+				<li><span class="nest_number">15-4.</span><span class="scroll_btn">vsftpdで勉強になったサイト</span></li>
+				<li><span class="nest_number">15-5.</span><span class="scroll_btn">httpdで勉強になったサイト</span></li>
+				<li><span class="nest_number">15-6.</span><span class="scroll_btn">メール全般で勉強になったサイト</span></li>
+				<li><span class="nest_number">15-7.</span><span class="scroll_btn">yumで勉強になったサイト</span></li>
+				<li><span class="nest_number">15-8.</span><span class="scroll_btn">PHPをアップデートする時に勉強になったサイト</span></li>
+				<li><span class="nest_number">15-9.</span><span class="scroll_btn">phpMyAdminをインストールする時に勉強になったサイト</span></li>
+			</ul>
+		</li>
+		<li class="n_16"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+<h2 class="heading">構築するサーバの目的</h2>
+<p>様々なサーバがあると思いますが、今回はWeb寄りのベーシックな構築を行いたいと思います。</p>
+<p>自分自身の要望としては</p>
+	<ul>
+		<li>前のサーバより多くのアクセスを捌けるようにしたい。</li>
+		<li>バーチャルドメインで運用して行きたい。</li>
+		<li>FTPでファイルを上げれるようにしたい。</li>
+		<li>メールの送受信を行いたい。</li>
+		<li>とにかく自由にサーバをいじりたい。</li>
+	</ul>
+<p class="m_0">まぁ、こんなもんでしょうか。</p>
+<p>やはり、自由にカスタマイズ出来るという点が魅力ですね、VPSは。</p>
+
+
+<h3 class="heading b_b_1">お名前.comのVPS(KVM)で構築する</h3>
+<p>VPSと言っても様々な企業が出していますが、今回はお名前.comのVPS(KVM)で構築致します。何処が良いかは個人個人違うと思いますので、自由に選ぶと良いかと思います。何故ならば何処も負けじと料金と性能の差が変わらなくなって来た為です。個人的にオススメなのはお名前.comか、さくらですね。</p>
+
+
+<p><a href="http://www.onamae.com/" target="_blank">お名前.com</a></p>
+
+
+<p><a href="http://www.sakura.ne.jp/" target="_blank">レンタルサーバー｜さくらインターネット</a></p>
+
+
+<h3 class="heading b_b_1">VPSとは？</h3>
+<p></p>
+
+<blockquote cite="http://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B5%E3%83%BC%E3%83%90">
+<p>バーチャル・プライベート・サーバ（仮想専用サーバ、英語：virtual private server、略称：VPS）とは、一台の物理的なサーバコンピュータ上で仮想的なサーバコンピュータを何台も起動する技術（仮想機械; Virtual Machine）によってつくられた仮想的なサーバコンピュータである。
+
+VPSは、ホスティングサーバ（レンタルサーバ）事業者のサービスの一つとしても提供されている。これらのサービスは、上記の技術を用いることで、管理者権限が付与される自由度の高い専用サーバを、従来的な専用サーバよりも大幅に安い価格で契約者に提供することを可能にしている。VPS（仮想専用サーバ）は、物理的なサーバを一台占有する「専用サーバ」に比べて処理能力は劣るものの、構成の自由度は専用サーバとほぼ変わらない。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B5%E3%83%BC%E3%83%90">バーチャル・プライベート・サーバ - Wikipedia</a></cite></p>
+
+
+
+<h3 class="heading b_b_1">VPS(kvm)メモリ2GBプランの性能を試してみました</h3>
+<p>プラン別の性能はこちらです。</p>
+
+<table class="type_2">
+	<thead>
+	<tr>
+		<th>&nbsp;</th>
+		<th>メモリ<br>1GBプラン</th>
+		<th>メモリ<br>2GBプラン</th>
+		<th>メモリ<br>4GBプラン</th>
+		<th>メモリ<br>8GBプラン</th>
+		<th>メモリ<br>16GBプラン</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th>初期費用</th>
+		<td><p>無料</p></td>
+		<td><p><span>現在は0円</span><br></p></td>
+		<td><p>5,680円</p></td>
+		<td><p>9,681円</p></td>
+		<td><p>16,680円</p></td>
+	</tr>
+	<tr>
+		<th>月額費用<br>（1ヶ月払い）</th>
+		<td>940円</td>
+		<td>1,380円</td>
+		<td>3,880円</td>
+		<td>7,880円</td>
+		<td>15,880円</td>
+	</tr>
+	<tr>
+		<th>年額費用<br>（1ヶ月あたり）</th>
+		<td>9,999円<br>
+		（833円/月）</td>
+		<td>13,846円<br>
+		（1,153円/月）</td>
+		<td>38,918円<br>
+		（3,243円/月）</td>
+		<td>79,027円<br>
+		（6,585円/月）</td>
+		<td>159,248円<br>
+		（13,271円/月）</td>
+	</tr>
+	<tr>
+		<th>CPU</th>
+		<td>2コア</td>
+		<td>3コア</td>
+		<td>4コア</td>
+		<td>6コア</td>
+		<td>10コア</td>
+	</tr>
+	<tr>
+		<th>メモリ</th>
+		<td>1GB</td>
+		<td>2GB</td>
+		<td>4GB</td>
+		<td>8GB</td>
+		<td>16GB</td>
+	</tr>
+	<tr>
+		<th>HDD</th>
+		<td>100GB</td>
+		<td>200GB</td>
+		<td>400GB</td>
+		<td>800GB</td>
+		<td>1TB</td>
+	</tr>
+	<tr>
+		<th>お試しサービス</th>
+		<td colspan="5"><span>15日間無料</span></td>
+	</tr>
+	</tbody>
+</table>
+
+<p>で、実際の性能は？という事でAB負荷テストを行いました。</p>
+<p>1秒で同時に捌ける限界がアベレージ73アクセスでしたので、ギリギリの同時アクセス70で350接続の結果。</p>
+
+
+<img class="press_98_image m_0" src="../assets/img/press/image/image_248.jpg" width="640" height="400" alt="" title="">
+<p>理論上1日で捌けるアクセス数は518万アクセスですが、サーバは色んな仕事をしますので実際は300万アクセスくらいでしょうか。集中アクセスに耐えられるのは1分間で4,000くらいですね。</p>
+
+
+
+
+
+<h3 class="heading b_b_1">OSはCent OS 6.2 (64bit)で構築します</h3>
+
+<p>デフォルトOSですし、一番情報が出回っていますので構築しやすいです。</p>
+
+
+<p class="m_0">お名前のVPS(KVM)が揃えてくれているOS一覧。</p>
+<table class="type_2">
+	<thead>
+		<tr>
+			<th>CentOS 5.9,6.2,6.3,6.4</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Debian GNU/Linux 6.0,7.0</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+		<tr>
+			<th>Fedora 17.18</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+		<tr>
+			<th>FreeBSD 9.1,9.2</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+		<tr>
+			<th>Ubuntu 12.04LTS 12.10,13.04</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+		<tr>
+			<th>Scientific Linux 6.2,6.3</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+		<tr>
+			<th>Arch Linux 2011.08.19</th>
+			<td>(32bit/64bit)</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2 class="heading">便利なコマンド集</h2>
+<p class="m_0">黒い画面で便利したい時。</p>
+
+<code class="command">
+<pre>
+// 自動起動するサーバ確認
+chkconfig --list
+
+// postfixの設定に対して検索が出来る 設定多めのメールサーバなので重宝する
+postconf | grep size_limit
+
+// ログを常時表示 メールサーバ構築する時に重宝する
+tail -f maillog
+
+// サービスの現在のステータスを調べるコマンド サーバが現在どんな状況なのかを確認したい時
+service --status-all 
+
+// シャットダウンして再起動
+shutdown -r now
+</pre>
+</code>
+
+<h2 class="heading">SSHで接続出来るようにする</h2>
+<p>サーバをレンタルしてから一番初めに設定しなくてはならないのがsshで接続する設定ですね。</p>
+
+<p>お名前VPS(KVM)は鍵認証のみ許可していますので、お名前のコントロールパネルにログインしましょう。ログインしましたら、SSH Key Pairをダウンロードして下さい。</p>
+
+<p>その次にターミナル or コマンドプロンプトを開いて</p>
+
+<code class="command">
+<pre>
+ls -a
+</pre>
+</code>
+
+<p>と、叩いて、.sshがあるかどうかを探して下さい。</p>
+
+<p class="m_0">ある人はそのままで</p>
+<p class="m_0">.sshがなかった人は.sshを作りパーミッションの変更を。</p>
+
+<code class="command">
+<pre>
+mkdir .ssh
+chmod 700 .ssh
+</pre>
+</code>
+
+<p class="m_0">ディレクトリを作成しましたら.sshの中に先ほどダウンロードしたvpsxxxxxxxxx-xxx.keyというファイルを移動しましょう。</p>
+
+<code class="command">
+<pre>
+mv ~/Downloads/vpsxxxxxxxxx-xxx.key(ダウンロードしてきたファイル) ~/.ssh/
+</pre>
+</code>
+
+<p class="m_0">移動させましたら次はsshのショートカットを作成致します。</p>
+<p class="m_0">.sshに移動してvimでconfigというファイルを作成しましょう。</p>
+
+
+
+<code class="command">
+<pre>
+cd .ssh
+vi config
+</pre>
+</code>
+
+<p>vimが起動しますので以下の記述を自分の設定に書き換えて保存して下さい。</p>
+
+
+<div class="html_tab">config</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+Host          test                        # sshのショートカット名
+ HostName     xxx.x.xxx.xxx               # サーバのIPアドレス
+ Port         22                          # 接続するポート番号
+ User         root                        # VPSサーバのユーザー名
+ IdentityFile ~/.ssh/vpsxxxxxxxxx-xxx.key # さっき移動したkey
+</pre>
+
+<p class="m_t_30 m_0">これでsshのショートカットが完成しましたのでsshで接続してみましょう。</p>
+
+<code class="command">
+<pre>
+ssh test
+</pre>
+</code>
+
+<p>無事、接続が出来ましたらここの章は終了です。接続出来なかった場合はもう一度設定するipアドレスや鍵がちゃんと合っているか見直してみましょう。</p>
+
+<h2 class="heading">開発環境を整える</h2>
+<p>sshでサーバに接続出来きましたので早速サーバ構築に行きたい所ですが、VPS(KVM)は殆ど何も入っていない状態ですので、ローカルで当たり前に使っていたコマンドが使えません。やはり、いつも使っているコマンドは使いたいですので、yumをアップデートしたり、便利なコマンドをインストールしましょう。</p>
+
+<h3 class="heading b_b_1">yum関連</h3>
+<p class="m_0">はじめにyumをアップデート。</p>
+
+
+<code class="command">
+<pre>
+yum update
+</pre>
+</code>
+
+<p class="m_0">アップデートが完了しましたら、次はyumのグループリストを確認して開発者ツールなるものをインストール。</p>
+
+<code class="command">
+<pre>
+yum grouplist
+yum groupinstall &#039;Development tools&#039;
+</pre>
+</code>
+
+<h3 class="heading b_b_1">便利なコマンドをインストールする</h3>
+
+<p class="m_0">ここで良く使うコマンドをインストールしましょう。</p>
+
+<code class="command">
+<pre>
+yum install wget
+yum install man
+yum install cyrus*
+yum install mail
+yum install telnet
+yum install tree 
+</pre>
+</code>
+
+<h2 class="heading">パケットフィルタリングの設定をする</h2>
+<p class="m_0">ファイヤーウォール設定ですね、使用するポートだけを許可するようにしました。ここでファイヤーウォールの設定を一気に済ませとけば、各サーバを構築する時にiptablesを設定している時の開き忘れを防げます。</p>
+
+<code class="command">
+<pre>
+//----------------------
+//ファイヤーウォール設定
+//----------------------
+// 現在の設定の確認
+iptables -L
+
+// FORWARDは使わない
+iptables -P FORWARD DROP
+
+// まずは全許可に
+iptables -P INPUT ACCEPT
+
+// デフォルトのルールを全て削除
+iptables -F
+
+// 自分自身からのパケットは全許可
+iptables -A INPUT -i lo -j ACCEPT
+
+// SSH許可 or SSH自分(255.255.255.255)だけ許可
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+ or
+iptables -A INPUT -s 255.255.255.255 -p tcp --dport 22 -j ACCEPT
+
+// FTPの接続を許可
+iptables -A INPUT -p tcp --dport 20 -j ACCEPT
+iptables -A INPUT -p tcp --dport 21 -j ACCEPT
+iptables -A INPUT -p tcp --dport 60000:60030 -j ACCEPT
+
+// SMTP(送信メール)の許可
+iptables -A INPUT -p tcp --dport 25 -j ACCEPT
+
+// DNS関係
+iptables -A INPUT -p tcp --dport 53 -j ACCEPT
+iptables -A INPUT -p udp --dport 53 -j ACCEPT
+
+// http, https の接続を許可
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+
+// POP(受信メール)の許可
+iptables -A INPUT -p tcp --dport 110 -j ACCEPT
+
+// NTPサーバの通信許可
+iptables -A INPUT -p tcp --dport 123 -j ACCEPT
+
+// SUBMISSION ポートを開放
+iptables -A INPUT -p tcp --dport 587 -j ACCEPT
+
+// imaps
+iptables -A INPUT -p tcp --dport 993 -j ACCEPT
+
+// pop3s
+iptables -A INPUT -p tcp --dport 995 -j ACCEPT
+
+// PINGを許可
+iptables -A INPUT -p icmp -j ACCEPT
+
+// TCPの接続開始と応答、FTPデータなどを許可
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+// 設定したルール以外のパケットを拒否
+iptables -P INPUT DROP
+
+// 設定セーブ
+service iptables save
+
+// iptables再起動
+service iptables restart
+</pre>
+</code>
+
+<h2 class="heading">DNS設定</h2>
+<p>DNS設定に関しては様々なサービスでやり方が異なるのでそのサービスのやり方をググったりしながら設定をしましょう。この設定が一番大事ですので、必ず設定して下さい。</p>
+
+<p>ここではお名前.comのVPS(KVM)を借りている事を想定して説明させて頂きます。</p>
+
+<p class="m_0">まず、お名前.comのドメインNaviにログインして頂き</p>
+<p>ドメイン設定のタブをクリックして下さい。</p>
+<p>選択しましたら</p>
+<p class="m_0">次はネームサーバーの設定の中にあるネームサーバの変更をクリックして下さい。</p>
+
+<p>変更するドメインにチェックを入れましたら、下の方にあるVPS(KVM)設定するをクリック。</p>
+
+<p>次は確認画面ですのでもう一度設定するをクリックしますとネームサーバの移行が始まります。</p>
+
+<p>ネームサーバの移行は時間がかかりますので一番最初にやっておくと良いかもしれません。
+移行が完了しますとお名前.comからメールが送られて来ますので、その完了メールを受信してからようやくDNS関連の設定が出来るようになります。</p>
+
+<p>先ほど同じようにドメイン設定のタブをクリックしてネームサーバ変更の所にある、DNS関連機能の設定をクリックすると画面が変わりましたらDNSレコード設定を利用するを選択し、変更したいドメインを選んで頂き入力画面に進みましょう。</p>
+
+<p><em class="blue_2">指定なし、imap、mail、pop、smtpの五つは最低限必要な設定</em>ですのでやっておきましょう。必要ならばwwwも追加しておくと良いかもしれません。</p>
+
+<p>最終的にはこんな感じになっていれば大丈夫です。</p>
+
+<img class="press_98_image m_0" src="../assets/img/press/image/image_252.jpg" width="640" height="400" alt="" title="">
+
+<p>これでドメインNaviの設定は終わり、次はサーバーNaviのDNS逆引き設定を行いましょう。</p>
+
+<p>この設定は簡単でサーバーNaviにログインして、借りているVPSのコントロールパネルにログインするとDNS逆引き設定するところがありますのでDNS設定を行ったドメインを登録して下さい。</p>
+
+
+<!--
+<img class="press_98_image" src="../assets/img/press/image/image_249.jpg" width="640" height="400" alt="" title="">
+
+<img class="press_98_image m_0" src="../assets/img/press/image/image_251.jpg" width="640" height="400" alt="" title="">
+
+<img class="press_98_image m_0" src="../assets/img/press/image/image_250.jpg" width="640" height="400" alt="" title="">
+-->
+<h2 class="heading">FTPサーバ構築</h2>
+<p>一番初めにFTPサーバを構築していきたいと思います。最初に入れておけば面倒なconf関連の編集がVimではなくお気に入りのエディタで出来るようになりますので、ボクは最初に入れるようにしています。</p>
+
+
+<h3 class="heading b_b_1">vsftpdインストール</h3>
+
+<p class="m_0">では、yumでFTPサーバをインストールしてみましょう。</p>
+
+<code class="command">
+<pre>
+yum install vsftpd
+</pre>
+</code>
+
+<p class="m_0">Complete致しましたらサーバを再起動した時に自動で起動するようにしておきましょう。</p>
+
+
+<code class="command">
+<pre>
+chkconfig vsftpd on
+</pre>
+</code>
+
+
+<h3 class="heading b_b_1">vsftpdの設定</h3>
+
+<p class="m_0">終わりましたらconfを編集します。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/vsftpd/vsftpd.conf
+</pre>
+</code>
+
+<div class="html_tab">conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+vsFTPdの設定
+
+まず、初期状態では匿名による接続を許可していますので、これを許可しないようにしましょう。
+anonymous_enable=YES
+↓
+anonymous_enable=NO
+変更。
+
+次に、ファイルのタイムスタンプにローカル時間（日本時間）を使用するようにします。
+最後尾に、
+use_localtime=YESを追加。
+
+
+そして、データのやりとりで使用するPASVモードで使用するポートの範囲を指定します。
+pasv_min_port=60000
+pasv_max_port=60030
+の２行をさらに追加。
+</pre>
+
+<p class="m_t_30 m_0">このままの状態ですと、rootで接続出来ませんのでもう2ファイルの設定も変更しましょう。user_listとftpusersのファイルにrootと記述されている所をコメントアウトするだけです。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/vsftpd/user_list
+vi /etc/vsftpd/ftpusers
+</pre>
+</code>
+
+<div class="html_tab">user_list & ftpusers</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+root
+↓
+# root
+</pre>
+
+
+
+
+<p class="m_t_30 m_0">編集が終わりましたらvftpdを再起動させましょう。</p>
+
+<code class="command">
+<pre>
+service vsftpd restart
+</pre>
+</code>
+
+<p>これで無事に設定は終了しましたので、FTPソフトの設定は各自設定して下さい。</p>
+
+<h2 class="heading">webサーバ構築</h2>
+<p>web開発者にとって必須のサーバですね、構築もそこまで難しくありませんが、バーチャルホストのconfの書く所がググった記事ではバラバラでしたので、そこだけ気をつければ後は問題なく構築出来るような気がします。</p>
+
+
+<h3 class="heading b_b_1">Apacheインストール</h3>
+<p class="m_0">俗にいうApacheをインストールします。</p>
+
+<code class="command">
+<pre>
+yum install httpd
+</pre>
+</code>
+
+<h3 class="heading b_b_1">Apacheの設定</h3>
+
+
+<p class="m_0">インストールしましたら早速confをいじりましょう。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/httpd/conf/httpd.conf
+</pre>
+</code>
+
+<div class="html_tab">httpd.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+ServerAdmin
+  サーバー管理者のメールアドレスを記載します。
+
+ServerName
+  DNSで設定したサーバー名とポート番号を記載します。
+  (例）ServerName programmerbox.com:80
+
+DocumentRoot
+  ウェブコンテンツを保存する場所を記載します。
+  バーチャルホストを使わない方もいるかもしれませんので、デフォルトのポイントとしてちゃんと記述しておきます。
+
+&lt;Directory "/var/www/html"&gt;
+  ここはDocumentRootと同じディレクトリパスに変更。
+
+&lt;Directory "/var/www/html"&gt;のパスを直したら、その中にある
+AllowOverride None を
+↓
+AllowOverride All に変更しましょう。これで.htaccessが有効になります。
+</pre>
+
+<p class="m_t_30 m_0">設定が終わりましたら、自動起動onとhttpdをスタートしましょう。</p>
+
+<code class="command">
+<pre>
+chkconfig httpd on
+service httpd start
+</pre>
+</code>
+
+<p>スタートしましたら生IP(http://xxx.x.xxx.xxx/)とドメインを叩いて表示されるかどうか確認をしてみて下さい。無事Apache 2 Test Pageと表示されましたらちゃんと動いています。</p>
+
+<h3 class="heading b_b_1">バーチャルホストの設定</h3>
+<p class="m_0">一つのサーバで複数のドメインを運用したい時はバーチャルホストを設定しますと出来るようになるのでオススメです。なお、設定する前に<em class="blue_2">追加するドメインのDNSを忘れずに</em>しておいて下さい。</p>
+
+<code class="command">
+<pre>
+vi /etc/httpd/conf/httpd.conf
+</pre>
+</code>
+
+
+<div class="html_tab">httpd.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+一番下から20行目あたりに
+#NameVirtualHost *:80
+がありますので、コメントを外して
+NameVirtualHost *:80
+と、します。これだけでバーチャルホストとして
+読んでくれるようになるので、後はhttpd-vhosts.confの中で各ドメインの設定をします。
+
+最後にhttpd-vhosts.confというファイルをインクルードするように末行に
+# 追加
+include /etc/httpd/conf/httpd-vhosts.conf
+を、追加して保存。
+</pre>
+
+
+<p class="m_t_30 m_0">保存が終わりましたら、インクルードさせるhttpd-vhosts.confを作成しましょう。</p>
+<code class="command">
+<pre>
+vi /etc/httpd/conf/httpd-vhosts.conf
+</pre>
+</code>
+
+
+
+
+
+
+<div class="html_tab">httpd-vhosts.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+設定はこんな感じで、設定したいドメインとドキュメントルートを設定してください。logに関してはコメントアウトしても大丈夫です。
+
+# aaa.comの場合
+&lt;VirtualHost *:80&gt;
+  ServerAdmin  aaa@aaa.com
+  DocumentRoot /var/www/vhosts/aaa.com/httpdocs
+  ServerName   aaa.com
+  ErrorLog     /var/www/vhosts/aaa.com/error_log
+  CustomLog    /var/www/vhosts/aaa.com/access_log common
+&lt;/VirtualHost&gt;
+&lt;Directory /var/www/vhosts/aaa.com/httpdocs&gt;
+  Options FollowSymLinks
+  AllowOverride All
+  Order allow,deny
+  Allow from all
+&lt;/Directory&gt;
+
+# bbb.comの場合
+&lt;VirtualHost *:80&gt;
+  ServerAdmin  bbb@bbb.com
+  DocumentRoot /var/www/vhosts/bbb.com/httpdocs
+  ServerName   bbb.com
+  ErrorLog     /var/www/vhosts/bbb.com/error_log
+  CustomLog    /var/www/vhosts/bbb.com/access_log common
+&lt;/VirtualHost&gt;
+&lt;Directory /var/www/vhosts/bbb.com/httpdocs&gt;
+  Options FollowSymLinks
+  AllowOverride All
+  Order allow,deny
+  Allow from all
+&lt;/Directory&gt;
+
+ドメインを追加したら随時手動でフォルダを作成して下さい。
+
+フォルダ構成はこんな感じがオススメです。
+www
+├── cgi-bin
+├── error
+│    ├...
+│     ...
+├── html(デフォルトのドキュメントルートはここですね。)
+├── icons
+│    ├...
+│     ...       この階層をドメイン名にしてプライマリーな感じで増やしていく。
+└── vhosts    ↓
+      └── aaa.com
+            ├── access_log
+            ├── app
+            ├── error_log
+            └── httpdocs
+
+フレームワーク等を導入した時にappに切り替えたり出来たりすると思いますので便利です。
+</pre>
+
+
+<p class="m_t_30">これでwebサーバ構築の章は最小限の設定でしたが、これで終わりにさせて頂きます。</p>
+
+
+<h2 class="heading">dbサーバ構築</h2>
+<p>次はdbサーバを構築していきます。webサービスには必須のサーバですので、ちゃんと設定をこなしていきましょう。</p>
+
+<p class="m_0">mysql、mysql-server、mysql-develをインストールして自動起動onにしてスタート。</p>
+
+<code class="command">
+<pre>
+yum install mysql
+yum install mysql-server
+yum install mysql-devel
+
+chkconfig mysqld on
+service mysqld start
+</pre>
+</code>
+
+<p class="m_0">スタートさせたら最初はパスワードが設定されていないのでmysqlに接続してからクエリを投げてパスワードを設定する。</p>
+
+<code class="command">
+<pre>
+// 1.rootで入る
+mysql -uroot
+
+// 2.パスワードを設定するクエリを投げる
+set PASSWORD for root@localhost = PASSWORD(&#039;root&#039;);
+
+// 3.mysqlをログアウトする
+exit
+</pre>
+</code>
+<p class="m_0">ログアウトしたら先ほど登録したパスワードでmysqlにログインしてみる。</p>
+
+<code class="command">
+<pre>
+mysql -uroot -proot
+
+exit
+</pre>
+</code>
+
+<p>ここら辺はすんなりいくと思いますので、これでdbサーバ構築の章は終わります。</p>
+
+<h2 class="heading">PHPインストール</h2>
+<p>特にPHPじゃなきゃいけない訳ではないのですが、個人的にFuelPHPというフレームワークを利用したくてPHPを入れてみる事にしました。それ以外にもPHPは簡単な記述で動きますので軽い感じの事をしたい時は便利です。</p>
+
+
+<p class="m_0">yumでlistを確認してみると管理しているPHPは現時点(2013.12.20)で5.3.3でした。</p>
+<code class="command">
+<pre>
+yum list PHP*
+</pre>
+</code>
+
+<p>折角なので、もっと新しいバージョンをインストールしてみましょう。</p>
+<p class="m_0">remi(Les RPM de Remi - Repository)のrpmパッケージを使います。</p>
+<p class="m_0"><a href="http://rpms.famillecollet.com/" target="_blank">http://rpms.famillecollet.com/</a></p>
+
+
+<code class="command">
+<pre>
+// epel リポジトリ追加(32ビット版はx86_64をi386に変更するらしい、未検証)
+rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+</pre>
+</code>
+
+<code class="command">
+<pre>
+// remi リポジトリ追加
+rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+</pre>
+</code>
+
+
+<p class="m_0">追加しましたら確認してみましょう。</p>
+
+<code class="command">
+<pre>
+yum list --enablerepo=remi --enablerepo=remi-php55 | grep php
+</pre>
+</code>
+
+<p>膨大な数が追加されていますね。phpは一番上にあります。5.5.7という新しさになりました。リリースされてまだ8日しか経っていません(この文章を書いている時点で)新しすぎてバグが心配な方は最新の安定板と言われている5.5をインストールする事をお勧め致します。</p>
+
+<p class="m_0">それではインストールしたいパッケージを選んで一気にインストールしてみましょう。</p>
+
+
+
+
+<code class="command">
+<pre>
+// 今回インストールするパッケージ
+// php、php-devel、php-mbstring、php-mcrypt、php-mysql
+// php-phpunit-PHPUnit、php-pecl-xdebug、php-gd
+
+// インストール
+yum install --enablerepo=remi --enablerepo=remi-php55 php php-devel php-mbstring php-mcrypt php-mysql php-phpunit-PHPUnit php-pecl-xdebug php-gd
+</pre>
+</code>
+
+<p class="m_0">インストールが終わりましたらPHPのバージョンを確認してみましょう。</p>
+
+<code class="command">
+<pre>
+php --version
+</pre>
+</code>
+
+<p>無事に5.5.7になっていると思います。これで新しい機能をガシガシ使えるようになりました。</p>
+
+
+
+<h3 class="heading b_b_1">php.iniの設定</h3>
+
+
+
+<p>このままのphp.iniの設定だと使いづらいと思いますので、ボクなりのセッティングしたところを載せときますので参考にして編集して下さい。</p>
+<div class="html_tab">php.ini</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+
+#----
+#色々
+#----
+# PHPが扱うメモリ
+memory_limit = 128M
+↓
+memory_limit = 512M
+406行目あたり
+
+# エラーレベル
+error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT
+↓
+error_reporting = E_ALL
+462行目あたり
+
+# エラー表示
+display_errors = Off
+↓
+display_errors = Off(ローカルならOnで本番環境ならOff)
+479行目あたり
+
+# 諸々の送信出来るサイズ
+post_max_size = 8M
+↓
+post_max_size = 128M
+673行目あたり
+
+# デフォルト文字コード
+;default_charset = "UTF-8"
+↓
+default_charset = "UTF-8"
+693行目あたり
+
+# アップロード出来るサイズ
+upload_max_filesize = 2M
+↓
+upload_max_filesize = 64M
+805行目あたり
+
+# 場所(FuelPHPを導入する時にこれを設定していないとFuelPHPインストールする時点でエラーになる。)
+;date.timezone =
+↓
+date.timezone = "Asia/Tokyo"
+883行目あたり
+
+
+#---------
+#session系
+#---------
+# GCプロセスが 始動する間隔(1/1000)
+session.gc_divisor = 1000(少し古いPHPだと100なのだが、5.5.7は1000になってた。)
+↓
+session.gc_divisor = 1000
+1430行目あたり
+
+# セッションが消されるまでの時間(秒単位)
+session.gc_maxlifetime = 1440
+↓
+session.gc_maxlifetime = 4320
+
+# キャッシュされたセッションページの有効期間(分単位)
+session.cache_expire = 180
+↓
+session.cache_expire = 540
+
+
+#--------------
+#マルチバイト系
+#--------------
+# 日本だと明示的に設定
+;mbstring.language = Japanese
+↓
+mbstring.language = Japanese
+1665行目あたり
+
+# 文字コード指定
+;mbstring.internal_encoding = UTF-8
+↓
+mbstring.internal_encoding = UTF-8
+1671行目あたり
+
+# 入力される文字コード
+;mbstring.http_input = UTF-8
+↓
+mbstring.http_input = UTF-8
+
+# 文字コードを変換しないようにする
+;mbstring.http_output = pass
+↓
+mbstring.http_output = pass
+
+# 内部文字エンコーディングへの変換を無効にする
+;mbstring.encoding_translation = Off
+↓
+mbstring.encoding_translation = Off
+</pre>
+
+
+<p class="m_t_30">php.iniの設定はこんな感じでしょうか。</p>
+
+
+
+<p>これでPHPインストールの章を終わりたいと思います。</p>
+
+<h2 class="heading">phpMyAdminインストール</h2>
+<p>phpもインストール完了したという事でphoMyAdminの方もインストールしたいと思います。</p>
+
+<code class="command">
+<pre>
+yum --enablerepo=epel install phpMyAdmin
+</pre>
+</code>
+
+<p class="m_0">インストールが完了しましたら、確認してみましょうか。</p>
+<code class="command">
+<pre>
+rpm -ql phpMyAdmin
+</pre>
+</code>
+
+<h3 class="heading b_b_1">phpMyAdmin.confの設定</h3>
+
+
+<p class="m_0">ずらずらとインストールされた事が確認出来ましたね、その一番上から3行目あたりまでが設定ファイルですので設定を変えていきます。</p>
+
+<code class="command">
+<pre>
+vi /etc/httpd/conf.d/phpMyAdmin.conf
+</pre>
+</code>
+
+<div class="html_tab">phpMyAdmin.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+まず、デフォルトで
+aaa.com/phpMyAdmin/
+aaa.com/phpmyadmin/
+
+でアクセス出来るようになってしまっているのでエイリアスの変更を(大事)。
+
+Alias /phpMyAdmin /usr/share/phpMyAdmin
+Alias /phpmyadmin /usr/share/phpMyAdmin
+を削除かコメントアウトしていただき
+
+Alias /[パスを自由設定] /usr/share/phpMyAdmin
+
+としましょう。
+
+名前は長ければ長い程良いとは思いますが、忘れない程度の名前にする事が大事です。
+
+
+最後にアクセス出来るIPを設定をします。
+厳しくするなら家&会社のIPアドレスのみなど制限をかけた方が良いかもしれません。
+ここでは全ての人が入れるように設定します。(ログイン画面に)
+変更する点は2点です。
+
+&lt;Directory /usr/share/phpMyAdmin/&gt;
+   &lt;IfModule mod_authz_core.c&gt;
+     # Apache 2.4
+     &lt;RequireAny&gt;
+       Require ip 127.0.0.1
+       Require ip ::1
+     &lt;/RequireAny&gt;
+   &lt;/IfModule&gt;
+   &lt;IfModule !mod_authz_core.c&gt;
+     # Apache 2.2
+     Order Deny,Allow
+     Deny from All
+     Allow from 127.0.0.1
+     Allow from ::1
+   &lt;/IfModule&gt;
+&lt;/Directory&gt;
+↓
+&lt;Directory /usr/share/phpMyAdmin/&gt;
+   &lt;IfModule mod_authz_core.c&gt;
+     # Apache 2.4
+     &lt;RequireAny&gt;
+       Require ip 127.0.0.1
+       Require ip ::1
+     &lt;/RequireAny&gt;
+   &lt;/IfModule&gt;
+   &lt;IfModule !mod_authz_core.c&gt;
+     # Apache 2.2
+     Order Deny,Allow
+     Deny from All
+     Allow from All
+   &lt;/IfModule&gt;
+&lt;/Directory&gt;
+
+Allow from 127.0.0.1
+↓
+Allow from All
+に変更して
+
+Allow from ::1
+を削除して下さい。
+
+これで全てのバーチャルホストでphpMyAdminを参照出来るようになりました。
+</pre>
+
+
+
+<p class="m_t_30 m_0">次はログイン画面で認証する時にどの認証にするかの設定を行います。デフォルトだとベーシック認証になっていますのでここではクッキー認証に切り替えたいと思います。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/phpMyAdmin/config.inc.php
+</pre>
+</code>
+
+
+
+<div class="html_tab">config.inc.php</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+$cfg[&#039;Servers&#039;][$i][&#039;auth_type&#039;]     = &#039;http&#039;;
+↓
+$cfg[&#039;Servers&#039;][$i][&#039;auth_type&#039;]     = &#039;cookie&#039;;
+
+これでcookie認証に切り替わります。
+</pre>
+
+<p class="m_t_30 m_0">これでphpMyAdminのインストールと設定は完了です。最後にhhtpdを再起動して設定の読み込みをさせましょう。</p>
+
+
+<code class="command">
+<pre>
+service httpd restart
+</pre>
+</code>
+
+<p>以上でphpMyAdminの章を終わりにさせて頂きます。</p>
+
+
+<h2 class="heading">メールサーバ構築</h2>
+<p>webサービスを公開すればメールアドレスも必要になってきますので、メールサーバも構築していきます。この記事の中で一番の難関ですので構築は慎重に行いましょう。</p>
+
+<h3 class="heading b_b_1">Dovecotインストール</h3>
+
+<p class="m_0">初めに受信系を管理をするdovecotをインストールします。</p>
+
+
+<code class="command">
+<pre>
+yum  install dovecot
+</pre>
+</code>
+
+<h3 class="heading b_b_1">Dovecotの設定</h3>
+
+
+<p class="m_0">無事、インストール出来ましたら個別にconfの設定を変えていきます。最初はプロトロルの設定を変更をします。</p>
+
+<code class="command">
+<pre>
+vi /etc/dovecot/dovecot.conf
+</pre>
+</code>
+
+<div class="html_tab">dovecot.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+プロトコルの設定
+#protocols = imap pop3 lmtp
+↓
+protocols = imap pop3
+</pre>
+
+<p class="m_t_60 m_0">次は認証系設定を変えていきます。</p>
+
+<code class="command">
+<pre>
+vi /etc/dovecot/conf.d/10-auth.conf
+</pre>
+</code>
+
+
+<div class="html_tab">10-auth.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+平文での認証を許可を不許可にする
+#disable_plaintext_auth = yes
+↓
+disable_plaintext_auth = no
+
+認証方式の設定
+auth_mechanisms = plain
+↓
+auth_mechanisms = plain login
+</pre>
+
+<p class="m_t_60 m_0">メールボックスの形式を指定。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/dovecot/conf.d/10-mail.conf
+</pre>
+</code>
+<div class="html_tab">10-mail.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+メールボックスの形式を指定
+#mail_location =
+↓
+mail_location = maildir:~/Maildir
+</pre>
+
+
+<p class="m_t_60 m_0">最後にpostfixからの認証要求を受け付けるようにしときましょう。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/dovecot/conf.d/10-master.conf
+</pre>
+</code>
+
+<div class="html_tab">10-master.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+Postfixからの認証要求の受付
+#unix_listener /var/spool/postfix/private/auth {
+#  mode = 0666
+#}
+↓
+unix_listener /var/spool/postfix/private/auth {
+ mode = 0660
+ user = postfix
+ group = postfix
+}
+</pre>
+
+<p class="m_t_60 m_0">一通り設定が完了しましたらdovecotの起動と自動起動onに。</p>
+
+<code class="command">
+<pre>
+/etc/rc.d/init.d/dovecot start
+chkconfig dovecot on
+</pre>
+</code>
+
+
+<h3 class="heading b_b_1">Postfixの基本構築</h3>
+
+<p>次に送信系の構築を行いたいと思います。postfixに関しては最初から入っていると思いますのでインストールは省略します。もしも入っていない場合はyumでインストールをお願い致します。なお、変更する点が多いので間違えないように気をつけましょう。</p>
+
+<p class="m_0">まず初めにmain.cfを編集をしていきます。</p>
+
+<code class="command">
+<pre>
+vi /etc/postfix/main.cf
+</pre>
+</code>
+
+<div class="html_tab">main.cf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+ここでは例で webprofile.me というドメインを使って説明しています。実際に変更する時はご自分のドメイン名を記述してください。
+
+
+# ホスト指定
+myhostname = mail.webprofile.me
+
+# ドメイン名指定
+mydomain = webprofile.me
+
+# メール送信時の送信元メールアドレスの@以降に付加するドメイン名を指定
+myorigin = $mydomain
+
+# 外部からのメール受信を許可するネットワークインターフェースを指定
+inet_interfaces = all
+
+# メールを受け付ける宛先指定
+# 複数のドメインを設定している場合は追加していく
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+
+# メールボックス形式を指定
+home_mailbox = Maildir/
+
+# メールサーバーソフト名をごまかします
+smtpd_banner = $myhostname ESMTP unknown
+
+
+
+# 末行に追加
+# どんなユーザーがいるのかを探れないようにする
+disable_vrfy_command = yes
+
+# sasl認証に対応していないメーラを拒否
+smtpd_sasl_auth_enable = yes
+
+# sasl認証を使うよう設定
+smtpd_sasl_auth_enable = yes
+
+# sasl関連設定
+smtpd_sasl_authenticated_header = yes
+smtpd_sasl_path = private/auth
+smtpd_sasl_security_options = noanonymous
+smtpd_sasl_local_domain = $myhostname
+smtpd_sasl_type = dovecot
+smtpd_recipient_restrictions =
+  permit_mynetworks,
+  permit_sasl_authenticated,
+  reject_unauth_destination
+
+# Dovecotと同じ認証を使用する
+smtpd_sasl_type = dovecot
+</pre>
+
+<p class="m_t_30 m_0">cfの設定が終わりましたらpostfixを起動してsaslを自動起動onにしてから起動させましょう。</p>
+
+<code class="command">
+<pre>
+chkconfig postfix on
+chkconfig saslauthd on
+/etc/rc.d/init.d/saslauthd start
+</pre>
+</code>
+
+<h3 class="heading b_b_1">サーバの秘密鍵を作成</h3>
+
+
+<p>次はメールサーバとの通信をSSLを使って暗号化する設定や鍵を作っていきます。</p>
+
+<p class="m_0">まず、opensslというコマンドがあるか調べます。(大抵デフォルトで入っているかと思いますが)</p>
+
+<code class="command">
+<pre>
+man openssl
+</pre>
+</code>
+
+<p class="m_0">コマンドがあったら説明がずらずらと流れるのでqを押して戻ります。</p>
+<p class="m_0">ない場合は No manual entry for openssl と表示されますのでインストールしましょう。</p>
+<code class="command">
+<pre>
+yum install openssl
+</pre>
+</code>
+
+
+<p>インストールが終わりましたら暗号鍵の置き場所として、/etc/pki/tls/certs が使われているらしいのでそこへ移動して server.key というkeyを2048の長さで作成していきます。</p>
+
+<p class="m_0">keyを作成する時にpassを設定しろと言われますが、後からpassを消すので簡単なpassを設定しといて下さい。</p>
+<code class="command">
+<pre>
+cd /etc/pki/tls/certs
+openssl genrsa -des3 -out server.key 2048
+</pre>
+</code>
+
+<p class="m_0">これでserver.keyという名前でRSAの秘密鍵が作成されました。では、早速鍵のpassを解除をやりましょう。最後にserver.keyをroot以外見れないようにパーミッションを変更しておきます。</p>
+
+<code class="command">
+<pre>
+openssl rsa -in server.key -out server.key
+chmod 400 server.key
+</pre>
+</code>
+
+
+
+<h3 class="heading b_b_1">証明書の作成</h3>
+
+
+<p>ここで休憩がてら、自己認証の事を詳しく知る為に引用を載せときます。</p>
+
+
+<h3 class="heading b_b_1">認証マフィアの説明とメールサーバでは自己認証で問題ない理由。</h3>
+<blockquote cite="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=5991">
+<p>RSA方式は秘密鍵と公開鍵のペアで暗号複合を行いますので、公開鍵を作成する必要があります。この公開鍵と、鍵の作成者の名前などの識別情報、そしてこの鍵がちゃんと本人によって作成されたことの認証をセットにしたものを公開鍵証明書、又は単に証明書と呼んでいます。</p>
+
+<p>鍵がちゃんと本人が作成したものであることを認証する者を認証局(CA:Certificate Authority)といい、信頼できる第三者機関（TTP:Trusted Third Party)が行う場合と、本人が自ら行う自己認証があります。</p>
+
+<p>このTTPによる認証は、法外な料金を要求するため認証マフィアと呼ばれていますが、オンラインショッピングサイトのように「信用」が不可欠な場合は、やむを得ず法外な料金を支払ってTTPによる認証を受けざるを得ません。そうしないと、ブラウザから「このサイトの証明書は信頼できる第三者機関によって認証されたものではありません」などど、あたかも詐欺サイトであるかのようなメッセージを出されてしまします。</p>
+
+<p class="m_0">しかし、メールサーバーの場合は利用する人があらかじめ決まっていて詐欺サイトでないことを知っているわけですから、自己認証でなんら差支えありません。ということで、ここでは当然に自己認証の証明書を作成します。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=5991">Linux自習室 - サーバーを使い倒す！ - メールサーバーを暗号化</a></cite></p>
+
+
+<p>中々勉強になる文章ですね。では、なんとなくわかったという事で作業を進めて参りましょう。先ほどの /etc/pki/tls/certs に場所にいますか？いなかったらもう一度 cd で飛んで下さい。</p>
+
+<p class="m_0">公開鍵証明書の作成は openssl req コマンドを使用します。 </p>
+
+<code class="command">
+<pre>
+openssl req -new -x509 -days 3650 -key server.key -out mail.crt
+</pre>
+</code>
+
+
+<p class="m_0">-new は新規に証明書の作成を行うオプションで</p>
+<p class="m_0">-x509 は証明書の形式で、現在使用されているx.509形式を指定。</p>
+<p class="m_0">-days は証明書の有効期限で、約１０年を指定。</p>
+<p class="m_0">-key は使用する秘密鍵で、これに対応する公開鍵が証明書の中に作成されます。</p>
+<p class="m_0">-out は作成される証明書のファイル名です。</p>
+
+
+<p>なお、このコマンドを実行すると鍵作成者の識別情報の入力を求められますので英文で入録します。自分だけが使うのであれば適当でも問題ありません。</p>
+<p>作業が終わると、mail.crtという公開鍵証明書が作成されます。</p>
+
+
+<h3 class="heading b_b_1">PostfixのSSL暗号化設定</h3>
+
+<p>先ほど作成した鍵を使う為にSSL暗号化設定を行います。</p>
+<p class="m_0">先にmain.cfの方へ追加を書き足しましょう。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/postfix/main.cf
+</pre>
+</code>
+
+<div class="html_tab">main.cf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+# 末行に追加
+smtpd_use_tls = yes
+smtpd_tls_cert_file = /etc/pki/tls/certs/mail.crt
+smtpd_tls_key_file = /etc/pki/tls/certs/server.key
+smtpd_tls_session_cache_database = btree:/etc/postfix/smtpd_scache
+smtpd_tls_session_cache_timeout = 86400s
+</pre>
+
+<p class="m_t_30 m_0">次にmaster.cfも変更する場所がありますので変えていきます。</p>
+
+<code class="command">
+<pre>
+vi /etc/postfix/master.cf
+</pre>
+</code>
+
+
+
+
+<div class="html_tab">master.cf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+# submissionを使う
+# コメントを外す
+#submission inet n       -       n       -       -       smtpd
+↓
+submission inet n       -       n       -       -       smtpd
+#  -o smtpd_sasl_auth_enable=yes
+↓
+  -o smtpd_sasl_auth_enable=yes
+
+# smtpsを使う
+# コメントを外す
+# smtps     inet  n       -       n       -       -       smtpd
+↓
+smtps     inet  n       -       n       -       -       smtpd
+#  -o smtpd_tls_wrappermode=yes
+#  -o smtpd_sasl_auth_enable=yes
+↓
+  -o smtpd_tls_wrappermode=yes
+  -o smtpd_sasl_auth_enable=yes
+</pre>
+
+
+<h3 class="m_t_30 heading b_b_1">DovecotのSSL暗号化設定</h3>
+
+
+<p class="m_0">Dovecotの方もssl関連の追加をしていきます。</p>
+
+
+<code class="command">
+<pre>
+vi /etc/dovecot/conf.d/10-ssl.conf
+</pre>
+</code>
+
+
+<div class="html_tab">10-ssl.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+# コメントを外す
+#ssl = yes
+↓
+ssl = yes
+
+# 秘密鍵と公開鍵証明書の設定
+ssl_cert = &lt;/etc/pki/dovecot/certs/dovecot.pem
+ssl_key = &lt;/etc/pki/dovecot/private/dovecot.pem
+↓
+ssl_cert = &lt;/etc/pki/tls/certs/mail.crt
+ssl_key = &lt;/etc/pki/tls/certs/server.key
+
+</pre>
+
+
+<p class="m_t_30 m_0">設定が終わりましたらこれでメールサーバ構築はひとまず完了です。最後にpostfixとdovecotの再起動を行い設定を通しましょう。</p>
+<code class="command">
+<pre>
+service postfix restart
+service dovecot restart
+</pre>
+</code>
+
+
+<p>長い長い設定が終わったところですが、まだ動作確認を終えていないので次の章でメールの動作確認を致します。</p>
+
+<h2 class="heading">ユーザー作成とメール動作確認</h2>
+
+<p>ここの章ではroot以外にユーザーを作成して、そのユーザーのメールアドレスでメール動作確認を行いたいと思います。なお、メールクライアントソフトはMacにデフォルトで入っている メール というソフトで行います。</p>
+
+
+<h3 class="heading b_b_1">ユーザーを作成した時に自動でユーザーフォルダ直下にMaildirフォルダ作成する</h3>
+
+<p class="m_0">まぁ、そのまんまなのですが、ユーザーを作成した時に最初からMaildirフォルダが生成されたら楽という事でユーザーを作成する前に下準備を行いましょう。</p>
+
+<code class="command">
+<pre>
+// 新規ユーザ追加時に自動でMaildir形式メールボックス作成
+mkdir -p /etc/skel/Maildir/{new,cur,tmp}
+
+// メールボックスパーミッション設定
+chmod -R 700 /etc/skel/Maildir/
+</pre>
+</code>
+
+<h3 class="heading b_b_1">ユーザー作成</h3>
+
+<p class="m_0">下準備も完了しましたので、早速ユーザーを作成していきます。</p>
+<code class="command">
+<pre>
+// ユーザー作成
+useradd [ユーザーの名前]
+
+// パスワード設定
+passwd [ユーザーの名前]
+</pre>
+</code>
+
+<h3 class="heading b_b_1">メール動作確認 & メールクライアント設定</h3>
+
+<p class="m_0">ではでは、全ての準備がようやく整った所でメール動作確認を行いたいと思います。</p>
+<p class="m_0">作業に取り掛かる前にコマンドで動的にエラーを吐き出すように下準備を行います。</p>
+
+<code class="command">
+<pre>
+// ログを常時表示 メールサーバ構築する時に重宝する
+tail -f /var/log/maillog
+</pre>
+</code>
+
+<p>これで自動的にコマンドの画面にメールログが吐き出されるようになりますので、このログを見ながら動作確認を行っていきます。</p>
+
+
+
+<p>では、Macのメールにてメールアドレス設定を行いましょう。</p>
+
+
+
+<p class="m_0">今回のサーバ設定は</p>
+<p class="m_0">ドメイン：blogreeder.com</p>
+<p class="m_0">ユーザー：article</p>
+<p>で、やらせていただきましたが、実際にする時は各自自分の設定で行って下さい。</p>
+
+<p class="m_0"><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_253.jpg" width="640" height="400" alt="メールクライアントアプリ 設定画面 アカウントを追加" title="メールクライアントアプリ 設定画面 アカウントを追加"></p>
+
+<p>↓</p>
+
+<p class="m_0"><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_254.jpg" width="640" height="400" alt="メールクライアントアプリ 設定画面 受信用メールサーバ" title="メールクライアントアプリ 設定画面 受信用メールサーバ"></p>
+
+<p>↓</p>
+
+<p class="m_0"><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_255.jpg" width="640" height="400" alt="メールクライアントアプリ 設定画面 送信用メールサーバ" title="メールクライアントアプリ 設定画面 送信用メールサーバ"></p>
+
+<p>↓</p>
+
+<p><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_256.jpg" width="640" height="400" alt="メールクライアントアプリ 設定画面 アカウントの概要" title="メールクライアントアプリ 設定画面 アカウントの概要"></p>
+
+
+
+<p>メール設定をしている内にmaillogが吐き出されているかと思いますので確認して下さい。</p>
+
+
+<p>上記の構築を完璧にこなしていれば、おそらくですが接続は出来ている筈なので次のステップに進みます。なお、エラーが出て接続出来ない方は大変申し訳ございませんが、エラーログをコピペする等してググって下さい。</p>
+
+
+<p>接続出来ましたら一度メールアプリを落として、もう一度アプリを立ち上げて下さい。そうしますと識別情報を確認出来ませんとポップアップが現れますので、常に信頼にチェックを入れまして接続をして下さい。これでもうポップアップが現れない筈です。</p>
+
+
+<p><img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_257.jpg" width="640" height="400" alt="メールクライアントアプリ 設定画面 証明書を検証" title="メールクライアントアプリ 設定画面 証明書を検証"></p>
+
+<p>同じくメールを初めて送信する時も出て来ますので、常に信頼をチェックして接続して下さい。</p>
+
+
+<p>最後に、ボクがこのメールサーバを構築するのにドハまり(一週間...)してしまいましたので、どこでつまづいてしまったのかを忘備録として残しておきます。</p>
+
+<ul>
+	<li>iptablesでポートを開いていなかった。</li>
+	<li>ユーザー直下フォルダ(Maildir)のパーミッションが間違っていた。</li>
+	<li>元から設定があるユーザー名だと(infoとか)<br>エイリアスを変更しないとメールが届かない。</li>
+	<li>お名前.comVPS(KVM)を借りて15日間無料期間だと<br>そもそも25番ポートをお名前.comが禁止していた。</li>
+</ul>
+
+<h2 class="heading">NTPサーバ構築</h2>
+<p>NTPサーバはサーバ内の時間を常に世界と合わせるという仕事が出来ます。時間がズレていると様々な弊害や予期せぬバグを生む事になりかねないのでしっかり合わせていきましょう。</p>
+
+
+<h3 class="heading b_b_1">NTPインストール</h3>
+<p class="m_0">初めにNTPをインストールします。</p>
+
+<code class="command">
+<pre>
+yum install ntp
+</pre>
+</code>
+
+<h3 class="heading b_b_1">手動で時間を合わせる</h3>
+
+<blockquote cite="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=5716">
+<p class="m_0">NTPサーバー（ntpd）を起動する際に、大幅に時間がずれていると、NTPサーバーが起動できないので、まずは手動で時間を合わせます。手動で時間合わせをするコマンドは、ntpdateで、これに正しい時間を教えてくれるサーバーを指定して実行します。時間を合わせる元のサーバーは、NICT（独立行政法人・情報通信研究機構）のNTPサーバーにします。</p>
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=5716">Linux自習室 - サーバーを使い倒す！ - 常に正確な時間に合わせる</a></cite></p>
+
+
+<p class="m_0">という事らしいので、先ずは時間を合わせてみましょう。</p>
+
+<code class="command">
+<pre>
+ntpdate ntp.nict.jp
+</pre>
+</code>
+
+
+<h3 class="heading b_b_1">NTPサーバの設定</h3>
+
+<p class="m_0">大体の時間を合わせましたら次は設定を行います。</p>
+
+<code class="command">
+<pre>
+vi /etc/ntp.conf
+</pre>
+</code>
+
+<div class="html_tab">ntp.conf</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+内部からの時刻同期を許可
+#restrict 192.168.1.0 mask 255.255.255.0 nomodify notrap
+↓
+restrict 192.168.1.0 mask 255.255.255.0 nomodify notrap
+
+
+こっちのサーバの方が正確な時間を取得出来るので変更する
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+↓
+server ntp.nict.jp iburst
+server ntp.jst.mfeed.ad.jp iburst
+の二行に変更する
+
+</pre>
+
+
+
+<p class="m_t_30 m_0">変更を保存しましたら、ntpdをスタートして自動起動onにしましょう。</p>
+
+<code class="command">
+<pre>
+service ntpd start
+chkconfig --level 3 ntpd on 
+</pre>
+</code>
+
+<h3 class="heading b_b_1">同期の確認</h3>
+
+<p class="m_0">同期の確認をするにはntpqでオプション-pを付けて確認出来ます。</p>
+
+<code class="command">
+<pre>
+ntpq -p
+</pre>
+</code>
+
+
+<blockquote cite="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=5716">
+<p>ただし、起動直後はすぐには同期されませんので、１０分程度たってから確認すると同期されていることが確認できます。同期の確認は、ntpqコマンドに-pオプションと付けて行います。</p>
+
+<p>remoteの欄が同期しているサーバーで、先頭に*（アスタリスク）が付いているサーバーが同期しているサーバーです。その他に、+もいつでも接続可能なサーバーとしてマークされているものです。この欄が空白のサーバーは接続不可です。ただし、ntpdが起動して間もないときは、接続テストが完了しておらず、すべて空白（接続不可）となっています。</p>
+
+
+<p>その右側の欄のデータのうち、重要なものの意味は次のとおりです。</p>
+
+<p class="m_0">st → サーバーが第何階層か</p>
+<p class="m_0">when → 最後のパケットを受け取ってからの時間（単位：秒）</p>
+<p class="m_0">poll → ポーリング間隔（単位：秒）</p>
+<p class="m_0">delay → 平均遅延時間（単位：ミリ秒）</p>
+<p class="m_0">offset → サーバーとの時間誤差（単位：ミリ秒）</p>
+<p class="m_0">jitter → 時間のバラつき </p>
+
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=5716">Linux自習室 - サーバーを使い倒す！ - 常に正確な時間に合わせる</a></cite></p>
+
+<h2 class="heading">参考にしたサイト</h2>
+
+<p>今回、この記事を書く為に参考になったサイトを載せときます。</p>
+
+<h3 class="heading b_b_1">全体で勉強になったサイト</h3>
+<p><a href="http://www.mainsystem.net/cgi-bin/sdoc.cgi?page=personal/book/&file_num=2536&article_num=2594" target="_blank">Linux自習室 - サーバーを使い倒す！ - VPSをゲット！</a></p>
+
+<p><a href="http://www.karakaram.com/onamae-com-vps-index" target="_blank">お名前.comのVPSに引越しました。引越し手順、他社 VPS との比較など | karakaram-blog</a></p>
+
+<p><a href="http://server-setting.info/contents-index/centos-index" target="_blank">CentOSの設定(目次) | レンタルサーバー・自宅サーバー設定・構築のヒント</a></p>
+
+<p><a href="http://blog.aroundit.net/vps-lamp/" target="_blank">さくらのVPS　-初期設定からLAMP環境導入まで-</a></p>
+
+
+<h3 class="heading b_b_1">sshで勉強になったサイト</h3>
+<p><a href="http://www.adminweb.jp/web-service/ssh/" target="_blank">SSHを使ったリモートアクセス(さくらのVPS) - Webサービスの始め方</a></p>
+
+<h3 class="heading b_b_1">iptablesで勉強になったサイト</h3>
+<p><a href="http://www13.big.or.jp/~rinken/computer/server/centos/iptables.html" target="_blank">サーバーを作るたびにやる iptables の設定</a></p>
+
+<p><a href="http://dream.jp/vps/esp/manual/mnl_security_04.html" target="_blank">iptablesの設定方法</a></p>
+
+<h3 class="heading b_b_1">vsftpdで勉強になったサイト</h3>
+<p><a href="http://d.hatena.ne.jp/sin-j/20080811/1218431281" target="_blank">vsftpdにrootで接続する - ワレココニイル。</a></p>
+
+<p><a href="http://www.nina.jp/server/redhat/vsftpd/vsftpd.conf.html" target="_blank">vsftpdの設定（vsftpd.conf）</a></p>
+
+
+
+<h3 class="heading b_b_1">httpdで勉強になったサイト</h3>
+<p><a href="http://www.obenri.com/_webserver/virtual_host.html" target="_blank">◇バーチャルホストの設定◇初心者のためのLinuxサーバー構築講座(CentOS 自宅サーバー対応)☆お便利サーバー.com☆</a></p>
+
+<p><a href="http://www.nina.jp/server/redhat/httpd/httpd_conf.html" target="_blank">もっとhttpd.confの設定</a></p>
+
+<p><a href="http://centossrv.com/apache-virtualhost.shtml" target="_blank">バーチャルホスト設定(Apache)</a></p>
+
+<p><a href="http://kazmax.zpp.jp/apache/apache5.html" target="_blank">apache2.2 バーチャルホストの設定 後編</a></p>
+
+
+
+<h3 class="heading b_b_1">メール全般で勉強になったサイト</h3>
+
+<p><a href="http://web.arena.ne.jp/support/vps-cloud/manual/vps/centos6/postfix.html" target="_blank">メールサーバ　構築</a></p>
+
+<p><a href="http://tipszone.jp/20120521_mail_server/" target="_blank">さくらのVPSの設定 - メールサーバーの構築</a></p>
+
+<p><a href="http://centossrv.com/postfix.shtml" target="_blank">メールサーバー構築(Postfix+Dovecot)</a></p>
+
+<h4>Postfix関連</h4>
+
+<p><a href="http://wiki.livedoor.jp/lucykmac601/d/Postfix%B4%F0%CB%DC%C0%DF%C4%EA" target="_blank">Postfix基本設定 - 備忘録として - Seesaa Wiki（ウィキ）</a></p>
+
+<p><a href="http://blog.syuhari.jp/archives/791" target="_blank">Postfix でバーチャルドメインの設定メモ | Sun Limited Mt.</a></p>
+
+<p><a href="http://www.scrawl.jp/wiki/index.php/Postfix初期設定" target="_blank">Postfix初期設定 - ITらくがき</a></p>
+
+<p><a href="http://linux.kororo.jp/cont/server/postfix_virtual.php" target="_blank">Postfix で複数ドメインの管理</a></p>
+
+<h4>Dovecot関連</h4>
+
+<p><a href="http://www.sssc.cc/wiki/index.php?Dovecot2.x%2F%E8%A8%AD%E5%AE%9A" target="_blank">Dovecot2.x/設定</a></p>
+
+<h4>エラー関連</h4>
+
+<p><a href="http://d.hatena.ne.jp/a1102012/20120114/1326551178" target="_blank">fatal no SASL authentication mechanisms っていうエラー(メール関連)</a></p>
+<p><a href="http://kajuhome.com/patio_thread/1118.shtml" target="_blank">はじめての自宅サーバ構築 - Fedora/CentOS - ( postfixでメールが全く送信出来ない。)</a></p>
+
+<h3 class="heading b_b_1">yumで勉強になったサイト</h3>
+<p><a href="http://higu.cr.chiba-u.jp/~hayasaki/fswiki/wiki.cgi/LinuxTips?page=yum_how2use" target="_blank">yum の使用方法</a></p>
+
+
+<h3 class="heading b_b_1">PHPをアップデートする時に勉強になったサイト</h3>
+<p><a href="http://qiita.com/pakiln/items/bcddcdd96e94dab96873" target="_blank">php5.5にする方法</a></p>
+
+<h3 class="heading b_b_1">phpMyAdminをインストールする時に勉強になったサイト</h3>
+
+<p><a href="http://blog.aroundit.net/vps-phpmyadmin/" target="_blank">さくらのVPS　-phpMyAdminのインストールと初期設定-</a></p>
+
+<h2 class="heading">まとめ</h2>
+<p>本来ならば章を切り分けて記事にしていく方が良いとは思ったのですが、忘備録として残して自分自身が1ページで全部乗っていたら便利だろうなーって考えて1記事で全てを載せました。</p>
+
+<p>ただ、まだまだ構築していく部分は多くて、構築と検証が終わりましたら、随時追加していきたいと考えています。</p>
+
+<p>個人の完全な忘備録として淡々とやり方を書いていますが、この記事を書く為に無駄に一つサーバを借りて検証を行いながら書きました。ですが、全部終わってみるとサーバ構築って楽しいなーってしみじみ感じてしまいます。本当ならば一人では到底出来ない事でしたが、今ではググればなんでも情報が出てくる時代です。誰でも頑張ればサーバ構築は出来るって事ですね。性能比較で考えれば普通のレンタルサーバよりも料金がかなり安くなるのでお勧め致します。</p>
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-12-19_test_carnibaru/
+			http://programmerbox.com/2013-12-24_vps_construct_procedure manual/
 			</guid>
-			<pubDate>Thu, 19 Dec 2013 07:46:54 +0900</pubDate>
+			<pubDate>Tue, 24 Dec 2013 11:59:34 +0900</pubDate>
 			</item>
 			<item>
 			<title>2013年、フォントフリーサイトまとめをまとめてみた[保存版]</title>
 			<link>
-			http://localhost/programmerbox/2013-11-01_free_font_Install/
+			http://programmerbox.com/2013-11-01_free_font_Install/
 			</link>
 			<description>
 			<![CDATA[
@@ -421,14 +2143,14 @@
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-11-01_free_font_Install/
+			http://programmerbox.com/2013-11-01_free_font_Install/
 			</guid>
 			<pubDate>Fri, 01 Nov 2013 11:39:16 +0900</pubDate>
 			</item>
 			<item>
 			<title>もうPCメガネは必要ない！？色温度調整アプリ「f.lux」を試してみたよ</title>
 			<link>
-			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
+			http://programmerbox.com/2013-10-07_f.lux_app_revue/
 			</link>
 			<description>
 			<![CDATA[
@@ -492,14 +2214,14 @@
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
+			http://programmerbox.com/2013-10-07_f.lux_app_revue/
 			</guid>
 			<pubDate>Mon, 07 Oct 2013 23:00:51 +0900</pubDate>
 			</item>
 			<item>
 			<title>Mac標準アプリ「Automator」でファイル名を一括リネームする方法と作成したアクションを削除する方法</title>
 			<link>
-			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
+			http://programmerbox.com/2013-10-07_automator_image_batch_rename/
 			</link>
 			<description>
 			<![CDATA[
@@ -628,14 +2350,14 @@
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
+			http://programmerbox.com/2013-10-07_automator_image_batch_rename/
 			</guid>
 			<pubDate>Mon, 07 Oct 2013 17:51:38 +0900</pubDate>
 			</item>
 			<item>
 			<title>jQueryでDOM操作する際の基本記述を勉強し直してみたよ。</title>
 			<link>
-			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
+			http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
 			</link>
 			<description>
 			<![CDATA[
@@ -988,14 +2710,14 @@ $(".hoge").click(function() {
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
+			http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
 			</guid>
 			<pubDate>Thu, 26 Sep 2013 12:05:22 +0900</pubDate>
 			</item>
 			<item>
 			<title>2013年度TIOBE発表プログラミング言語ランキングとweb系にオススメする言語</title>
 			<link>
-			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
+			http://programmerbox.com/2013-08-28_2013_Programming_ranking/
 			</link>
 			<description>
 			<![CDATA[
@@ -1312,14 +3034,14 @@ $(".hoge").click(function() {
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
+			http://programmerbox.com/2013-08-28_2013_Programming_ranking/
 			</guid>
 			<pubDate>Wed, 28 Aug 2013 06:19:05 +0900</pubDate>
 			</item>
 			<item>
 			<title>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</title>
 			<link>
-			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
+			http://programmerbox.com/2013-08-13_cute_emoticon_download/
 			</link>
 			<description>
 			<![CDATA[
@@ -2258,14 +3980,14 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
+			http://programmerbox.com/2013-08-13_cute_emoticon_download/
 			</guid>
 			<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
 			</item>
 			<item>
 			<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
 			<link>
-			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
+			http://programmerbox.com/2013-08-09_long_shadow_animation/
 			</link>
 			<description>
 			<![CDATA[
@@ -2445,14 +4167,14 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
+			http://programmerbox.com/2013-08-09_long_shadow_animation/
 			</guid>
 			<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
 			</item>
 			<item>
 			<title>ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]</title>
 			<link>
-			http://localhost/programmerbox/2013-08-06_one_million_pv_way/
+			http://programmerbox.com/2013-08-06_one_million_pv_way/
 			</link>
 			<description>
 			<![CDATA[
@@ -2769,14 +4491,14 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-06_one_million_pv_way/
+			http://programmerbox.com/2013-08-06_one_million_pv_way/
 			</guid>
 			<pubDate>Tue, 06 Aug 2013 11:56:25 +0900</pubDate>
 			</item>
 			<item>
 			<title>超便利なMac・UNIXのターミナルコマンドチートシートサイト2選inボク的ブクマですいません。</title>
 			<link>
-			http://localhost/programmerbox/2013-08-05_terminal_command_cheat_sheet/
+			http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
 			</link>
 			<description>
 			<![CDATA[
@@ -2849,7 +4571,7 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-05_terminal_command_cheat_sheet/
+			http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
 			</guid>
 			<pubDate>Mon, 05 Aug 2013 12:49:10 +0900</pubDate>
 			</item>
