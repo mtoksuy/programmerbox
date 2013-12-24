@@ -111,17 +111,19 @@ class Model_Info_Basis extends Model {
 			$parent_name      = $value["parent_name"];
 			$parent_segment   = $value["parent_segment"];
 		}
-
+//		var_dump($parent_name);
 		// タイトルセグメント取得
-		if($parent_name) {
-			$title_segment .= $parent_name." | ";
+		if($paging_segment) {
+			$title_segment .= $paging_segment." | ";	
 		}
 		if($category_name) {
 			$title_segment .= $category_name." | ";
 		}
-		if($paging_segment) {
-			$title_segment .= $paging_segment." | ";	
+		if($parent_name) {
+			$title_segment .= $parent_name." | ";
 		}
+//		var_dump($title_segment);
+
 
 		$segment_info_get_array = array(
 			'top_judgment'         => $top_judgment,      // 
