@@ -879,6 +879,8 @@ webkitのみ リフレクト
 
 
 
+
+
 .web_design_color {
 	background-color: #17B090;
 }
@@ -909,6 +911,10 @@ webkitのみ リフレクト
 .handy_color {
     background-color: #DFCBB2;
 }
+.server_color {
+    background-color: #7C584A;
+}
+
 .top_article_color {
 	background-color: #00A5DE;
 }
@@ -1047,6 +1053,14 @@ webkitのみ リフレクト
     background: url("../../img/common/black_line_5.png") repeat-x scroll 0 50% transparent !important;
     text-align: center;
     margin: 0 50px !important;
+}
+.detail_press_index p {
+    background: url("../../img/common/black_line_5.png") repeat-x scroll 0 50% rgba(0, 0, 0, 0) !important;
+    border-bottom: medium none !important;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 50px !important;
+    text-align: center;
 }
 .color {
 	background: #FCFBF9;
@@ -1645,7 +1659,9 @@ background: none repeat scroll 0 0 rgba(255, 255, 35, 0.35);
     width: 100%;
 }
 .command {
+/*
     background-color: #FCFBF9;
+*/
     border-radius: 3px;
     color: #3A3A3A;
     padding: 3px 5px;
@@ -1689,12 +1705,6 @@ background: none repeat scroll 0 0 rgba(255, 255, 35, 0.35);
     padding: 5px !important;
 }
 .type_2 {
-/*
-    border-top: 1px solid #D7D7D7;
-    border-right: 0px solid #D7D7D7;
-    border-bottom: 0px solid #D7D7D7;
-    border-left: 1px solid #D7D7D7;
-*/
     border-collapse: collapse;
     border-radius: 2px;
     border-spacing: 0;
