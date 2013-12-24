@@ -32,6 +32,8 @@ class Model_Sidebar_Basis extends Model {
 					FROM category_segment
 					WHERE category_name = '".$value_1["category"]."'
 					LIMIT 0, 1")->cached(3600)->execute();
+//				var_dump($query_2);
+
 				foreach($query_2 as $key_2 => $value_2) {
 //				var_dump('2');
 //				var_dump($value_2);
@@ -41,6 +43,7 @@ class Model_Sidebar_Basis extends Model {
 							<ul class="sub_category_nav">';
 					$category_name = $value_1["category"];
 //					var_dump($category_name);
+//					var_dump($category_li);
 					$query_3 = DB::query("
 						SELECT COUNT(*) AS number, sub_category
 						FROM  press
@@ -71,7 +74,7 @@ class Model_Sidebar_Basis extends Model {
 			$category_ul_html = ('<ul class="category_nav">'.$category_li.'</ul>');
 			// HTML表示
 //			print($category_ul_html);
-					return $category_ul_html;
+			return $category_ul_html;
 	}
 	//----------------
 	//人気記事HTML生成
