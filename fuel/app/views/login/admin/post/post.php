@@ -114,6 +114,7 @@
 									<option value="つくってみた">つくってみた</option>
 									<option value="Macアプリ">Macアプリ</option>
 									<option value="便利">便利</option>
+									<option value="サーバ">サーバ</option>
 								</select>
 							</div>
 						</div> <!-- postbox -->
