@@ -4,6 +4,8 @@ class Model_Login_Post_Basis extends Model {
 	//記事作成
 	//--------
 	public static function article_create($post) {
+//		var_dump($post);
+
 		// 変数群
 		$programmerbox_id = $_SESSION["programmerbox_id"];
 		$category         = $post["category"];
@@ -22,7 +24,6 @@ class Model_Login_Post_Basis extends Model {
 		$press_year_time  = date('Y', $now_time);
 		// 記事のパス
 		$link = ($now_date.'_'.$path);
-/*
 		// カテゴリー情報取得
 		$category_info_array = Model_Info_Basis::category_info_get($category);
 		// サムネイル作成
@@ -53,7 +54,6 @@ class Model_Login_Post_Basis extends Model {
 								'".$now_time."')")->execute();
 		// rss作成
 		Model_Login_Post_Basis::rss_create();
-*/
 	}
 	//--------------
 	//サムネイル作成
