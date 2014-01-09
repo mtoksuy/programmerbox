@@ -1,14 +1,14 @@
 /*************************
 デバッグ変数コンストラクタ
 *************************/
-
+/*
 var p        = console.log;
 var print    = console.log;
 var var_dump = console.dir;
 var trace    = console.trace;
 var time     = console.time;
 var count    = console.count;
-
+*/
 /*************
 グローバル変数
 *************/
@@ -333,11 +333,6 @@ $(function() {
 	//----------------------------------
 	if($('.slideshare')) {
 		if($(window).width() <= 320) {
-			var w              = $('.detail_press').width();
-			var y_w            = $('.slideshare iframe').attr('width');
-			var y_h            = $('.slideshare iframe').attr('height');
-			var ratio          = (y_h / y_w);
-			var responsive_y_h = (ratio * w);
 			$('.slideshare iframe').attr( {
 				width: '100%',
 				height: '234'});

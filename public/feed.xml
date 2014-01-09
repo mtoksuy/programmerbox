@@ -16,10 +16,559 @@
 		
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
-		<lastBuildDate>Tue, 24 Dec 2013 11:59:35 +0900</lastBuildDate><item>
+		<lastBuildDate>Wed, 08 Jan 2014 13:19:55 +0900</lastBuildDate><item>
+			<title>FuelPHPでプログラマーボックスを再構築したので、このフレームワークの良さを伝えてみる。</title>
+			<link>
+			http://programmerbox.com/2014-01-08_fuelphp_construct_blog/
+			</link>
+			<description>
+			<![CDATA[
+			サーバの移行も完了して前々からローカルでちょこちょこ作成していたFuelPHPで完全書き換えしたプログラマーボックスを本番に上げて、めでたく通常運用になりましたのでFuelPHP...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>サーバの移行も完了して前々からローカルでちょこちょこ作成していたFuelPHPで完全書き換えしたプログラマーボックスを本番に上げて、めでたく通常運用になりましたのでFuelPHPとはなんぞや！？というところからFuelPHPの新しい情報の収集する時のサイトなんかを紹介しつつ、どんな感じでFuelPHPで書き換えたかを書いていきたいと思います。</p>
+
+<nav class="detail_press_index clearfix">
+	<p id="s_0p"><span class="color">目次</span></p>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">FuelPHPとは？</span>
+			<ul class="nest">
+				<li><span class="nest_number">1-1.</span><span class="scroll_btn">書籍関連のリスト</span></li>
+				<li><span class="nest_number">1-2.</span><span class="scroll_btn">FuelPHP情報を知ろう</span></li>
+				<li><span class="nest_number">1-3.</span><span class="scroll_btn">FuelPHPの良さを伝えるスライド</span></li>
+			</ul>
+		</li>
+		<li class="n_2"><span class="scroll_btn">プログラマーボックスを構築した際のポイント</span>
+			<ul class="nest">
+				<li><span class="nest_number">2-1.</span><span class="scroll_btn">想定ディレクトリ構成</span></li>
+				<li><span class="nest_number">2-3.</span><span class="scroll_btn">ルーティングで制御を司るようにする</span></li>
+				<li><span class="nest_number">2-4.</span><span class="scroll_btn">独自のセグメント判定機能を作る</span></li>
+				<li><span class="nest_number">2-2.</span><span class="scroll_btn">コントローラーを肥大化させない為に</span></li>
+				<li><span class="nest_number">2-5.</span><span class="scroll_btn">独自のテンプレートを作る</span></li>
+				<li><span class="nest_number">2-6.</span><span class="scroll_btn">機能毎にmodelで切り分ける</span></li>
+				<li><span class="nest_number">2-7.</span><span class="scroll_btn">dbのキャッシュ機能を使う</span></li>
+				<li><span class="nest_number">2-8.</span><span class="scroll_btn">assetsフォルダに対応するべくパッチファイルを作成</span></li>
+				<li><span class="nest_number">2-9.</span><span class="scroll_btn">スモールWordPressを作る</span></li>
+			</ul>
+		</li>
+		<li class="n_3"><span class="scroll_btn">FuelPHPで再構築した結果</span>
+			<ul class="nest">
+				<li><span class="nest_number">3-1.</span><span class="scroll_btn">サーバサイドの実行スピードは遅くなる</span></li>
+				<li><span class="nest_number">3-2.</span><span class="scroll_btn">記事を作成してもディレクトリを生成しないので管理が楽になる</span></li>
+				<li><span class="nest_number">3-3.</span><span class="scroll_btn">機能毎にきっちり分けるので管理と共にアップデートも楽になる</span></li>
+				<li><span class="nest_number">3-4.</span><span class="scroll_btn">DBのキャッシュ機能でかなりパフォーマンスを上げている</span></li>
+			</ul>
+		</li>
+		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+
+<h2 class="heading">FuelPHPとは？</h2>
+<blockquote cite="http://fuelphp.jp/docs/1.7/">
+FuelPHP はシンプルで、フレキシブルな、コミュニティにより開発されている PHP 5 用の Web フレームワークです。現在のフレームワークに対する不満から産まれ、開発者のコミュニティからサポート、支持されています。 FuelPHP はとても移植性が高く、多くのサーバで動き、そして、とても綺麗な構文のフレームワークです。 
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://fuelphp.jp/docs/1.7/">FuelPHP ドキュメント</a></cite></p>
+
+
+
+<h3 class="heading b_b_1">書籍関連のリスト</h3>
+
+<p class="m_0">2012/07 電子書籍 達人出版会</p>
+<p class="m_0"><a target="_blank" href="http://tatsu-zine.com/books/fuelphp1st">はじめてのフレームワークとしての FuelPHP</a></p>
+<p>友人に勧められ、この電子書籍でFuelPHPと出会いました。内容は優しく構築方法を説明していて基本となる情報が多くて勉強が捗ります。</p>
+
+
+<p class="m_0">2013/12 電子書籍 達人出版会</p>
+<p class="m_0"><a target="_blank" href="http://tatsu-zine.com/books/fuelphpadvent2012">FuelPHP Advent Calendar 2013</a></p>
+<p>無料。2011年、2012年と続き継続されてる事にビックリしました。内容もかなり良くて実践よりのお話が多いので必読です。</p>
+
+
+<p class="m_0">2012/12 電子書籍 達人出版会</p>
+<p class="m_0"><a target="_blank" href="http://tatsu-zine.com/books/fuelphpadvent2012">FuelPHP Advent Calendar 2012</a></p>
+<p>無料。様々な観点からFuelPHPの情報が載っていますのでオススメです。もう少ししたら2013年版も出ると思いますので是非是非読みましょう。(記事公開寸前で出てました)</p>
+
+
+<p class="m_0">2012/03 電子書籍 技術評論社</p>
+<p class="m_0"><a target="_blank" href="https://gihyo.jp/dp/sp/advent2011/G11C13">FuelPHP Advent Calendar 2011</a></p>
+<p>無料。EPUB形式なのが残念ですがまだダウンロードして読めますので最初の時点の情報も読んでおくと良いかもしれません。</p>
+
+
+<p class="m_0">2012/06  ソーテック社</p>
+<p class="m_0"><a target="_blank" href="http://www.amazon.co.jp/exec/obidos/ASIN/4881669419/serenity01-22/">FuelPHP 入門</a></p>
+<p>ごめんなさい、読んでいません。</p>
+
+
+<p class="m_0">2013/12 電子書籍 Kindle</p>
+<p class="m_0"><a target="_blank" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00HGHHFAS/mikakane-22/">fuelphp 逆引きガイド</a></p>
+<p>FuelPHP Advent Calendar 2013に参加している、みかかねさんが出した本です。いつのまに笑</p>
+
+<p class="m_0">2012/07 電子書籍Leanpub</p>
+<p class="m_0"><a target="_blank" href="http://leanpub.com/how_to_contribute_fuelphp_ja">FuelPHP に貢献する方法</a></p>
+<p>ごめんなさい、読んでいません。</p>
+
+
+<p class="m_0">2013/11 [英語] Packt Publishing[サイト]</p>
+<p class="m_0"><a target="_blank" href="http://www.packtpub.com/article/fuelphp">Learning FuelPHP for Effective PHP Development</a></p>
+<p>ごめんなさい、読んでいません。</p>
+
+<p class="m_0">2013/02 [英語] 電子書籍Kindle</p>
+<p class="m_0"><a target="_blank" href="http://www.amazon.co.jp/FuelPHP-Guide-ebook/dp/B00BHVUG6Y/">FuelPHP Guide</a></p>
+<p>ごめんなさい、読んでいません。</p>
+
+<h3 class="heading b_b_1">FuelPHP情報を知ろう</h3>
+
+<p>本家を元に出来るだけ最小限のサイトセレクトにしました。</p>
+
+
+<p><a href="http://fuelphp.com/" target="_blank">FuelPHP</a>[本家]</p>
+<p><a href="http://fuelphp.com/blogs" target="_blank">FuelPHP &raquo; Blogs</a>[本家]</p>
+<p><a href="https://github.com/fuel" target="_blank">FuelPHP</a>[github]</p>
+<p><a href="https://github.com/fuelphp" target="_blank">FuelPHP</a>[github][ライブラリ]</p>
+<p><a href="http://fuelphp.jp/" target="_blank">FuelPHP.JP 日本語ドキュメント</a></p>
+<p><a href="https://github.com/kenjis/fuelphp1st" target="_blank">書籍はじめてのフレームワークとしての FuelPHPサポートサイト</a></p>
+<p><a href="http://atnd.org/events/45096" target="_blank">FuelPHP Advent Calendar 2013</a></p>
+
+<h3 class="heading b_b_1">FuelPHPの良さを伝えるスライド</h3>
+<p>数多くあるフレームワークの中で何故FuelPHPが良いのか、文章をずらずら書いても伝わりにくいので素敵なスライドをご紹介します。</p>
+<div class="slideshare m_t_30">
+	<iframe src="http://www.slideshare.net/slideshow/embed_code/23297000" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/kenjis/20130622-fuel-phpintrooscnagoya" title="10分でわかるFuelPHP @ OSC2013 Nagoya" target="_blank">10分でわかるFuelPHP @ OSC2013 Nagoya</a> </strong> from <strong><a href="http://www.slideshare.net/kenjis" target="_blank">kenjis</a></strong> </div></div>
+
+
+<div class="slideshare m_t_30 m_b_30">
+	<iframe src="http://www.slideshare.net/slideshow/embed_code/17553017" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/SoudaiSone/webfuel-php" title="今、最も勢いのあるWebフレームワーク「fuel php」" target="_blank">今、最も勢いのあるWebフレームワーク「fuel php」</a> </strong> from <strong><a href="http://www.slideshare.net/SoudaiSone" target="_blank">Soudai Sone</a></strong> </div>
+</div>
+
+<h2 class="heading">プログラマーボックスを構築した際のポイント</h2>
+<p>実際に、このブログシステムをどのようにFuelPHPで構築したのかをポイント別に説明していきたいと思います。通常のコントローラーの使い方をしていませんので違和感を感じる方もいるかもしれませんがご容赦下さい。</p>
+
+<h3 class="heading b_b_1">想定ディレクトリ構成</h3>
+
+<p>初めにセキュリティーの面でディレクトリ構成をこんな感じにします。</p>
+
+<div class="html_tab">想定ディレクトリ構成</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+※ バーチャルホストにする場合
+www
+├ ...
+├ ...
+├ ...
+├ html(デフォルトはここ)
+└ vhosts
+	├ ...(他のドメイン)
+	└ programmerbox.com
+	   ├ ...
+	   ├ ...
+	   ├ httpdocs(FuelPHPを使わない場合はここ)
+	   └ app
+           ├ ...(他のフレームワークやアプリを入れる場合はここ)
+           └ fuelphp(明示的にfuelphpとしていた方がいい。)
+              ├ docs
+              ├ fuel
+              └ public(FuelPHPを導入する場合、ここをドキュメントルートにする。)
+
+
+通常の場合はこんな感じ
+www
+├ ...
+├ ...
+├ ...
+├ html
+	 └ fuelphp(明示的にfuelphpとしていた方がいい。)
+	    ├ docs
+	    ├ fuel
+	    └ public(FuelPHPを導入する場合、ここをドキュメントルートにする。)
+</pre>
+<p class="m_t_30">当たり前なのですが、ドキュメントルート上にFuelPHPを置くという事は全てのファイルを実行されてしまうのでFuelPHPのpublicをドキュメントルートにします。</p>
+
+<p class="m_0">なお、ローカルで開発する場合は様々な環境があるとは思いますが本番環境とローカルのURL構成をまったく同じにしないとセグメントがズレるので同じにします。</p>
+<p class="m_0">（例）</p>
+<table class="">
+	<thead>
+		<tr>
+			<td>ローカル：</td>
+			<td>http://localhost/programmerbox/</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>↓</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>本番：</td>
+			<td>http://programmerbox.com/</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+
+
+<h3 class="heading b_b_1">独自のセグメント判定機能を作る</h3>
+<p>多分プログラマーボックスのシステムはここが一番大事な機能です。ここの判定で全ての挙動を変えています。簡単に説明しますと、サイト内で階層別のセグメントを調べて、そのセグメントが存在するかしないかを判定する関数を作ります。</p>
+
+
+<h3 class="heading b_b_1">ルーティングで制御を司るようにする</h3>
+<p>サイトとユーザーの橋渡し役みたいな感じでエラーならエラーを吐き出したり行かせたいコントローラーに行かせて最終的にviewを表示します。</p>
+
+
+<p style="color: red;">【追記】2014年01月08日<br>
+現在、別のプロジェクトでFuelPHPを使い構築していますが、このルーティング使用法はあまり宜しくないような気がして来ました。root.phpで内で制御しつつ、コントローラールールに沿って作成していき、特別なセグメントのみルーティングで回避していくのがベストです。</p>
+
+
+<div class="html_tab">routes.php</div>
+<pre class="brush: php; light:true; tab-size: 2;">
+ソースコード表示のSyntaxHighlighterを通すとズレてしまいます。。見づらくてすいません。
+
+
+
+// 独自セグメント情報取得
+$segment_info_get_array = Model_Info_Basis::segment_info_get();
+
+// エラーページ
+if($segment_info_get_array["segment_error"] === FALSE) {
+  return array(
+    &apos;.*?&apos;  => &apos;error/404&apos;, 
+  );
+}
+	else if($segment_info_get_array["article_judgment"] === true && $segment_info_get_array["article_url_error"] === false) {
+		return array(
+			&apos;.*?&apos;  => &apos;error/404&apos;, 
+		);
+	}
+	  else {
+	    return array(
+	      &apos;_root_&apos;                                                     => &apos;root&apos;,          // The default route
+	      &apos;_404_&apos;                                                      => &apos;error/404&apos;,     // The main 404 route
+	      &apos;about&apos;                                                      => &apos;about&apos;,
+	      &apos;contact&apos;                                                    => &apos;contact&apos;,
+	      &apos;login&apos;                                                      => &apos;login&apos;,
+	      &apos;login/admin&apos;                                                => &apos;login/admin&apos;,
+	      &apos;login/admin/post&apos;                                           => &apos;login/admin/post&apos;,
+	      &apos;login/admin/logout&apos;                                         => &apos;login/admin/logout&apos;,
+	      &apos;(([0-9]{0,4})(-|_)([0-9]{0,2})(-|_)([0-9]{0,2})(-|_)(.*))&apos;  => &apos;article/index&apos;, // 記事
+	      &apos;[0-9]+?$&apos;                                                   => &apos;root&apos;,          // トップ ページング
+	      &apos;.*?/.*?/[0-9].*?$&apos;                                          => &apos;root&apos;,          // 子セグメントページング
+	      &apos;.*?/[0-9].*?$&apos;                                              => &apos;root&apos;,          // 親セグメントページング
+	      &apos;.*?/.*?&apos;                                                    => &apos;root&apos;,          // 子セグメント
+	      &apos;.*?&apos;                                                        => &apos;root&apos;,          // 親セグメント
+	    );
+	  }
+</pre>
+
+
+<h3 class="heading b_b_1 m_t_30">コントローラーを肥大化させない為に</h3>
+<p>通常FuelPHPではセグメント上でコントローラーを作っていきます。ですが、このままコントローラーを作りますと必ず肥大化してしまいますので、ここは機能別に切り分ける事にしました。</p>
+
+
+
+<ol>
+	<li>
+		<dl>
+			<dt>トップ + カテゴリー + ページング</dt>
+			<dd>root.php</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>記事機能</dt>
+			<dd>article.php</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>aboutページ</dt>
+			<dd>about.php</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>contctページ</dt>
+			<dd>contct.php</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>ログイン機能</dt>
+			<dd>login.php</dd>
+		</dl>
+	</li>
+</ol>
+
+
+<p>もっとくっ付ける事は出来るとは思いますが、関連しない機能を同じにする事はオススメ出来ません。とにかくこれで綺麗なディレクトリになって管理もしやすくなりました。ただ、この形にするにはルーティングをかなりいじる事になりますので、通常はこんな事はしないのかもしれません。（ボクは絶対にした方が良いと思いますが）</p>
+
+
+<h4>通常のコントローラーの使い方</h4>
+
+<p>通常のセグメント分けとしてコントローラーを作成する場合はこんな感じになります。(あくまでボクの場合)</p>
+
+<div class="html_tab">コントローラー</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+※ loginだけにスポットをあてた場合
+
+controller
+├ login.php
+└ login
+	├ admin.php
+	└ admin
+	   ├ logout.php
+	   ├ post.php
+	   ├ logout
+	   └ post
+
+uriとしてはこんな感じになりますね。
+programmerbox.com/login/
+programmerbox.com/login/admin/
+programmerbox.com/login/admin/post/
+programmerbox.com/login/admin/logout/
+
+一つのコントローラーファイルでactionを作成していってもいいのですが
+ここも切り分け思想の元、こんな感じの形が望ましいです。
+</pre>
+
+<h3 class="heading b_b_1 m_t_30">独自のテンプレートを作る</h3>
+<p>テンプレートを作らないとコントローラーの意味が半減してしまいますので、何パターンかテンプレートを作成します。テンプレートを作成する際はcontroller側とviews側が密な関係になりますのでそこらへんを気をつけて繋げていきます。</p>
+
+<h4>controller側</h4>
+<p>初めにこんなTemplateを作成します。</p>
+<div class="html_tab">Template</div>
+<pre class="brush: php; light:true; tab-size: 2;">
+
+ソースコード表示のSyntaxHighlighterを通すとズレてしまいます。。見づらくてすいません。
+
+/**
+ * コントローラーレイアウトテンプレート
+ * 
+ * Viewのbasic群をforgeしてテンプレートに流し込み値を返す。
+ * 
+ * 
+ */
+
+class Controller_Basic_Template extends Controller {
+	public function __construct(Request $request) {
+		$this->request = $request;
+	}
+
+	public function before() {
+		require APPPATH.&apos;classes/library/autoload.php&apos;;
+		$this->basic_template = View::forge(&apos;basic/template&apos;);
+
+		$this->basic_template->view_data = array(
+			&apos;title&apos;        => &apos;ProgrammerBOX -プログラマーボックス-&apos;,
+			&apos;meta&apos;         => View::forge(&apos;basic/meta&apos;),
+			&apos;external_css&apos; => View::forge(&apos;basic/externalcss&apos;),
+			&apos;header&apos;       => View::forge(&apos;basic/header&apos;),
+			&apos;content&apos;      => View::forge(&apos;basic/content&apos;),
+			&apos;paging&apos;       => View::forge(&apos;basic/paging&apos;),
+			&apos;side_bar&apos;     => View::forge(&apos;basic/sidebar&apos;),
+			&apos;footer&apos;       => View::forge(&apos;basic/footer&apos;),
+			&apos;script&apos;       => View::forge(&apos;basic/script&apos;),
+		);
+		// カテゴリーHTML生成
+		$category_ul_html = Model_Sidebar_Basis::sidebar_category_html_create();
+		// 人気記事HTML生成
+		$popular_li_html = Model_Sidebar_Basis::sidebar_popular_html_create();
+
+		// サイドバーカテゴリーセット
+		$this->basic_template->view_data["side_bar"]->set(&apos;sidebar_data&apos;, array(
+			&apos;category_ul_html&apos; => $category_ul_html,
+			&apos;popular_li_html&apos;  => $popular_li_html,
+		), false);
+	}
+	public function after($response) {
+		if($response === null) {
+			$response = $this->basic_template;
+		}
+		return parent::after($response);
+	}
+}
+</pre>
+
+
+<p class="m_t_30">このTemplateを継承します。</p>
+
+
+<div class="html_tab">root.php</div>
+<pre class="brush: php; light:true; tab-size: 2;">
+/**
+ * コントローラー root.php
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+class Controller_Root extends Controller_Basic_Template {
+	public function before() {
+		parent::before();
+	}
+
+	public function action_index() {
+		// セグメント情報取得
+		$segment_info_get_array = Model_Info_Basis::segment_info_get();
+
+		// タイトルセット
+		$this->basic_template->view_data["title"] = $segment_info_get_array["title_segment"].TITLE;
+
+		// メタセット(トップのみ)
+		if($segment_info_get_array["top_judgment"] == true) {
+			$this->basic_template->view_data["meta"] = View::forge(&apos;root/meta&apos;);
+		}
+		// 記事一覧データ取得
+		$list_query             = Model_Article_Basis::list_get($segment_info_get_array);
+		// 記事一覧HTML生成
+		$article_list_html      = Model_Article_Basis::list_html_create($list_query);
+		// コンテンツデータセット
+		$this->basic_template->view_data["content"]->set(&apos;content_data&apos;, array(
+			&apos;summary_query&apos; => $list_query,
+			&apos;value&apos;         => $article_list_html,
+		), false);
+
+		// ページングHTML追加
+		$paging_html = Model_Paging_Basis::paging_html_create($segment_info_get_array);
+		// ページングセット
+		$this->basic_template->view_data["paging"]->set(&apos;paging_data&apos;, array(
+			&apos;paging_html&apos; => $paging_html,
+		), false);
+	}
+}
+</pre>
+
+
+<p class="m_t_30">その時その時のセグメントで必要なデータをModelからもらって来てViewに渡します。たったこれだけで記事やプライマリーなページ以外をこの2つだけで表示出来るようになりました。便利。</p>
+
+
+
+<h4>views側</h4>
+
+<p>Controller_Basic_Templateで使おうとしているViewファイルを用意しなくては行けませんので用意します。なお、中身はHTMLと渡している変数だけなので省略させて頂きます。</p>
+
+
+
+
+
+<div class="html_tab">views</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+
+views
+└ basic
+   ├ content.php
+   ├ externalcss.php
+   ├ footer.php
+   ├ header.php
+   ├ meta.php
+   ├ paging.php
+   ├ script.php
+   ├ sidebar.php
+   └ template.php
+</pre>
+
+
+
+
+
+
+<h3 class="heading b_b_1 m_t_30">機能毎にmodelで切り分ける</h3>
+
+<p>Modelの部分では機能毎に切り分けて関数を作成していきました。</p>
+
+
+<div class="html_tab">Model構成</div>
+<pre class="brush: html; light:true; tab-size: 2;">
+model
+├ article
+├ info
+├ login
+├ mail
+├ paging
+└ sidebar
+</pre>
+
+
+
+
+
+
+<h3 class="heading b_b_1 m_t_30">DBのキャッシュ機能を使う</h3>
+<p>様々なキャッシュ機能がありますが、今回はDBクラスのキャッシュ機能のみ使用しています。</p>
+
+
+<div class="html_tab">キャッシュ(例)</div>
+<pre class="brush: php; light:true; tab-size: 2;">
+// 同じqueryを一日だけキャッシュする
+		$query = DB::query("
+			SELECT * 
+			FROM user")->cached(86400)->execute();
+</pre>
+
+<p class="m_t_30">ブログという性質上ずっと同じデータを吐き出しますので、キャッシュ機能を存分に使った方が表示スピードが速くなります。ただ、記事の内容が変更された場合にキャッシュを読み込まないようにした方がいいのですが、その機能は作ってないので改善の余地はあります。</p>
+
+
+
+<h3 class="heading b_b_1">assetsフォルダに対応するべくパッチファイルを作成</h3>
+<p>あまり関係ないのですが、FuelPHPでは画像やcssをassetsというフォルダにいれる習慣?があったのでここも踏襲したくて、データ移行するときのDBの記事データをそのまま表示しますと画像のパスが間違っていますので、全ての記事データを直す為に一括で変更するパッチファイルを作成して実行しました。</p>
+
+
+<h3 class="heading b_b_1">スモールWordPressを作る</h3>
+
+<p>サイト上から記事の更新や編集をする為にログイン機能を作成して、取り敢えず更新だけ出来るようにしました。もしかすると、このままバージョンアップしていけばFuelPHP仕様のブログ用CMSをリリースするかもしれません。</p>
+
+
+<h2 class="heading">FuelPHPで再構築した結果</h2>
+
+<p>本来ならばチームやプロジェクト内で使用してこそのフレームワークなので一人で扱ってもあまり意味はないとは思ったのですが、それでも良い結果を得られたと実感しています。</p>
+
+
+
+<h3 class="heading b_b_1">サーバサイドの実行スピードは遅くなる</h3>
+<p>当たり前ですがフルスクラッチでオレオレフレームワークで構築していた頃よりも若干ですが、遅くなりました。というかサーバも変えたのでどのくらいってなると数字が出せないのですが大体10ms〜20msくらいフレームワークを通した分は遅くなりました。</p>
+
+<h3 class="heading b_b_1">記事を作成してもディレクトリを生成しないので管理が楽になる</h3>
+
+<p class="m_0">前のシステムでは記事を更新する時に全自動ですが、全てのディレクトリ(記事、カテゴリー、ページング)をわざわざ生成してたので、ここの部分はかなり管理が楽になったように感じます。</p>
+<p>このブログはまだまだ記事数がないのにも関わらずそう思ってしまったので早めに解決できて良かったです。</p>
+
+
+<h3 class="heading b_b_1">機能毎にきっちり分けるので管理と共にアップデートも楽になる</h3>
+
+<p>前のブログシステムでは関数の場所やクラスの在り方が曖昧でしたので、機能毎にきっちり分けられて管理が物凄く楽になりました。</p>
+
+<h3 class="heading b_b_1">DBのキャッシュ機能でかなりパフォーマンスを上げている</h3>
+
+<p>実は前のシステムではアクセスがある度に毎回queryを投げてDBを圧迫していました。一日のquery回数で表すと前は10000回queryを投げていたと仮定して相対的に計算すると現在では100〜200回queryを投げているくらいなのでここの部分のパフォーマンスは上がりました。</p>
+
+
+<h2 class="heading">まとめ</h2>
+
+<p>FuelPHPと言ったら世界ではまだそんなに流行っていなくて逆に日本では流行る兆しがあるような流れがあります。</p>
+
+
+<p>Ruby on Rails、Zend Framework、CakePHP、Symfonyの「設定よりも規約」とFuelPHPの「規約より設定」のどちらが正しいかはわかりませんが、FuelPHPの現状は超軽量なので「規約より設定」でも問題なくて、その自由さが日本人には良かったのかもしれません。</p>
+
+
+
+
+
+
+<p>実はFuelPHPを勉強するのにかなり時間がかかってしまいました。最初の頃は本当に扱いづらいフレームワークだなって感じていたのですが、一つ一つの機能を覚える毎に逆に扱いやすいフレームワークになっていきました。今でも全ての機能を使った事がないので最適な設計をしたとは言い難いですが、現状、満足しています。次のプロジェクトを開発する時もFuelPHPで構築して、FeulPHPの良い使い方を身につけ発信出来れば良いと思っております。</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://programmerbox.com/2014-01-08_fuelphp_construct_blog/
+			</guid>
+			<pubDate>Wed, 08 Jan 2014 13:19:55 +0900</pubDate>
+			</item>
+			<item>
 			<title>VPSの構築をマスターする手順書 in ボクとサーバの2週間戦争。</title>
 			<link>
-			http://programmerbox.com/2013-12-24_vps_construct_procedure manual/
+			http://programmerbox.com/2013-12-24_vps_construct_procedure_manual/
 			</link>
 			<description>
 			<![CDATA[
@@ -1771,7 +2320,7 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-12-24_vps_construct_procedure manual/
+			http://programmerbox.com/2013-12-24_vps_construct_procedure_manual/
 			</guid>
 			<pubDate>Tue, 24 Dec 2013 11:59:34 +0900</pubDate>
 			</item>
@@ -4494,86 +5043,6 @@ Zz(ρω-)o゜。
 			http://programmerbox.com/2013-08-06_one_million_pv_way/
 			</guid>
 			<pubDate>Tue, 06 Aug 2013 11:56:25 +0900</pubDate>
-			</item>
-			<item>
-			<title>超便利なMac・UNIXのターミナルコマンドチートシートサイト2選inボク的ブクマですいません。</title>
-			<link>
-			http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
-			</link>
-			<description>
-			<![CDATA[
-			ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そ...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-			<p>ターミナルコマンドってすぐに忘れてしまいませんか?ボクだけかもしれませんが、そんな人の為にターミナルコマンドのチートシートを作成している素敵なサイトがありますので、そのサイトのブクマ記事にしたいと思います。たまにしかいじらないから忘れてしまうんですけど、そんな時にこのターミナルコマンドチートシートを見ましょう!</p>
-<nav class="detail_press_index clearfix">
-	<h2 id="s_0p"><span class="color">目次</span></h2>
-	<ul class="left no_width">
-		<li class="n_1"><span class="scroll_btn">UNIXのターミナルコマンドチートシート</span></li>
-		<li class="n_2"><span class="scroll_btn">Macの設定を変更するターミナルコマンドチートシート</span></li>
-		<li class="n_3"><span class="scroll_btn">知っておきたいUNIXコマンド（追記）</span></li>
-		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
-	</ul>
-</nav>
-<h2 class="heading">UNIXのターミナルコマンドチートシート</h2>
-<p></p>
-
-
-<h3>ジャンル別UNIXコマンド一覧 By 68user"s page</h3>
-<p class="m_0">
-	<a target="_blank" href="http://x68000.q-e-d.net/~68user/unix/genre.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_166.jpg" width="640" height="400" alt="" title="">
-	</a>
-</p>
-<p class="m_0">
-	<a target="_blank" href="http://x68000.q-e-d.net/~68user/unix/genre.html">ジャンル別UNIXコマンド一覧</a>
-</p>
-<p>コマンドの一覧が綺麗にカテゴリ分けされていてかなり見やすいです。このサイト自体、勉強になる情報しか置いていないので必見です。</p>
-
-
-
-
-<h2 class="heading">Macのターミナルコマンドチートシート</h2>
-
-
-<h3>Macの隠された設定を変更する84個のハック集</h3>
-<p class="m_0">
-	<a target="_blank" href="http://tukaikta.blog135.fc2.com/blog-entry-251.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_167.jpg" width="640" height="400" alt="" title="">
-	</a>
-</p>
-<p class="m_0">
-	<a target="_blank" href="http://tukaikta.blog135.fc2.com/blog-entry-251.html">Macの隠された設定を変更する84個のハック集</a>
-</p>
-<p class="m_0">こちらはMacの設定ターミナルコマンド集ですね。</p>
-<p>色々設定をカスタマイズするのもいいかもしれません。</p>
-
-
-<h2 class="heading">知っておきたいUNIXコマンド（追記）</h2>
-
-<h3>知っておきたいUNIXコマンド</h3>
-<p class="m_0">
-	<a target="_blank" href="http://www.amays.com/~mizusawa/namazu_kaisetu/comand.html">
-		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_227.jpg" widht="640" height="400" alt="" title="">
-	</a>
-</p>
-<p class="m_0">
-	<a target="_blank" href="http://www.amays.com/~mizusawa/namazu_kaisetu/comand.html">知っておきたいUNIXコマンド</a>
-</p>
-<p>基本中の基本のコマンドを紹介していて、かつ見やすいのでオススメです。</p>
-
-
-
-<h2 class="heading">まとめ</h2>
-<p>完全にボクのブクマ記事になってしまいましたが、コマンドを使う機会はそんなに多くはありませんが、サーバの設定をする時なんかは使わないといけないのでコマンドを網羅したサイトをここにブクマしときます。</p>
-			]]>
-			</content:encoded>
-			<guid>
-			http://programmerbox.com/2013-08-05_terminal_command_cheat_sheet/
-			</guid>
-			<pubDate>Mon, 05 Aug 2013 12:49:10 +0900</pubDate>
 			</item>
 			</channel>
 		</rss>
