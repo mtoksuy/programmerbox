@@ -8,8 +8,6 @@
  */
 
 class Controller_Article_Template extends Controller {
-	public $article_template;
-
 	public function __construct(\Request $request) {
 		$this->request = $request;
 	}

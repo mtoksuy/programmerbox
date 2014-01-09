@@ -378,25 +378,33 @@ LIMIT 0, 10
 	static function article_related_html_create($press_primary_id, $tag_array) {
     $sql = 'SELECT * FROM press WHERE ';
     foreach ($tag_array as $key => $keyword) {
-        $keywords[$key] = "tag like ".("'%".$keyword."%'")."";
+        $keywords[$key] = "tag like ".("'%".$keyword."%' AND del = 0")."";
     }
     $sql.= join(' OR ', $keywords);
-    $sql = $sql.' AND del = 0 
+    $sql = $sql.'
 			ORDER BY social_value DESC
 			LIMIT 0 , 9';
+//		var_dump($sql);
 		/* sql文結果 例
-		SELECT * 
-		FROM press 
-		WHERE tag like '%フォントフリー%' 
-		OR tag like '%無料%' 
-		OR tag like '%ダウンロード%' 
-		OR tag like '%インストール%' 
-		OR tag like '%2013年%' 
-		OR tag like '%まとめ%' 
-		AND del = 0 
-		ORDER BY social_value DESC
-		LIMIT 0 , 9
-		*/
+/*
+SELECT * 
+FROM press 
+WHERE tag like '%FuelPHP%' 
+AND del = 0 
+OR tag like '%構築%' 
+AND del = 0 
+OR tag like '%PHP%' 
+AND del = 0 
+OR tag like '%フレームワーク%' 
+AND del = 0 
+OR tag like '%ブログ%' 
+AND del = 0 
+OR tag like '%CMS%' 
+AND del = 0 
+ORDER BY social_value DESC
+LIMIT 0 , 9
+*/
+
 		$query = DB::query($sql)->execute();
 //		var_dump($query);
 		$popular_press_li = '';

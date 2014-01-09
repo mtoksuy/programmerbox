@@ -8,8 +8,6 @@
  */
 
 class Controller_Basic_Template extends Controller {
-	public $basic_template;
-
 	public function __construct(\Request $request) {
 		$this->request = $request;
 	}

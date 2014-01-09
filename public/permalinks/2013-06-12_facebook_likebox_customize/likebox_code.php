@@ -12,8 +12,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		
 											<link rel="alternate" type="application/rss+xml" title="ProgrammerBOX RSSフィード" href="http://programmerbox.com/feed.xml">
-		<link rel="shortcut icon" href="http://programmerbox.com/icon/favicon.ico" type="image/x-icon" sizes="48x48">
-		<link rel="stylesheet" href="http://programmerbox.com/css/common/common_flat.css" type="text/css">
+		<link rel="shortcut icon" href="http://programmerbox.com/assets/img/icon/favicon_1.ico" type="image/x-icon" sizes="48x48">
+		<link rel="stylesheet" href="http://programmerbox.com/assets/css/common/common_flat.css" type="text/css">
 			</head>
 	<body>
 		<div id="wrapper">
@@ -36,17 +36,17 @@
 --><!-- comment_box -->
 					<div class="logo">
 						<h1>
-							<a class="o_8" href="http://programmerbox.com/"><img src="http://programmerbox.com/img/logo/programmerbox_logo15.png" width="170" height="60" alt="プログラマーボックス"></a>
+							<a class="o_8" href="http://programmerbox.com/"><img src="http://programmerbox.com/assets/img/logo/programmerbox_logo15.png" width="170" height="60" alt="プログラマーボックス"></a>
 						</h1>
 					</div>
 <nav class="about_nav">
 	<ul>
-		<li><a href="http://programmerbox.com/about/"><img src="http://programmerbox.com/img/common/about_icon_4.png" width="30" height="30" alt="about_icon"></a></li>
-		<li><a href="http://www.facebook.com/programmerbox" target="_blank"><img src="http://programmerbox.com/img/common/new_facebook_icon_1.png" width="30" height="30" alt="facebook_icon"></a></li>
-		<li><a href="https://twitter.com/mtoksuy" target="_blank"><img src="http://programmerbox.com/img/common/new_twitter_icon_1.png" width="30" height="30" alt="twitter_icon"></a></li>
-		<li><a href="http://gplus.to/programmerbox" target="_blank"><img src="http://programmerbox.com/img/common/google+_icon_2.png" width="30" height="30" alt="google+_icon"></a></li>
-		<li><a href="http://programmerbox.com/feed.xml"><img src="http://programmerbox.com/img/common/new_rss_icon_1.png" width="30" height="30" alt="rss_icon"></a></li>
-		<li><a href="http://programmerbox.com/contact/"><img src="http://programmerbox.com/img/common/contact_icon_1.png" width="30" height="30" alt="contact_icon"></a></li>
+		<li><a href="http://programmerbox.com/about/"><img src="http://programmerbox.com/assets/img/common/about_icon_4.png" width="30" height="30" alt="about_icon"></a></li>
+		<li><a href="http://www.facebook.com/programmerbox" target="_blank"><img src="http://programmerbox.com/assets/img/common/new_facebook_icon_1.png" width="30" height="30" alt="facebook_icon"></a></li>
+		<li><a href="https://twitter.com/mtoksuy" target="_blank"><img src="http://programmerbox.com/assets/img/common/new_twitter_icon_1.png" width="30" height="30" alt="twitter_icon"></a></li>
+		<li><a href="http://gplus.to/programmerbox" target="_blank"><img src="http://programmerbox.com/assets/img/common/google+_icon_2.png" width="30" height="30" alt="google+_icon"></a></li>
+		<li><a href="http://programmerbox.com/feed.xml"><img src="http://programmerbox.com/assets/img/common/new_rss_icon_1.png" width="30" height="30" alt="rss_icon"></a></li>
+		<li><a href="http://programmerbox.com/contact/"><img src="http://programmerbox.com/assets/img/common/contact_icon_1.png" width="30" height="30" alt="contact_icon"></a></li>
 	</ul>
 </nav>
 <div class="balloon_box">about</div>
@@ -58,14 +58,14 @@
 
 					<!-- スクロールトップ -->
 					<div class="scroll_top o_8">
-						<img src="http://programmerbox.com/img/common/scroll_top_4.png" width="48" height="48" alt="scroll_icon">
+						<img src="http://programmerbox.com/assets/img/common/scroll_top_4.png" width="48" height="48" alt="scroll_icon">
 					</div>
 				</div> <!-- header_contents -->
 			</header>
 			<div class="main clearfix">
 				<div class="main_left">
 <article class="detail_press">
-			<h1><a href="http://localhost/programmerbox/2013-06-11_scsck/">Likeboxカスタマイズコード集</a></h1>
+			<h1><a href="http://programmerbox.com/2013-06-11_scsck/">Likeboxカスタマイズコード集</a></h1>
 			<div class="">
 				<span class="cc">By</span><span class="press_author">mtoksuy</span><span class="cc_time">On</span>
 				<time pubdate="pubdate" datetime="2013-06-11">2013年06月11日</time>
@@ -976,8 +976,8 @@ body {
 							<ul class="clearfix">
 								<li class="o_8">
 							<article>
-								<a href="http://localhost/programmerbox/2013-08-06_one_million_pv_way/">
-									<img width="200" height="125" alt="ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]" title="ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]" src="http://localhost/programmerbox/assets/img/press/2013/detail/2013-08-06_one_million_pv_way.jpg" class="">
+								<a href="http://programmerbox.com/2013-08-06_one_million_pv_way/">
+									<img width="200" height="125" alt="ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]" title="ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]" src="http://programmerbox.com/assets/img/press/2013/detail/2013-08-06_one_million_pv_way.jpg" class="">
 									<div class="related_article_contents_title clearfix">
 										<h1>ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]</h1>
 									</div>
@@ -985,8 +985,8 @@ body {
 							</article>
 					</li><li class="o_8">
 							<article>
-								<a href="http://localhost/programmerbox/2013-08-13_cute_emoticon_download/">
-									<img width="200" height="125" alt="かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!" title="かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!" src="http://localhost/programmerbox/assets/img/press/2013/detail/2013-08-13_cute_emoticon_download.jpg" class="">
+								<a href="http://programmerbox.com/2013-08-13_cute_emoticon_download/">
+									<img width="200" height="125" alt="かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!" title="かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!" src="http://programmerbox.com/assets/img/press/2013/detail/2013-08-13_cute_emoticon_download.jpg" class="">
 									<div class="related_article_contents_title clearfix">
 										<h1>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</h1>
 									</div>
@@ -994,8 +994,8 @@ body {
 							</article>
 					</li><li class="o_8">
 							<article>
-								<a href="http://localhost/programmerbox/2013-07-10_pickle_twitter_app/">
-									<img width="200" height="125" alt="PickleというURLがあるツイートだけ見れるTwitterクライアントアプリを12日間で作ってみた。" title="PickleというURLがあるツイートだけ見れるTwitterクライアントアプリを12日間で作ってみた。" src="http://localhost/programmerbox/assets/img/press/2013/detail/2013-07-10_pickle_twitter_app.jpg" class="">
+								<a href="http://programmerbox.com/2013-07-10_pickle_twitter_app/">
+									<img width="200" height="125" alt="PickleというURLがあるツイートだけ見れるTwitterクライアントアプリを12日間で作ってみた。" title="PickleというURLがあるツイートだけ見れるTwitterクライアントアプリを12日間で作ってみた。" src="http://programmerbox.com/assets/img/press/2013/detail/2013-07-10_pickle_twitter_app.jpg" class="">
 									<div class="related_article_contents_title clearfix">
 										<h1>PickleというURLがあるツイートだけ見れるTwitterクライアントアプリを12日間で作ってみた。</h1>
 									</div>
@@ -1003,8 +1003,8 @@ body {
 							</article>
 					</li><li class="o_8">
 							<article>
-								<a href="http://localhost/programmerbox/2013-05-30_css_only_ninja_syuriken/">
-									<img width="200" height="125" alt="おりゃーうりゃー!CSSだけで忍者に手裏剣を投げさせてみた" title="おりゃーうりゃー!CSSだけで忍者に手裏剣を投げさせてみた" src="http://localhost/programmerbox/assets/img/press/2013/detail/2013-05-30_css_only_ninja_syuriken.jpg" class="">
+								<a href="http://programmerbox.com/2013-05-30_css_only_ninja_syuriken/">
+									<img width="200" height="125" alt="おりゃーうりゃー!CSSだけで忍者に手裏剣を投げさせてみた" title="おりゃーうりゃー!CSSだけで忍者に手裏剣を投げさせてみた" src="http://programmerbox.com/assets/img/press/2013/detail/2013-05-30_css_only_ninja_syuriken.jpg" class="">
 									<div class="related_article_contents_title clearfix">
 										<h1>おりゃーうりゃー!CSSだけで忍者に手裏剣を投げさせてみた</h1>
 									</div>
@@ -1014,7 +1014,7 @@ body {
 							</ul>
 						</div>						
 					</nav>
-				<div class="detail_press_previous"><a href="http://localhost/programmerbox/2013-06-10_flat_design_renewal/">前の投稿へ</a></div><div class="detail_press_google_ad_bottom">
+				<div class="detail_press_previous"><a href="http://programmerbox.com/2013-06-10_flat_design_renewal/">前の投稿へ</a></div><div class="detail_press_google_ad_bottom">
 	<script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.ja._XKTQuLe3Hs.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=YQ/rs=AItRSTOEmQDHhG3kqBwOMjKvYrT5-pk6PA/cb=gapi.loaded_1" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.ja._XKTQuLe3Hs.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=YQ/rs=AItRSTOEmQDHhG3kqBwOMjKvYrT5-pk6PA/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js" gapi_processed="true"></script><script type="text/javascript">&lt;!--
 	google_ad_client = "ca-pub-0450119979424968";
 	/* 詳細記事広告ユニット */
@@ -1025,7 +1025,7 @@ body {
 	</script>
 	<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
 	</script><ins style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent"><ins style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent" id="aswift_0_anchor"><iframe width="468" scrolling="no" height="60" frameborder="0" style="left:0;position:absolute;top:0;" name="aswift_0" id="aswift_0" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></ins></ins>
-</div><div class="detail_press_next"><a href="http://localhost/programmerbox/2013-06-14_web_site_load_testing_tools/">次の投稿へ</a></div>
+</div><div class="detail_press_next"><a href="http://programmerbox.com/2013-06-14_web_site_load_testing_tools/">次の投稿へ</a></div>
 			</div>
 
 
@@ -1158,7 +1158,7 @@ body {
 				<ul class="clearfix"><li class="o_8">
 									<article>
 										<a href="http://programmerbox.com/2013-03-18_2013_web_design_trends/">
-											<img class="" src="http://programmerbox.com/img/press/2013/detail/2013-03-18_2013_web_design_trends.jpg" width="268" height="167" title="2013年、絶対に流行るwebデザイントレンド まとめ" alt="2013年、絶対に流行るwebデザイントレンド まとめ">
+											<img class="" src="http://programmerbox.com/assets/img/press/2013/detail/2013-03-18_2013_web_design_trends.jpg" width="268" height="167" title="2013年、絶対に流行るwebデザイントレンド まとめ" alt="2013年、絶対に流行るwebデザイントレンド まとめ">
 											<div class="buzz_article_contents_title  clearfix">
 												<h1>2013年、絶対に流行るwebデザイントレンド まとめ</h1>
 											</div>
@@ -1167,7 +1167,7 @@ body {
 							</li><li class="o_8">
 									<article>
 										<a href="http://programmerbox.com/2013-02-18_responsive_design_seo_ux/">
-											<img class="" src="http://programmerbox.com/img/press/2013/detail/2013-02-18_responsive_design_seo_ux.jpg" width="268" height="167" title="レスポンシブwebデザインの作り方とSEOとUXを考察" alt="レスポンシブwebデザインの作り方とSEOとUXを考察">
+											<img class="" src="http://programmerbox.com/assets/img/press/2013/detail/2013-02-18_responsive_design_seo_ux.jpg" width="268" height="167" title="レスポンシブwebデザインの作り方とSEOとUXを考察" alt="レスポンシブwebデザインの作り方とSEOとUXを考察">
 											<div class="buzz_article_contents_title  clearfix">
 												<h1>レスポンシブwebデザインの作り方とSEOとUXを考察</h1>
 											</div>
@@ -1176,7 +1176,7 @@ body {
 							</li><li class="o_8">
 									<article>
 										<a href="http://programmerbox.com/2013-03-25_google_reeder_rss/">
-											<img class="" src="http://programmerbox.com/img/press/2013/detail/2013-03-25_google_reeder_rss.jpg" width="268" height="167" title="Googleリーダーの代わりはやっぱりReederしかないって話とReederを徹底的に使いこなす方法とRSSのこれからの将来について" alt="Googleリーダーの代わりはやっぱりReederしかないって話とReederを徹底的に使いこなす方法とRSSのこれからの将来について">
+											<img class="" src="http://programmerbox.com/assets/img/press/2013/detail/2013-03-25_google_reeder_rss.jpg" width="268" height="167" title="Googleリーダーの代わりはやっぱりReederしかないって話とReederを徹底的に使いこなす方法とRSSのこれからの将来について" alt="Googleリーダーの代わりはやっぱりReederしかないって話とReederを徹底的に使いこなす方法とRSSのこれからの将来について">
 											<div class="buzz_article_contents_title  clearfix">
 												<h1>Googleリーダーの代わりはやっぱりReederしかないって話とReederを徹底的に使いこなす方法とRSSのこれからの将来について</h1>
 											</div>
@@ -1185,7 +1185,7 @@ body {
 							</li><li class="o_8">
 									<article>
 										<a href="http://programmerbox.com/2013-01-31_retina_display/">
-											<img class="" src="http://programmerbox.com/img/press/2013/detail/2013-01-31_retina_display.png" width="268" height="167" title="Retinaディスプレイに対応する3つの方法" alt="Retinaディスプレイに対応する3つの方法">
+											<img class="" src="http://programmerbox.com/assets/img/press/2013/detail/2013-01-31_retina_display.png" width="268" height="167" title="Retinaディスプレイに対応する3つの方法" alt="Retinaディスプレイに対応する3つの方法">
 											<div class="buzz_article_contents_title  clearfix">
 												<h1>Retinaディスプレイに対応する3つの方法</h1>
 											</div>
@@ -1194,7 +1194,7 @@ body {
 							</li><li class="o_8">
 									<article>
 										<a href="http://programmerbox.com/2013-03-02_google_maps_api_v3/">
-											<img class="" src="http://programmerbox.com/img/press/2013/detail/2013-03-02_google_maps_api_v3.jpg" width="268" height="167" title="GoogleMapsAPI V3でマップとストリートビューをカスタマイズしてウェブサイトに表示させる最適なやり方" alt="GoogleMapsAPI V3でマップとストリートビューをカスタマイズしてウェブサイトに表示させる最適なやり方">
+											<img class="" src="http://programmerbox.com/assets/img/press/2013/detail/2013-03-02_google_maps_api_v3.jpg" width="268" height="167" title="GoogleMapsAPI V3でマップとストリートビューをカスタマイズしてウェブサイトに表示させる最適なやり方" alt="GoogleMapsAPI V3でマップとストリートビューをカスタマイズしてウェブサイトに表示させる最適なやり方">
 											<div class="buzz_article_contents_title  clearfix">
 												<h1>GoogleMapsAPI V3でマップとストリートビューをカスタマイズしてウェブサイトに表示させる最適なやり方</h1>
 											</div>
@@ -1203,7 +1203,7 @@ body {
 							</li><li class="o_8">
 									<article>
 										<a href="http://programmerbox.com/2013-05-29_css_box_shadow_effect/">
-											<img class="" src="http://programmerbox.com/img/press/2013/detail/2013-05-29_css_box shadow_effect.jpg" width="268" height="167" title="これだけでデザイン力アップ間違いなし!CSS3で作るBox Shadowエフェクト徹底解説" alt="これだけでデザイン力アップ間違いなし!CSS3で作るBox Shadowエフェクト徹底解説">
+											<img class="" src="http://programmerbox.com/assets/img/press/2013/detail/2013-05-29_css_box shadow_effect.jpg" width="268" height="167" title="これだけでデザイン力アップ間違いなし!CSS3で作るBox Shadowエフェクト徹底解説" alt="これだけでデザイン力アップ間違いなし!CSS3で作るBox Shadowエフェクト徹底解説">
 											<div class="buzz_article_contents_title  clearfix">
 												<h1>これだけでデザイン力アップ間違いなし!CSS3で作るBox Shadowエフェクト徹底解説</h1>
 											</div>
@@ -1223,7 +1223,7 @@ body {
 			<div class="follow_menu">
 				<div class="follow_menu_contents">
 					<div class="category_band master_color right_15">中の人</div>
-						<img class="flat_Frame" src="http://programmerbox.com/img/about/my_icon_1.jpg" style="float: left; margin: 0 7px 0 0;" width="128" height="128" title="マツオカソウヤ" alt="マツオカソウヤ">
+						<img class="flat_Frame" src="http://programmerbox.com/assets/img/about/my_icon_1.jpg" style="float: left; margin: 0 7px 0 0;" width="128" height="128" title="マツオカソウヤ" alt="マツオカソウヤ">
 						<p style="line-height: 1.4;">東京在住、デザインも大好きなwebプログラマー マツオカソウヤです。17歳の時にインターネットに出会いました。Yahooのオセロゲームだったのですが、画面の向こう側に同じく誰かが座っていてチャットをしながらオセロをしているという現実は僕には輝いて見えました。それからインターネットにのめり込み、webサービスに触れ、自分自身でwebサービスを作りたいと思うようになり、僕が体感したインターネットを他の人にも体感してもらいたい。そんな想いを込めてwebサービスを作っている人です。</p>
 
 				</div>
@@ -1238,18 +1238,18 @@ body {
 				<div class="follow_menu_contents">
 					<div class="category_band follow_me_color right_15">フォローミー</div>
 					<div class="fb_box">
-						<img width="75" height="15" alt="" src="http://programmerbox.com/img/common/ban_fb.png">
+						<img width="75" height="15" alt="" src="http://programmerbox.com/assets/img/common/ban_fb.png">
 						<div class="fb-like" data-href="http://www.facebook.com/programmerbox" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial" data-lang="en">
 						</div>
 					</div>
 					<div class="twitter_box">
-						<img width="90" height="15" alt="" src="http://programmerbox.com/img/common/ban_tw.png">
+						<img width="90" height="15" alt="" src="http://programmerbox.com/assets/img/common/ban_tw.png">
 						<div class="tw_button"><a target="_blank" href="http://twitter.com/mtoksuy"></a>
 							<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1367516458.html#_=1368108042338&amp;id=twitter-widget-0&amp;lang=ja&amp;screen_name=mtoksuy&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" style="width: 155px; height: 20px;" title="Twitter Follow Button" data-twttr-rendered="true"></iframe><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/ja_JP/all.js#xfbml=1" async=""></script><script id="twitter-wjs" src="//platform.twitter.com/widgets.js"></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 						</div>
 					</div>
 					<div class="rss_box">
-						<img width="51" height="16" alt="" src="http://programmerbox.com/img/common/ban_rss.png">
+						<img width="51" height="16" alt="" src="http://programmerbox.com/assets/img/common/ban_rss.png">
 						<a class="rss_box_btn" href="http://programmerbox.com/feed.xml">RSSを登録する</a>
 					</div>
 				</div>
@@ -1278,7 +1278,7 @@ body {
 						<div class="face_book_plgin_border_bottom"> </div>
 						<div class="face_book_plgin_border_left"> </div>
 
-						<img class="face_book_plgin_logo" src="http://programmerbox.com/img/logo/programmerbox_logo15.png">
+						<img class="face_book_plgin_logo" src="http://programmerbox.com/assets/img/logo/programmerbox_logo15.png">
 					</section>
 
 
@@ -1301,23 +1301,24 @@ body {
 					</section>
 				</div> <!-- footer_contents -->
 			</footer>
-			<script type="text/javascript" src="http://programmerbox.com/js/common/jquery-1.7.1.js"></script>
-			<script type="text/javascript" src="http://programmerbox.com/js/common/common.js"></script>
-			<script type="text/javascript" src="http://programmerbox.com/js/common/retina_image.js"></script>
+			<script type="text/javascript" src="http://programmerbox.com/assets/js/common/jquery-1.7.1.js"></script>
+			<script type="text/javascript" src="http://programmerbox.com/assets/js/common/common.js"></script>
+			<script type="text/javascript" src="http://programmerbox.com/assets/js/common/retina_image.js"></script>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 				<!-- 個別プラグイン -->
-	<script type="text/javascript" src="http://programmerbox.com/syntaxhighlighter/scripts/shCore.js"></script>
-	<script type="text/javascript" src="http://programmerbox.com/syntaxhighlighter/scripts/shBrushXml.js"></script>
-	<script type="text/javascript" src="http://programmerbox.com/syntaxhighlighter/scripts/shBrushCss.js"></script>
-	<script type="text/javascript" src="http://programmerbox.com/syntaxhighlighter/scripts/shBrushJScript.js"></script>
-	<script type="text/javascript" src="http://programmerbox.com/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-	<script type="text/javascript" src="http://programmerbox.com/syntaxhighlighter/scripts/shBrushSql.js"></script>
+	<script type="text/javascript" src="http://programmerbox.com/assets/syntaxhighlighter/scripts/shCore.js"></script>
+	<script type="text/javascript" src="http://programmerbox.com/assets/syntaxhighlighter/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="http://programmerbox.com/assets/syntaxhighlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="http://programmerbox.com/assets/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="http://programmerbox.com/assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+	<script type="text/javascript" src="http://programmerbox.com/assets/syntaxhighlighter/scripts/shBrushSql.js"></script>
 	<!-- デザインプラグイン -->
 <!--
 	<link type="text/css" rel="stylesheet" href="syntaxhighlighter/styles/shThemeRDark.css"/>
 -->
-	<link type="text/css" rel="stylesheet" href="http://programmerbox.com/syntaxhighlighter/styles/shThemeDefault.css"/>
-	<script type="text/javascript">SyntaxHighlighter.all();</script>						<!-- FBページプラグイン -->
+	<link type="text/css" rel="stylesheet" href="http://programmerbox.com/assets/syntaxhighlighter/styles/shThemeDefault.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+						<!-- FBページプラグイン -->
 						<div id="fb-root"></div>
 						<script>
 							(function(d, s, id) {

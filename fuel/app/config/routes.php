@@ -31,33 +31,38 @@ $segment_info_get_array = Model_Info_Basis::segment_info_get();
 
 
 // エラーページ
-if($segment_info_get_array["segment_error"] === FALSE) {
+if($segment_info_get_array["segment_error"] === false) {
 	return array(
 		'.*?'  => 'error/404', 
 	);
 }
-	else {
+	// 記事エラーページ
+	else if($segment_info_get_array["article_judgment"] === true && $segment_info_get_array["article_url_error"] === false) {
 		return array(
-			'_root_'                                                     => 'root',          // The default route
-			'_404_'                                                      => 'error/404',     // The main 404 route
-			'about'                                                      => 'about',
-			'contact'                                                    => 'contact',
-			'login'                                                      => 'login',
-			'login/admin'                                                => 'login/admin',
-			'login/admin/post'                                           => 'login/admin/post',
-			'login/admin/logout'                                         => 'login/admin/logout',
-			'(([0-9]{0,4})(-|_)([0-9]{0,2})(-|_)([0-9]{0,2})(-|_)(.*))'  => 'article/index', // 記事
-			'[0-9]+?$'                                                   => 'root',          // トップ ページング
-			'.*?/.*?/[0-9].*?$'                                          => 'root',          // 子セグメントページング
-			'.*?/[0-9].*?$'                                              => 'root',          // 親セグメントページング
-			'.*?/.*?'                                                    => 'root',          // 子セグメント
-			'.*?'                                                        => 'root',          // 親セグメント
-
-
-
-		//	'(.*?)' => 'root',
-		//	'web'      => 'root',	
-		//	'web/html_css'      => 'root',	
-		//	'(([0-9]{0,4})(-|_)([0-9]{0,2})(-|_)([0-9]{0,2})(-|_)(.*?))' => array('article/index', 'name' => $url_r), // 記事
+			'.*?'  => 'error/404', 
 		);
-}
+	}
+		else {
+			return array(
+				'_root_'                                                     => 'root',          // The default route
+				'_404_'                                                      => 'error/404',     // The main 404 route
+				'about'                                                      => 'about',
+				'contact'                                                    => 'contact',
+				'login'                                                      => 'login',
+				'login/admin'                                                => 'login/admin',
+				'login/admin/post'                                           => 'login/admin/post',
+				'login/admin/logout'                                         => 'login/admin/logout',
+				'(([0-9]{0,4})(-|_)([0-9]{0,2})(-|_)([0-9]{0,2})(-|_)(.*))'  => 'article/index', // 記事
+				'[0-9]+?$'                                                   => 'root',          // トップ ページング
+				'.*?/.*?/[0-9].*?$'                                          => 'root',          // 子セグメントページング
+				'.*?/[0-9].*?$'                                              => 'root',          // 親セグメントページング
+				'.*?/.*?'                                                    => 'root',          // 子セグメント
+				'.*?'                                                        => 'root',          // 親セグメント
+	
+	
+			//	'(.*?)' => 'root',
+			//	'web'      => 'root',	
+			//	'web/html_css'      => 'root',	
+			//	'(([0-9]{0,4})(-|_)([0-9]{0,2})(-|_)([0-9]{0,2})(-|_)(.*?))' => array('article/index', 'name' => $url_r), // 記事
+			);
+		}
