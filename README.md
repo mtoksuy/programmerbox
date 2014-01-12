@@ -1,4 +1,4 @@
 programmerbox
 =============
 
-FueiPHPで構築したブログシステム
+FuelPHPで構築したブログシステム
