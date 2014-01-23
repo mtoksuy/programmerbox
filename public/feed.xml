@@ -2,8 +2,8 @@
 		<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 		<channel>
 		<title>ProgrammerBOX -プログラマーボックス-</title>
-		<atom:link href="http://programmerbox.com/feed.xml" rel="self" type="application/rss+xml"/>
-		<link>http://programmerbox.com/</link>
+		<atom:link href="http://localhost/programmerbox/feed.xml" rel="self" type="application/rss+xml"/>
+		<link>http://localhost/programmerbox/</link>
 		<description>
 		<![CDATA[
 		プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
@@ -12,14 +12,51 @@
 		<language>ja</language>
 		<copyright>Copyright 2013</copyright>
 		
-		<generator uri="http://programmerbox.com/">ProgrammerBOX -プログラマーボックス-</generator>
+		<generator uri="http://localhost/programmerbox/">ProgrammerBOX -プログラマーボックス-</generator>
 		
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
-		<lastBuildDate>Wed, 08 Jan 2014 13:19:55 +0900</lastBuildDate><item>
+		<lastBuildDate>Wed, 22 Jan 2014 13:32:30 +0900</lastBuildDate><item>
+			<title>Sharingvideoという動画キュレーションメディアを爆速で作ったった！！その工程と技術を解説する。</title>
+			<link>
+			http://localhost/programmerbox/2014-01-22_sharingvideo/
+			</link>
+			<description>
+			<![CDATA[
+							ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+							<p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+				<nav class="detail_press_index clearfix">
+					<h2 id="s_0p"><span class="color">目次</span></h2>
+					<ul class="left no_width">
+						<li class="n_0"><span class="scroll_btn"></span></li>
+						<li class="n_1"><span class="scroll_btn"></span></li>
+						<li class="n_9"><span class="scroll_btn">まとめ</span></li>
+					</ul>
+				</nav>
+				<h2 class="heading"></h2>
+				<p></p>
+				
+				<h2 class="heading"></h2>
+				<p></p>					
+				
+				<h2 class="heading"></h2>
+				<p></p>
+								
+			]]>
+			</content:encoded>
+			<guid>
+			http://localhost/programmerbox/2014-01-22_sharingvideo/
+			</guid>
+			<pubDate>Wed, 22 Jan 2014 13:32:29 +0900</pubDate>
+			</item>
+			<item>
 			<title>FuelPHPでプログラマーボックスを再構築したので、このフレームワークの良さを伝えてみる。</title>
 			<link>
-			http://programmerbox.com/2014-01-08_fuelphp_construct_blog/
+			http://localhost/programmerbox/2014-01-08_fuelphp_construct_blog/
 			</link>
 			<description>
 			<![CDATA[
@@ -218,7 +255,7 @@ www
 
 
 <p style="color: red;">【追記】2014年01月08日<br>
-現在、別のプロジェクトでFuelPHPを使い構築していますが、このルーティング使用法はあまり宜しくないような気がして来ました。root.phpで内で制御しつつ、コントローラールールに沿って作成していき、特別なセグメントのみルーティングで回避していくのがベストです。</p>
+現在、別のプロジェクトをFuelPHPで構築していますが、このルーティング使用法はあまり宜しくないような気がして来ました。root.php内で制御しつつ、コントローラールールに沿って作成していき、特別なセグメントのみルーティングで回避していくのがベストです。</p>
 
 
 <div class="html_tab">routes.php</div>
@@ -561,14 +598,14 @@ model
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2014-01-08_fuelphp_construct_blog/
+			http://localhost/programmerbox/2014-01-08_fuelphp_construct_blog/
 			</guid>
 			<pubDate>Wed, 08 Jan 2014 13:19:55 +0900</pubDate>
 			</item>
 			<item>
 			<title>VPSの構築をマスターする手順書 in ボクとサーバの2週間戦争。</title>
 			<link>
-			http://programmerbox.com/2013-12-24_vps_construct_procedure_manual/
+			http://localhost/programmerbox/2013-12-24_vps_construct_procedure_manual/
 			</link>
 			<description>
 			<![CDATA[
@@ -2320,14 +2357,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-12-24_vps_construct_procedure_manual/
+			http://localhost/programmerbox/2013-12-24_vps_construct_procedure_manual/
 			</guid>
 			<pubDate>Tue, 24 Dec 2013 11:59:34 +0900</pubDate>
 			</item>
 			<item>
 			<title>2013年、フォントフリーサイトまとめをまとめてみた[保存版]</title>
 			<link>
-			http://programmerbox.com/2013-11-01_free_font_Install/
+			http://localhost/programmerbox/2013-11-01_free_font_Install/
 			</link>
 			<description>
 			<![CDATA[
@@ -2692,14 +2729,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-11-01_free_font_Install/
+			http://localhost/programmerbox/2013-11-01_free_font_Install/
 			</guid>
 			<pubDate>Fri, 01 Nov 2013 11:39:16 +0900</pubDate>
 			</item>
 			<item>
 			<title>もうPCメガネは必要ない！？色温度調整アプリ「f.lux」を試してみたよ</title>
 			<link>
-			http://programmerbox.com/2013-10-07_f.lux_app_revue/
+			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
 			</link>
 			<description>
 			<![CDATA[
@@ -2763,14 +2800,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-10-07_f.lux_app_revue/
+			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
 			</guid>
 			<pubDate>Mon, 07 Oct 2013 23:00:51 +0900</pubDate>
 			</item>
 			<item>
 			<title>Mac標準アプリ「Automator」でファイル名を一括リネームする方法と作成したアクションを削除する方法</title>
 			<link>
-			http://programmerbox.com/2013-10-07_automator_image_batch_rename/
+			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
 			</link>
 			<description>
 			<![CDATA[
@@ -2899,14 +2936,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-10-07_automator_image_batch_rename/
+			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
 			</guid>
 			<pubDate>Mon, 07 Oct 2013 17:51:38 +0900</pubDate>
 			</item>
 			<item>
 			<title>jQueryでDOM操作する際の基本記述を勉強し直してみたよ。</title>
 			<link>
-			http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
+			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
 			</link>
 			<description>
 			<![CDATA[
@@ -3259,14 +3296,14 @@ $(".hoge").click(function() {
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
+			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
 			</guid>
 			<pubDate>Thu, 26 Sep 2013 12:05:22 +0900</pubDate>
 			</item>
 			<item>
 			<title>2013年度TIOBE発表プログラミング言語ランキングとweb系にオススメする言語</title>
 			<link>
-			http://programmerbox.com/2013-08-28_2013_Programming_ranking/
+			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
 			</link>
 			<description>
 			<![CDATA[
@@ -3583,14 +3620,14 @@ $(".hoge").click(function() {
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-08-28_2013_Programming_ranking/
+			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
 			</guid>
 			<pubDate>Wed, 28 Aug 2013 06:19:05 +0900</pubDate>
 			</item>
 			<item>
 			<title>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</title>
 			<link>
-			http://programmerbox.com/2013-08-13_cute_emoticon_download/
+			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
 			</link>
 			<description>
 			<![CDATA[
@@ -4529,14 +4566,14 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-08-13_cute_emoticon_download/
+			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
 			</guid>
 			<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
 			</item>
 			<item>
 			<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
 			<link>
-			http://programmerbox.com/2013-08-09_long_shadow_animation/
+			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
 			</link>
 			<description>
 			<![CDATA[
@@ -4716,333 +4753,9 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://programmerbox.com/2013-08-09_long_shadow_animation/
+			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
 			</guid>
 			<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
-			</item>
-			<item>
-			<title>ブログで100万PVは誰でも達成出来る!!方程式から方法を算出する考え方[アクセスアップ]</title>
-			<link>
-			http://programmerbox.com/2013-08-06_one_million_pv_way/
-			</link>
-			<description>
-			<![CDATA[
-			みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-			<p>みなさん、ブログを運営していてアクセスが少なくて悩んでいたりしませんか?理由がわからないまま悩む必要はありません。きちっとした方程式に当てはめれば運営しているブログの状態がわかり最適な手が打てるようになります。今回は誰でもブログでカンタンに100万PVを叩き出せるやり方と理由を説明していきたいと思います。</p>
-
-<p>その前にwebの流れを理解していなくてはお話しになりませんので、先ずは読み流すだけでも良いのでwebの流れを見て下さい。</p>
-
-
-<nav class="detail_press_index clearfix">
-	<h2 id="s_0p"><span class="color">目次</span></h2>
-	<ul class="left no_width">
-		<li class="n_1"><span class="scroll_btn">webの流れを理解する</span>
-			<ul class="nest">
-				<li><span class="nest_number">1-1.</span><span class="scroll_btn">検索されるのに必要な項目</span>
-
-				</li>
-				<li><span class="nest_number">1-2.</span><span class="scroll_btn">ソーシャルで拡散されるのに必要な項目</span>
-
-				</li>
-				<li><span class="nest_number">1-3.</span><span class="scroll_btn">ブックマーク、RSSに登録されるのに必要な項目</span>
-
-				</li>
-				<li><span class="nest_number">1-4.</span><span class="scroll_btn">アプリケーションから紹介されるのに必要な項目</span>
-				</li>
-			</ul>
-		</li>
-		<li class="n_2"><span class="scroll_btn">100万PVの方程式</span>
-			<ul class="nest">
-				<li><span class="nest_number">2-1.</span><span class="scroll_btn">100万PVの方程式を計算する[ツール]</span></li>
-				<li><span class="nest_number">2-2.</span><span class="scroll_btn">アベレージランク確認リスト表</span></li>
-			</ul>
-
-		</li>
-
-
-
-		<li class="n_3"><span class="scroll_btn">必要な記事数がわかった所で更新度合いで逆算する</span>
-			<ul class="nest">
-				<li><span class="nest_number">3-1.</span><span class="scroll_btn">更新する頻度を調節して短期間で達成する目標を立てよう</span></li>
-				<li><span class="nest_number">3-2.</span><span class="scroll_btn">ランク別に見直す点を考える</span></li>
-			</ul>
-		</li>
-
-		<li class="n_4"><span class="scroll_btn">これからブログを始めるあなたへ</span>
-			<ul class="nest">
-				<li><span class="nest_number">4-1.</span><span class="scroll_btn">始めたばかりのPVに絶望しないで下さい</span></li>
-				<li><span class="nest_number">4-2.</span><span class="scroll_btn">アフィリエイトから自分コンテンツを売る時代へ</span></li>
-				<li><span class="nest_number">4-3.</span><span class="scroll_btn">自分自身をブランディングする</span></li>
-				<li><span class="nest_number">4-4.</span><span class="scroll_btn">ブログという場を考える</span></li>
-				<li><span class="nest_number">4-5.</span><span class="scroll_btn">最終目標はコロコロ変えても良い</span></li>
-				<li><span class="nest_number">4-6.</span><span class="scroll_btn">一人の友人に書くように</span></li>
-			</ul>
-		</li>
-		<li class="n_5"><span class="scroll_btn">まとめ</span></li>
-	</ul>
-</nav>
-
-<style>
-#Average_1 {
-	font-weight: bold;
-}
-#ArticlesMinimum {
-	font-weight: bold;
-}
-
-.detail_press h3 {
-	border-bottom: 1px solid #00A4E1;
-}
-</style>
-
-
-
-<h2 class="heading">webの流れを理解する</h2>
-
-
-<p>アクセスを増やしたいって思っていてもwebを理解していないと残念ながら記事を書いていても努力は実りません。そこで詳細な方法は省きますが流れを説明していきます。大まかな流れを知っているだけでもだいぶアクセスが増える感覚が身に付きますのでささーっと読み流しましょう。</p>
-
-<h3 class="heading">検索されるのに必要な項目</h3>
-<h4>HTMLを適切に記述する事</h4>
-<p><em class="blue_2">ここが一番重要</em>です。<strong>HTML5できちっとマークアップ</strong>している事がまず最低条件なのですが、出来ているサイトは少ないです。文章のマークアップを重点的に見直してロボットに時間を教えたりする事もかなり重要ですので忘れないで下さい。</p>
-
-
-<h4>ブログを構造化する事</h4>
-<p>記事のカテゴリ分けやパンくずは当たり前に行い、もっと深く掘り下げるならディレクトリ構造も最適化する事が望ましいです。この部分は後で変更するのが難しいので<em class="blue_2">一番最初の設計で決めておくべきポイント</em>でもあります。</p>
-
-<h4>表示スピードが速い事</h4>
-<p class="m_0">かなり重要な部分ですが、最近のブログはソーシャルのプラグインを大量に読み込んでいて平均3秒程遅れています。ですが、ボタンがない事には始まりませんので3秒遅くなるという事実に関してほとんどの方が目をつぶっているのが現状です。</p>
-
-<p>この遅れをプラグインの非同期以外で解消するにはぱっと思い浮かんだ仕組みを書いてみます。プラグインのボタンを全く同じデザインで擬似的に見せかけて数値はcronで回して定期的に取得してDBに入れといてページが読み込まれた時にDBを参照。クリックされたらAjaxでデータを送信して同じ挙動をさせるようにすれば一気に他のブログを出し抜ける事が出来るかもしれません。</p>
-
-
-<h4>レスポンシブである事</h4>
-<p class="m_0"><em class="blue_2">Google自体がレスポンシブを推奨</em>するようになりました。更にモバイルでレスポンシブでないと検索結果でマイナスポイントになりますので早急にレスポンシブにしましょう。</p>
-
-<p>参考記事:<a href="http://programmerbox.com/2013-02-18_responsive_design_seo_ux/" target="_blank">レスポンシブwebデザインの作り方とSEOとUXを考察</a></p>
-
-<h4>平均ページ滞在時間が長い事</h4>
-<p>感覚値としてはこの項目はかなり重要です。ロングテールで<em class="blue_2">検索順位を上げていくには平均5分以上滞在</em>されている事が大切です。</p>
-
-
-
-<h4>平均ページ滞在時間が極端に短いページを消す事</h4>
-<p>平均滞在時間が20秒以下の記事がありませんか?残念ながらその記事はブログ全体の足を引っ張っている可能性が高いです。<em class="blue_2">記事内容をてこ入れするか削除する</em>かどちらかを行いましょう。</p>
-
-
-<h4>ユーザーが何回も訪問している事</h4>
-<p>これも感覚値になるのですが多ければ多い程、検索結果の順位が上がっています。</p>
-
-
-<h4>適切な被リンクが多い事</h4>
-<p>適切とはなんなのかという議論はありますが、不自然な相互リンク等はマイナス点です。(友達同士の相互リンクもやめた方がいいです)</p>
-
-
-<h4>ソーシャルで拡散されている事</h4>
-<p>検索結果にあまり関係ないと言われていますがボクは大いにあると思います。ソーシャル全体で<em class="blue_2">200以上拡散されると3ヶ月くらいは検索結果で上位に</em>なります。理由の一つは拡散されるという事は被リンクを得られると同義ですので(短いスパンで)やはり重要なポイントです。</p>
-
-
-
-<h3 class="heading">ソーシャルで拡散されるのに必要な項目</h3>
-
-<h4>記事自体が面白い or 為になる事</h4>
-<p>当たり前と言ったら当たり前なんですが、それが意外と難しいです。流行の先を読みすぎて記事を書いても共感は得られません。</p>
-
-<h4>ブログ自体が有名である事</h4>
-<p>有名な事は一つの指標ですので良くも悪くも有名になるように心掛けていきましょう。</p>
-
-
-<h4>適切な場所にソーシャルボタンがある事</h4>
-<p>初めと最後にあれば問題ないです。追従型はお好みで良いかと思います。</p>
-
-<h4>Twitter、Facebook、Google+のアカウントを作って活発に更新している事</h4>
-<p>時間がなくて活発に更新出来ない事が多いかと思いますが活発である事は忘れられない為にも必要です。更新のしすぎには注意が必要ですが。</p>
-
-
-
-<h4>ブログカテゴリによって拡散されるソーシャルが違う事を理解する事</h4>
-<p>ブログカテゴリによって力を入れるソーシャルの場を変えた方が良いですね。ライフハッカー系、ビジネス系、ストーリーのある話題等はFacebookで拡散される事が多いです。炎上系、社会風刺系、釣り系、IT関連の記事はもっぱらはてブで拡散される傾向が高いです。最後にTwitterですがどんな記事でも拡散されますね。あえて上げるなら、2ちゃんねる系、お笑い・ネタ系が拡散される傾向が高いです。</p>
-
-
-
-<h3 class="heading">ブックマーク、RSSに登録されるのに必要な項目</h3>
-<h4>三度、面白い or 為になる記事を読まれる事</h4>
-<p>検索をして欲しい情報を探す訳ですが、その工程の中で<em class="blue_2">三度同じブログで為になる記事があった時にRSSを登録するというアクションを行う人が多い</em>です。</p>
-
-<h4>適切な場所にRSSリンクがある事</h4>
-<p>肝心のRSSのリンクが解りづらい場所にあっては機会損失になってしまいます。</p>
-
-<h4>適切なRSS記述がされている事</h4>
-<p>RSSを登録してもらっても配信するRSSの内容がひどかったらRSSを解除されてしまいます。(RSSに広告を載せたりetc..)</p>
-
-<h3 class="heading">アプリケーションから紹介されるのに必要な項目</h3>
-<h4>ソーシャルで拡散されている事</h4>
-<p>大体のアプリケーションが<em class="blue_2">ソーシャル値を参考にして話題の記事を集めています</em>のでGunosyなどのアプリに紹介されるにはソーシャルで拡散されている事は必須です。</p>
-
-<h4>アプリケーションの運営にブロックされない事</h4>
-<p>アプリを運営する企業や人はユーザー体験が損なわれるようなブログや記事をブロックする事が出来ます。嫌われないカテゴリ、内容で記事を書く事をお勧め致します。</p>
-
-
-<h2 class="heading">100万PVの方程式</h2>
-
-<p>100万PVの方程式に当てはめる為に<strong>アベレージランク</strong>という概念を考えてみました。近直の3ヶ月PV数と記事数だけでブログのアベレージランクと100万PVを達成する為に必要な記事数がわかるようになります。カンタンに計算出来るスクリプトも作りましたので確認してみましょー。</p>
-
-
-<h3 class="heading">100万PVの方程式を計算する[ツール]</h3>
-
-
-<h4>アベレージ算出</h4>
-<p>
-最新の3ヶ月PV数：<input type="number" class="equation_input" id="NewestPV" name="NewestPV" maxlength="20">
- ÷ 日数：<span id="Days">90</span>
- = 1日平均のPV：<span id="DayPV_1"></span>
-</p>
-<p>
-1日平均のPV：<span id="DayPV_2"></span> ÷ 現在の記事数：<input type="number" class="equation_input" id="NumberArticles" name="NumberArticles" maxlength="20"> = ブログのアベレージ：<span id="Average_1"></span>
-</p>
-
-
-<h4>必要な記事数算出</h4>
-<p>
-33,333(1日のPV) ÷ ブログのアベレージ：<span id="Average_2"></span>
- = 必要な記事数：<span id="ArticlesMinimum"></span>
-</p>
-
-
-<p>追記：<span style="color: red;">ツールが動かない場合は古いキャッシュが読み込まれていますのでお手数かけますが、再読み込みを宜しくお願い致します。</span></p>
-
-
-<h3 class="heading">アベレージランク確認リスト表</h3>
-
-<table class="type_1">
-	<thead>
-		<tr>
-			<th>アベレージ数</th>
-			<th>ランク</th>
-			<th>想定必要記事数</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>0〜20</td>
-			<td>E</td>
-			<td>3333</td>
-		</tr>
-		<tr>
-			<td>21〜40</td>
-			<td>D</td>
-			<td>1111</td>
-		</tr>
-		<tr>
-			<td>41〜60</td>
-			<td>C</td>
-			<td>666</td>
-		</tr>
-		<tr>
-			<td>61〜80</td>
-			<td>B</td>
-			<td>476</td>
-		</tr>
-		<tr>
-			<td>80〜100</td>
-			<td>A</td>
-			<td>370</td>
-		</tr>
-		<tr>
-			<td>101〜</td>
-			<td>S</td>
-			<td>330</td>
-		</tr>
-	</tbody>
-</table>
-
-
-
-
-<h2 class="heading">必要な記事数がわかった所で更新度合いで逆算する</h2>
-<p>必要な記事数がわかるという事は先の見えない状態ではなくなりました。確実に100万PVになるイメージが出来るように逆算していきましょう。</p>
-
-<h3 class="heading">更新する頻度を調節して短期間で達成する目標を立てよう</h3>
-
-<p>アベレージランクがE以外なら100万PVは達成出来ます。そこで更新頻度のお話になるのですが<strong>毎日更新はオススメしません。</strong>何故かと言いますと記事の質が下がり<em class="blue_2">ロングテールで考えた時に圧倒的に不利になりアベレージ数が下がり効率が悪くなります</em>。下がらないように「webの流れを理解する」の章を読み直して施策を打ち記事の質を上げていきましょう。</p>
-
-<p>記事の質がそこまで下がらないような更新頻度で更新していくべきですが、記事の質を下げずに更新頻度を上げれるようなら上げていってもいいかと思います。</p>
-
-
-<p>ブログを始めて<strong>最短で100万PVを達成するには10ヶ月は必要</strong>です。ブログが仕事という意識で更新していけば、かなりの確率で達成出来るかと思いますが、情熱が必要ですね。</p>
-
-
-<h3 class="heading">ランク別に見直す点を考える</h3>
-<h4>ランクEの場合</h4>
-<p>ブログカテゴリがニッチすぎる場合か、そもそも「webの流れを理解する」を理解していない場合があります。このランクの人は早急にブログ運営を見直すべきです。</p>
-
-<h4>ランクDの場合</h4>
-<p>一番このランクが多いかと思われます。悪くはありませんが良くもありません。検索対策を初めに行うべき。</p>
-
-<h4>ランクCの場合</h4>
-<p>ここからが合格ラインですね。もう1ランク上がれるように足りない部分を探し出し改善を行えれば良いかと思います。</p>
-
-<h4>ランクBの場合</h4>
-<p>3ヶ月PVで計算した時にこのランクだとかなりレベルが高いです。そのまま更新していけば問題ないですね。ここらへんのレベルのままブログ運営をすると1年半で100万PVになります。</p>
-
-<h4>ランクAの場合</h4>
-<p>ランクAだとプロ・セミプロの領域に入るんじゃないでしょうか。ソーシャルで拡散される常連のブログがここら辺にあたります。</p>
-
-<h4>ランクSの場合</h4>
-<p>まれにこのランクのブログはありますね。大概、文章を書く事を生業にしているプロの集団で更新している場合が多いです。</p>
-
-
-<h2 class="heading">これからブログを始めるあなたへ</h2>
-<p>ブログを始めるにあたって必要な事は何もありません。ただ、好きなジャンルを絞って書いていった方が見ているユーザーに優しいブログになります。もう一つは<em class="blue_2">自分自身の為になるブログ</em>である事。これが最重要なんじゃないかなって考えています。</p>
-
-
-<h3 class="heading">始めたばかりのPVに絶望しないで下さい</h3>
-<p>始めたばかりのブログは自分以外見ていないんじゃないかっていうくらい人が訪問して来てくれません。ですが、よくよく考えれば当たり前の事です。誰もあなたの居る住所を知らないのにたどり着ける訳ありません。そこで、ボクはここに居ますよ、こんな情報の事を書いていますよって発信していくのがソーシャルであり、その情報をストックする場所がブログであり、その情報を拾ってくれるのがGoogleやYahoo!です。</p>
-<p>プログラマーボックスは全くの0から始めました。新たにTwitter、Facebook、Google+のアカウントを取得して宣伝なしで書いていったらどうなるのかなって研究を含めて書かせて頂いています。そして、<em class="blue_2">最初の一ヶ月は本当に地獄でして、ボク以外のユーザーはいませんでした</em>。</p>
-
-<p>現在の記事数はこの記事を含めて29です。スタートしてからの期間を考えればかなり少ない本数です。ですが運良く、はてブユーザーに見て頂く事が多いのかアクセスが少ない割にたまにバズったりします。拡散して頂いているみなさん、いつもありがとうございます。</p>
-
-<h3 class="heading">アフィリエイトから自分コンテンツを売る時代へ</h3>
-<p>アフィリエイトを載せる事はもちろんいいのですが本業があるなら本業の仕事を活かせるカタチでブログを発信していく事が望ましいです。お金で換算するのもアレですが、そっちの方が人脈も増えて様々な観点から考えて有益になる筈です。<em class="blue_2">どうかアフィリエイトしかないという風にならないで欲しい</em>です。このブログのアドセンスはデザインという考えで表示しています。</p>
-
-<h3 class="heading">自分自身をブランディングする</h3>
-<p>アフィリエイトをしないという事は自分自身のブランディング力をあげなくてはなりません。ですが、そこまで考えなくとも自然で良くて、見ている人全員に少しでも有益な記事が書けたらいいなって考えているだけでいいのではないでしょうか？</p>
-
-<h3 class="heading">ブログという場を考える</h3>
-<p>とは言っても様々なブログやサイトがありますので<em class="blue_2">自分とブログとユーザーの立ち位置を考えてデザインしたり記事を書いていく</em>ように意識して運営していくのが理想ですね。</p>
-
-
-<h3 class="heading">最終目標はコロコロ変えても良い</h3>
-<p>最終目標なんてコロコロ変えちゃえば良いんです。縛られると良い事なんて一つもありません。このブログも当初の目的や目標なんてどこかに行ってしまいました。ですが、それは悪い事ではありません。世の中が変わっていくのに対応出来ないのではマズいのと同じで、生活の中で自分自身が変化していくと考えが変わります。逆にどんどん変わっていきましょう!</p>
-
-
-<h3 class="heading">一人の友人に書くように</h3>
-<p>お友達とお話している時に色んな話題になりますよね？そこで悩んでいる事やこれが面白いという情報を聞ける時があります。そして、その悩みを解決したいなって思った時にボクは記事を書くようにしています。
-1人悩んでいる人が居れば日本の中でかなりの人数が悩んでいる可能性があるかもしれません。数字だけでは解らない時は一人の友人に書くようにするといいかもしれません。</p>
-
-
-<h2 class="heading">まとめ</h2>
-
-
-<p>初めてバズった記事<a target="_blank" href="http://programmerbox.com/2013-02-18_responsive_design_seo_ux/">レスポンシブwebデザインの作り方とSEOとUXを考察</a>はたった一人の友人の為に書きました。その頃、閲覧してくれるユーザーは3日に2人くらいでしたが、その3日に2人くらいしか来ない人が、はてブとTwitterユーザーで拡散をしてくれました。23:00頃に。で、1時間で40はてブくらいついて、その次の日にGunosyに載り最終的に180はてブくらい付きました。記事をアップしてから5日後くらいの出来事でしたので本当に驚きました。</p>
-<p>ボク自身のwebの経歴とかAboutに書いていないんですが、ここで簡易に書きます。ボクはメールマガジンを配信する所から始めました。17才の時で3誌くらい発行していて45000部(購読数)くらいまで成長しました。始めたばかりのwebサイトも一ヶ月平均PVが個人サイトで30万PV、携帯向け画像サイトで50万〜70万とか。</p>
-
-<p>大人になってからも色々運営していますが、多すぎるのでここでは省略させて頂きます。で、何が言いたいかというとWebって年齢関係ないし、技術も意外とカンタンだし、やったもん勝ちだよーって事です。</p>
-<p class="m_0">何度も言いますがブログで100万PVは意外とカンタンなんです。</p>
-<p>時々<em>アベレージランク</em>を測ってブログを修正していけば達成する日付も大体わかりますので、是非是非<strong>100万PVの方程式ツール</strong>を使って下さい。</p>
-
-<p class="m_0">では、そんな感じで終わりにしたいと思います。</p>
-<p>webを楽しみましょう。</p>
-			]]>
-			</content:encoded>
-			<guid>
-			http://programmerbox.com/2013-08-06_one_million_pv_way/
-			</guid>
-			<pubDate>Tue, 06 Aug 2013 11:56:25 +0900</pubDate>
 			</item>
 			</channel>
 		</rss>
