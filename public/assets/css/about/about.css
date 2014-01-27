@@ -116,6 +116,13 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
+.about li.ruby {
+	background-image:url("../../img/common/5_star_1_2.png");
+  background-size: 80px 16px;
+  background-position: 105px 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
 
 
 

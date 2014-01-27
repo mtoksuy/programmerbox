@@ -1,3 +1,4 @@
+
 	<!-- adsens -->
 	<div class="google_ad_b_tab">
 		<script type="text/javascript"><!--
@@ -10,6 +11,35 @@
 		</script>
 		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
 	</div>
+
+
+	<!-- webサービス -->
+	<div class="web_service">
+		<div class="web_service_contents clearfix">
+			<div class="category_band top_article_color right_15">webサービス</div>
+			<ul class="clearfix">
+				<li class="o_8">
+					<a target="_blank" href="http://sharingvideo.jp/">
+						<img width="268" height="167" title="Sharingvideo" alt="Sharingvideo" src="http://programmerbox.com/assets/img/webservice/sharingvideo_thumbnail_6.png">
+					</a>
+				</li>
+
+<!--
+				<li class="o_8">
+					<a target="_blank" href="http://pickle.be/">
+						<img width="268" height="167" title="pickle" alt="pickle" src="http://programmerbox.com/assets/img/webservice/pickle_thumbnail_1.png">
+					</a>
+				</li>
+				<li class="o_8">
+					<a target="_blank" href="http://buzzfeed.jp/">
+						<img width="268" height="167" title="buzzfeed" alt="buzzfeed" src="http://programmerbox.com/assets/img/webservice/buzzfeed_thumbnail_3.png">
+					</a>
+				</li>
+-->
+			</ul>
+		</div>
+	</div> <!-- webサービス -->
+
 
 	<!-- カテゴリー -->
 	<div class="follow_menu">
@@ -57,24 +87,5 @@
 				<img width="51" height="16" src="http://programmerbox.com/assets/img/common/ban_rss.png" alt="">
 				<a href="http://programmerbox.com/feed.xml" class="rss_box_btn">RSSを登録する</a>
 			</div>
-		</div>
-	</div>
-
-	<!-- webサービス -->
-	<div class="web_service">
-		<div class="web_service_contents clearfix">
-			<div class="category_band top_article_color right_15">webサービス</div>
-			<ul class="clearfix">
-				<li class="o_8">
-					<a target="_blank" href="http://pickle.be/">
-						<img width="268" height="167" title="pickle" alt="pickle" src="http://programmerbox.com/assets/img/webservice/pickle_thumbnail_1.png">
-					</a>
-				</li>
-				<li class="o_8">
-					<a target="_blank" href="http://buzzfeed.jp/">
-						<img width="268" height="167" title="buzzfeed" alt="buzzfeed" src="http://programmerbox.com/assets/img/webservice/buzzfeed_thumbnail_3.png">
-					</a>
-				</li>
-			</ul>
 		</div>
 	</div>

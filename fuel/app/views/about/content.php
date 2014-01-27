@@ -54,13 +54,16 @@
 							<h2>作成したWebサービス</h2>
 							<h3 class="m_b_30">Web service that you created.</h3>
 
+						<h3><a target="_blank" href="http://sharingvideo.jp/">Sharingvideo</a></h3>
+						<p class="notes m_b_30">人生を変えるような動画を紹介するキュレーションメディア。</p>
+
 						<h3><a target="_blank" href="http://pickle.be/">Pickle</a></h3>
 						<p class="notes m_b_30">URLがあるツイートだけ見れるTwitterクライアントアプリ。</p>
 
 						<h3><a target="_blank" href="http://buzzfeed.jp/">BuzzFeed</a></h3>
 						<p class="notes m_b_30">ソーシャルRSSリーダーサービス。</p>
-						<h3><a target="_blank" href="http://joinchrome.com/">JoinChrome</a></h3>
-						<p class="notes">総合SNSを目指した大失敗プロジェクト。恥ずかしいけど公開。</p>
+						<s>JoinChrome</s>
+						<p class="notes">総合SNSを目指した大失敗プロジェクト。</p>
 						</div>
 					</section>
 
@@ -198,6 +201,7 @@
 								<li class="javascript">JavaScript</li>
 								<li class="php">PHP</li>
 								<li class="java">Java</li>
+								<li class="ruby">Ruby</li>
 								<li class="objective_c">Objective-C</li>
 							</ul>
 						</div>

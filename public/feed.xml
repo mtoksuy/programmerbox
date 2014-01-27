@@ -2,8 +2,8 @@
 		<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 		<channel>
 		<title>ProgrammerBOX -プログラマーボックス-</title>
-		<atom:link href="http://localhost/programmerbox/feed.xml" rel="self" type="application/rss+xml"/>
-		<link>http://localhost/programmerbox/</link>
+		<atom:link href="http://programmerbox.com/feed.xml" rel="self" type="application/rss+xml"/>
+		<link>http://programmerbox.com/</link>
 		<description>
 		<![CDATA[
 		プログラマーボックスはITニュースをお届けしながら主にPHP,CSS3,JavaScriptのコードを箱に詰め込み、あなたにお届けするブログです。
@@ -12,51 +12,276 @@
 		<language>ja</language>
 		<copyright>Copyright 2013</copyright>
 		
-		<generator uri="http://localhost/programmerbox/">ProgrammerBOX -プログラマーボックス-</generator>
+		<generator uri="http://programmerbox.com/">ProgrammerBOX -プログラマーボックス-</generator>
 		
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
-		<lastBuildDate>Wed, 22 Jan 2014 13:32:30 +0900</lastBuildDate><item>
+		<lastBuildDate>Thu, 23 Jan 2014 11:25:28 +0900</lastBuildDate><item>
 			<title>Sharingvideoという動画キュレーションメディアを爆速で作ったった！！その工程と技術を解説する。</title>
 			<link>
-			http://localhost/programmerbox/2014-01-22_sharingvideo/
+			http://programmerbox.com/2014-01-23_i_make_sharingvideo/
 			</link>
 			<description>
 			<![CDATA[
-							ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ...
+			2014年は動画元年になる！という事でボクもこの波に乗ろうかと思いまして、爆速でSharingvideo(シェアリングビデオ)という動画キュレーションメディアを開発してみましたので、...
 			]]>
 			</description>
 			<content:encoded>
 			<![CDATA[
-							<p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-				<nav class="detail_press_index clearfix">
-					<h2 id="s_0p"><span class="color">目次</span></h2>
-					<ul class="left no_width">
-						<li class="n_0"><span class="scroll_btn"></span></li>
-						<li class="n_1"><span class="scroll_btn"></span></li>
-						<li class="n_9"><span class="scroll_btn">まとめ</span></li>
-					</ul>
-				</nav>
-				<h2 class="heading"></h2>
-				<p></p>
-				
-				<h2 class="heading"></h2>
-				<p></p>					
-				
-				<h2 class="heading"></h2>
-				<p></p>
-								
+			<p>2014年は動画元年になる！という事でボクもこの波に乗ろうかと思いまして、爆速でSharingvideo(シェアリングビデオ)という動画キュレーションメディアを開発してみましたので、期間と工程と、どのような技術が使われているかという所にスポットを当てて今回は記事を書いていきます。</p>
+
+<nav class="detail_press_index clearfix">
+	<p id="s_0p"><span class="color">目次</span></p>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">Sharingvideo(シェアリングビデオ)とは？</span></li>
+		<li class="n_2"><span class="scroll_btn">動画メディアの動向がわかる記事</span></li>
+		<li class="n_3"><span class="scroll_btn">作ったきっかけは一つの動画を見て感動したから</span></li>
+		<li class="n_4"><span class="scroll_btn">開発期間は10日(7割はテストで時間を食っています)</span>
+			<ul class="nest">
+				<li><span class="nest_number">4-1.</span><span class="scroll_btn">基礎システムに3日</span></li>
+				<li><span class="nest_number">4-2.</span><span class="scroll_btn">無限スクロールに2日</span></li>
+				<li><span class="nest_number">4-3.</span><span class="scroll_btn">全デバイス対応のドロワーメニューに2日</span></li>
+				<li><span class="nest_number">4-4.</span><span class="scroll_btn">デザインに2日</span></li>
+				<li><span class="nest_number">4-5.</span><span class="scroll_btn">通信を考慮して最適な記事読み込み数を決めるテストに1日</span></li>
+			</ul>
+
+		</li>
+		<li class="n_5"><span class="scroll_btn">言語はPHPでフレームワークはFuelPHP</span></li>
+		<li class="n_6"><span class="scroll_btn">工程と技術を説明していく</span>
+			<ul class="nest">
+				<li><span class="nest_number">6-1.</span><span class="scroll_btn">プログラマーボックスのシステムを流用＆改良</span></li>
+				<li><span class="nest_number">6-2.</span><span class="scroll_btn">Ajaxで無限スクロールを実装する</span></li>
+				<li><span class="nest_number">6-3.</span><span class="scroll_btn">コンテンツ読み込みテストを重ねる</span></li>
+				<li><span class="nest_number">6-4.</span><span class="scroll_btn">@Vine版という概念を作る</span></li>
+				<li><span class="nest_number">6-5.</span><span class="scroll_btn">全てのデバイスに対応させる</span></li>
+				<li><span class="nest_number">6-6.</span><span class="scroll_btn">ドロワーメニューも一応テクい事をしている</span></li>
+				<li><span class="nest_number">6-7.</span><span class="scroll_btn">デザインは最後に手をつけた</span></li>
+				<li><span class="nest_number">6-8.</span><span class="scroll_btn">人間工学に基づいたUI思想</span></li>
+			</ul>
+		</li>
+		<li class="n_7"><span class="scroll_btn">Sharingvideoをどのように運営しているか？</span></li>
+		<li class="n_8"><span class="scroll_btn">Sharingvideoは一緒に運営してくれる方を募集しています</span></li>
+		<li class="n_9"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+
+<h2 class="heading">Sharingvideo(シェアリングビデオ)とは？</h2>
+
+<p>まず初めにどんなサイトなの？って事なんですが、社会的に意義のある動画を僕たちが選んで紹介していくサイトです。細かい内容についてはaboutを引用してリンクを貼っときます。</p>
+
+
+<blockquote cite="http://sharingvideo.jp/about/">
+		<h4>Sharingvideoについて</h4>
+<p>動画はどんなコンテンツよりも人に伝わりやすく、人を変える力を持っています。Sharingvideoは人の心を捉え、人生の糧となる動画をシェアリングしていく事を目的としています。日々、「新しい発見を見つける事が出来る動画」を紹介していきますので、動画の中で「何か」を感じる事がありましたらコメントを添えてシェアして頂けましたら幸いです。そのコメントと動画はあなたと繋がりのあるサービスを通じて流れ届いてゆき、伝わった人がまた違う視点でシェアしてくれるかもしれません。動画の在り方として「好きなものを視聴するコンテンツ」から「人生を変えるかもしれないコンテンツ」へと移り変わっていく中で、共有の体験をあなたと共に。</p>
+
+</blockquote>
+<p class="text_right">引用元:<cite><a target="_blank" href="http://sharingvideo.jp/about/">about | Sharingvideo -シェアする動画キュレーションメディア-</a></cite></p>
+
+<p class="m_0">
+	<a target="_blank" href="http://sharingvideo.jp/">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_260.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://sharingvideo.jp/">Sharingvideo -シェアする動画キュレーションメディア-</a>
+</p>
+<p> </p>
+
+
+<h2 class="heading">動画メディアの動向がわかる記事</h2>
+
+<p>次になぜ動画なんだって疑問を解決してくれる記事を紹介します。</p>
+
+<p>
+	<a target="_blank" href="http://annsuto.blogspot.jp/2014/01/blog-post.html">アンスト!!: 今後の潮流とイケてそうなサービスたち</a>
+</p>
+
+
+
+
+<p>
+	<a target="_blank" href="http://media-outlines.hateblo.jp/entry/2014/01/16/001640">海外における新興ウェブメディアの隆盛 〜12のメディアから見えてくるもの〜</a>
+</p>
+
+<p>
+	<a target="_blank" href="http://media-outlines.hateblo.jp/entry/2014/01/20/203951">国連も乗っかるバイラルメディアの波！ 「UN Free & Equal」を知っていますか？</a>
+</p>
+
+<p>
+	<a target="_blank" href="http://gendai.ismedia.jp/articles/-/36339">開設14ヵ月で月間ユニークユーザー数が3000万!　～史上最速で急成長するバイラル･メディアサイト「Upworthy」の秘密</a>
+</p>
+
+<p>
+	<a target="_blank" href="http://www.huffingtonpost.jp/the-new-classic/upworthy-share_b_4629838.html">UPWORTHYが伝える「シェア」への執念</a>
+</p>
+
+
+<p>
+	<a target="_blank" href="http://www.tribeck.jp/seminar-column/column/owned-media-overseas/02.html">第1回：海外のオウンドメディア動向（2/3）</a>
+</p>
+
+
+<h2 class="heading">作ったきっかけは一つの動画を見て感動したから</h2>
+
+<p>ボクの中で動画というのはYouTubeでお笑いを観るか好きな曲を聴くくらいにしか思っていませんでした。ですが、一つの動画で変わる事ってあるんですね。ボクの中で動画は<strong>「好きなものを視聴するコンテンツ」から「人生を変えるかもしれないコンテンツ」</strong>へと変わりました。</p>
+
+<p>そこで<em>「人生を変えるかもしれないコンテンツ」</em>を広めたくて、そのハブ役みたいなwebサービスを育てて行こうと考え、爆速で開発し、完成に至った次第です。</p>
+
+
+
+
+<h3>In The Fall</h3>
+<div class="youtube">
+<iframe src="//player.vimeo.com/video/27582815?portrait=0&amp;color=e80212" width="498" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/27582815">In The Fall</a> from <a href="http://vimeo.com/user4630714">Steve Cutts</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+
+<h2 class="heading">開発期間は10日(7割はテストで時間を食っています)</h2>
+
+<p>根幹システムに限っていえばタイムリーでプログラマーボックスを再構築したばかりでしたので、それをそのまんま流用したので3時間くらいでしょうか。</p>
+
+<p>他の構築にどのくらいかかったかを作業別に説明していきます。</p>
+
+
+<h3 class="heading b_b_1">基礎システムに3日</h3>
+<p>そのまんま流用出来ると言っても思い描いた内部構成とだいぶ違いましたので、その違いを変更する為に3日くらいかかりました。</p>
+
+<h3 class="heading b_b_1">無限スクロールに2日</h3>
+<p>昔、SNS作った時に実装したのを思い出して、思い出しながら実装しました。いかに気持よく読み込むかをもっと吟味してテストを引き続き行いたいと思います。</p>
+
+<h3 class="heading b_b_1">全デバイス対応のドロワーメニューに2日</h3>
+<p>全デバイスに対応させるには意外と難しくて試行錯誤しながら実装しました。ここは大枠のみで、まだデザインを施していません。</p>
+
+<h3 class="heading b_b_1">デザインに2日</h3>
+<p>ここも全てのデバイスで見ても、全く同じUIになるように心掛けてデザインしました。</p>
+
+<h3 class="heading b_b_1">通信を考慮して最適な記事読み込み数を決めるテストに1日</h3>
+<p>ここが一番大事なので200回くらいテストしました。現状だと3つの記事を表示するのがベストな答えです。</p>
+
+
+<h2 class="heading">言語はPHPでフレームワークはFuelPHP</h2>
+<p>前回の記事で<a target="_blank" href="http://programmerbox.com/2014-01-08_fuelphp_construct_blog/">FuelPHPでプログラマーボックスを再構築したので、このフレームワークの良さを伝えてみる。</a>FuelPHPを覚えたので、使いたくて使いたくて採用しました。</p>
+
+<h2 class="heading">工程と技術を説明していく</h2>
+<p>実際にどのような実装をしたのか、順序を追って説明していきます。</p>
+
+<h3 class="heading b_b_1">プログラマーボックスのシステムを流用＆改良</h3>
+
+<p>プログラマーボックスで構築したソースは色々と課題がありましたので、そこらへんを直しつつ、Sharingvideo仕様に改良を行いました。</p>
+<h3 class="heading b_b_1">Ajaxで無限スクロールを実装する</h3>
+
+<p>jQueyを使用しつつ、AjaxでTwitterやFacebookのような無限スクロールを実装した訳ですが、そこまで難しくありません。フラグ概念を取り入れフラグを立てたり折ったりするだけで記事を取得出来た場合のみにフラグを立てる事によって何度もAjaxが走らないようにしました。</p>
+
+<p>どちらかと言えばJavaScriptで現在いるセグメントを取得する関数を作る方が大変でした。こんな感じ。</p>
+
+<div class="html_tab">JavaScript</div>
+<pre class="brush: javascript; light:true; tab-size: 2;">
+
+//--------------------
+//最後のセグメント取得
+//--------------------
+function category_segment_get() {
+	var category_segment = &apos;&apos;;
+	segment = location.pathname.split(&apos;/&apos;);
+	// ローカルでも動く為に削除
+	var del_array = [&quot;sharingvideo&quot;, &quot;&quot;];
+	for(var i=0; i&lt;segment.length; i++) {
+		for(var ii=0; ii&lt;del_array.length; ii++) {
+			segment[i] = segment[i].replace(del_array[ii], &apos;&apos;);
+		}
+	}
+	for(var iii=0; iii&lt;segment.length; iii++) {
+	 if(segment[iii].length &gt; 1) {
+		 category_segment = segment[iii];
+	 }
+	}
+	return category_segment;
+}
+
+www.とか、テストしてません。
+
+</pre>
+
+<h3 class="heading b_b_1 m_t_30">コンテンツ読み込みテストを重ねる</h3>
+<p>読み込んだ時の時間といいますか。回線を光回線の場合、WiFiの場合、3Gの場合の三つ用意して、デバイスを13インチMacBook Pro Retina、エイサーの小さいノートPC、iPad mini、iPhone5、Android（機種不明）の5つ用意して、コンテンツ量を調整して一番快適な記事数を決めました。</p>
+
+<h3 class="heading b_b_1">@Vine版という概念を作る</h3>
+<p>実は完成してからVineの動画も取り入れて行こうと決めました。ですが、他の動画と比率等々が違うので、カテゴリ分けという概念ではなく、別TLともいいますか、全く別のページにしました。</p>
+
+<h3 class="heading b_b_1">全てのデバイスに対応させる</h3>
+<p> モバイルファースト思想で構築していき、簡単なレプポンシブを取り入れ、どのデバイスで閲覧してもUIが変わる事がないように力を入れました。</p>
+
+<h3 class="heading b_b_1">ドロワーメニューも一応テクい事をしている</h3>
+<p>こんなやつ。</p>
+<p><img class="" src="../assets/img/press/image/image_262.png" width="30" height="19" alt="" title=""></p>
+
+
+
+<p>レスポンシブにするにあたってモバイルファーストの為に実装したドロワーメニューが皮肉にも邪魔をしてしまい、ここも苦労しました。というのもドロワーメニューは固定サイズなのですが、ブラウザの大きさが変わってくるとドロワーメニューがコンテンツと被る隙間って変わるんですよ。(魔の900px〜768pxあたり)そこでどんなブラウザの大きさでも自動で計算して一番見やすい場所にドロワーメニューを移動する事を実装しました。</p>
+
+
+<h3 class="heading b_b_1">デザインは最後に手をつけた</h3>
+<p>デザインは最初に行った場合の方がテンションが高くなるのですが、今回開発するサービスに至ってはコンテンツの色や映像が変わるので最初にデザインを行うと後々破綻する恐れがあるので一番最後に致しました。と言っても大枠は最初から変更に次ぐ変更で作り込んで行きます。で、最後にテーマカラーを決めて配色する感じですね。</p>
+
+<h3 class="heading b_b_1">人間工学に基づいたUI思想</h3>
+<p>時間は掛けていませんが、人間工学に基づいてUIを設計しました。ボクは左利きなのですが、日本に至っては殆どの方が右利きなので右利きの人がもっとも楽に操作でき、コンテンツを流れるように見るかという所に重点を置き、ロゴの位置をあまり見受けられない右寄りに配置し、ドロワーメニューを右に配置しました。</p>
+
+<p>何故その配置かといいますと、殆どの人間は左から右に見る癖があります。右寄りの情報はあまり脳には入って来ません。ボクが見て欲しいのはロゴではなくて、コンテンツなんですね。同じ理由でカテゴリーバンドも右に配置しています。</p>
+
+
+
+<h2 class="heading">Sharingvideoをどのように運営しているか？</h2>
+<p>現在、Sharingvideoチームはボク含め2名です。もう一人は記事を書く事を生業としていた方で2年前に東京でシェアハウスに住んでいた事がありまして、そこで出会った友人です。</p>
+
+<h2 class="heading">Sharingvideoは一緒に運営してくれる方を募集しています</h2>
+<p>記事内容から逸れてしまって大変申し訳ないのですが、Sharingvideoを一緒に運営しくれる方を探しています。現在2人で運営しているんですけど、デザイナーと動画を探してくれる方、アプリ開発者が足りませんのでコミットしてくれる方がいらっしゃいましたら是非お願いしたいです。みなさん忙しいと思いますので、コミットの量は自由です。 要は土日プロジェクトみたいなもんです。ただ、マネタイズの出来ていないサービスですので、お金という報酬は現状ではありません。ですが、ゆくゆくは成長した時に、このプロジェクトの中枢を任せたいと思っております。</p>
+
+<ol>
+	<li>
+		<dl>
+			<dt>webデザイナー</dt>
+			<dd>ロゴやドロワーメニュー内のカテゴリーアイコンをメインに全てのデザインを任せたいと考えています。</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>キュレーター</dt>
+			<dd>新鮮で社会に出す意義がある動画を探して良質なタイトルを考え記事をupしてくれる方を募集しています。</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>アプリ開発者(Objective-C)</dt>
+			<dd>サイトをアプリケーションに昇華させたいと考えていまして、ネイティブアプリを開発してくれる方を募集しています。</dd>
+		</dl>
+	</li>
+</ol>
+
+<p>お手伝い出来るよ！って方は是非<a href="https://twitter.com/mtoksuy" target="_blank">@mtoksuy</a>宛にリプライか、<a href="http://programmerbox.com/contact/" target="_blank">お問い合わせ</a>からご連絡頂けたら幸いです。</p>
+
+
+
+<h2 class="heading">まとめ</h2>
+<p>久々に真面目なプロジェクトを立ち上げてみました。どうなるかなんてわかりませんが、そこも楽しみつつ運営して行きたいと考えています。</p>
+
+
+<p>webサービスが初期の段階でどのように作られるかを分かって頂けたでしょうか？Yahooが爆速を掲げていたようにスピードというのはかなり重要で、初期にあたっての品質は重要ではないんですよね。初めの立ち上がりはスピードが大事です。ボロでも良いのでプロトタイプを見て未来が見えるか見えないかを重要視しています。実際に運営してみて分かる事も多いです。</p>
+
+<p>10日でプロトタイプが完成しないようであれば70%そのプロジェクトは失敗と見ていいでしょう。なので、今回はギリギリのラインなんですよね。</p>
+
+
+<p>最後に、この記事を見ているみなさんがwebサービスを作る時に、少しでも参考になるようであれば幸いです。共に頑張りましょう。</p>
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2014-01-22_sharingvideo/
+			http://programmerbox.com/2014-01-23_i_make_sharingvideo/
 			</guid>
-			<pubDate>Wed, 22 Jan 2014 13:32:29 +0900</pubDate>
+			<pubDate>Thu, 23 Jan 2014 11:25:27 +0900</pubDate>
 			</item>
 			<item>
 			<title>FuelPHPでプログラマーボックスを再構築したので、このフレームワークの良さを伝えてみる。</title>
 			<link>
-			http://localhost/programmerbox/2014-01-08_fuelphp_construct_blog/
+			http://programmerbox.com/2014-01-08_fuelphp_construct_blog/
 			</link>
 			<description>
 			<![CDATA[
@@ -598,14 +823,14 @@ model
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2014-01-08_fuelphp_construct_blog/
+			http://programmerbox.com/2014-01-08_fuelphp_construct_blog/
 			</guid>
 			<pubDate>Wed, 08 Jan 2014 13:19:55 +0900</pubDate>
 			</item>
 			<item>
 			<title>VPSの構築をマスターする手順書 in ボクとサーバの2週間戦争。</title>
 			<link>
-			http://localhost/programmerbox/2013-12-24_vps_construct_procedure_manual/
+			http://programmerbox.com/2013-12-24_vps_construct_procedure_manual/
 			</link>
 			<description>
 			<![CDATA[
@@ -2357,14 +2582,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-12-24_vps_construct_procedure_manual/
+			http://programmerbox.com/2013-12-24_vps_construct_procedure_manual/
 			</guid>
 			<pubDate>Tue, 24 Dec 2013 11:59:34 +0900</pubDate>
 			</item>
 			<item>
 			<title>2013年、フォントフリーサイトまとめをまとめてみた[保存版]</title>
 			<link>
-			http://localhost/programmerbox/2013-11-01_free_font_Install/
+			http://programmerbox.com/2013-11-01_free_font_Install/
 			</link>
 			<description>
 			<![CDATA[
@@ -2729,14 +2954,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-11-01_free_font_Install/
+			http://programmerbox.com/2013-11-01_free_font_Install/
 			</guid>
 			<pubDate>Fri, 01 Nov 2013 11:39:16 +0900</pubDate>
 			</item>
 			<item>
 			<title>もうPCメガネは必要ない！？色温度調整アプリ「f.lux」を試してみたよ</title>
 			<link>
-			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
+			http://programmerbox.com/2013-10-07_f.lux_app_revue/
 			</link>
 			<description>
 			<![CDATA[
@@ -2800,14 +3025,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-10-07_f.lux_app_revue/
+			http://programmerbox.com/2013-10-07_f.lux_app_revue/
 			</guid>
 			<pubDate>Mon, 07 Oct 2013 23:00:51 +0900</pubDate>
 			</item>
 			<item>
 			<title>Mac標準アプリ「Automator」でファイル名を一括リネームする方法と作成したアクションを削除する方法</title>
 			<link>
-			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
+			http://programmerbox.com/2013-10-07_automator_image_batch_rename/
 			</link>
 			<description>
 			<![CDATA[
@@ -2936,14 +3161,14 @@ ntpq -p
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-10-07_automator_image_batch_rename/
+			http://programmerbox.com/2013-10-07_automator_image_batch_rename/
 			</guid>
 			<pubDate>Mon, 07 Oct 2013 17:51:38 +0900</pubDate>
 			</item>
 			<item>
 			<title>jQueryでDOM操作する際の基本記述を勉強し直してみたよ。</title>
 			<link>
-			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
+			http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
 			</link>
 			<description>
 			<![CDATA[
@@ -3296,14 +3521,14 @@ $(".hoge").click(function() {
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-09-26_jquery_dom_basic_description/
+			http://programmerbox.com/2013-09-26_jquery_dom_basic_description/
 			</guid>
 			<pubDate>Thu, 26 Sep 2013 12:05:22 +0900</pubDate>
 			</item>
 			<item>
 			<title>2013年度TIOBE発表プログラミング言語ランキングとweb系にオススメする言語</title>
 			<link>
-			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
+			http://programmerbox.com/2013-08-28_2013_Programming_ranking/
 			</link>
 			<description>
 			<![CDATA[
@@ -3620,14 +3845,14 @@ $(".hoge").click(function() {
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-28_2013_Programming_ranking/
+			http://programmerbox.com/2013-08-28_2013_Programming_ranking/
 			</guid>
 			<pubDate>Wed, 28 Aug 2013 06:19:05 +0900</pubDate>
 			</item>
 			<item>
 			<title>かわいい顔文字をまとめてみたよ!ダウンロードして楽しもう!!</title>
 			<link>
-			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
+			http://programmerbox.com/2013-08-13_cute_emoticon_download/
 			</link>
 			<description>
 			<![CDATA[
@@ -4566,14 +4791,14 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-13_cute_emoticon_download/
+			http://programmerbox.com/2013-08-13_cute_emoticon_download/
 			</guid>
 			<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
 			</item>
 			<item>
 			<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
 			<link>
-			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
+			http://programmerbox.com/2013-08-09_long_shadow_animation/
 			</link>
 			<description>
 			<![CDATA[
@@ -4753,7 +4978,7 @@ Zz(ρω-)o゜。
 			]]>
 			</content:encoded>
 			<guid>
-			http://localhost/programmerbox/2013-08-09_long_shadow_animation/
+			http://programmerbox.com/2013-08-09_long_shadow_animation/
 			</guid>
 			<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
 			</item>
