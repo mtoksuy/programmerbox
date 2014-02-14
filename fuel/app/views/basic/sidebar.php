@@ -20,7 +20,7 @@
 			<ul class="clearfix">
 				<li class="o_8">
 					<a target="_blank" href="http://sharingvideo.jp/">
-						<img width="268" height="167" title="Sharingvideo" alt="Sharingvideo" src="http://programmerbox.com/assets/img/webservice/sharingvideo_thumbnail_6.png">
+						<img width="268" height="167" title="Sharingvideo" alt="Sharingvideo" src="http://programmerbox.com/assets/img/webservice/sharingvideo_thumbnail_7.png">
 					</a>
 				</li>
 

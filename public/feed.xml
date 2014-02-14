@@ -16,7 +16,335 @@
 		
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
-		<lastBuildDate>Thu, 23 Jan 2014 11:25:28 +0900</lastBuildDate><item>
+		<lastBuildDate>Fri, 14 Feb 2014 21:32:28 +0900</lastBuildDate><item>
+			<title>2014年のトレンドはペロペロ感である。思わずペロペロしたくなるアプリアイコン28選！！</title>
+			<link>
+			http://programmerbox.com/2014-02-14_app_icon_design_peropero/
+			</link>
+			<description>
+			<![CDATA[
+			2014年になりますますwebよりアプリを利用する時間が多くなりました。ペロペロ感が出ているアイコンを今回は集めてみました。アプリを作成し、アイコンを作る時に参考にしましょ...
+			]]>
+			</description>
+			<content:encoded>
+			<![CDATA[
+			<p>2014年になりますますwebよりアプリを利用する時間が多くなりました。ペロペロ感が出ているアイコンを今回は集めてみました。アプリを作成し、アイコンを作る時に参考にしましょう。</p>
+
+<nav class="detail_press_index clearfix">
+	<p id="s_0p"><span class="color">目次</span></p>
+	<ul class="left no_width">
+		<li class="n_1"><span class="scroll_btn">ペロペロ感とは？</span></li>
+		<li class="n_2"><span class="scroll_btn">思わずペロペロしたくなるアプリアイコン28選！！</span></li>
+		<li class="n_3"><span class="scroll_btn">アイコンギャラリーサイト</span></li>
+		<li class="n_4"><span class="scroll_btn">まとめ</span></li>
+	</ul>
+</nav>
+
+
+<style>
+.app_icon_radius {
+	border-radius: 79px !important;
+	border-radius: 23.2% !important;
+	border: 0px solid #CCCCCC !important;
+}
+
+/************************
+メディアクエリ設定 0〜768
+************************/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	.app_icon_radius {
+		border-radius: 84px !important;
+	border-radius: 23.5% !important;
+	}
+}
+/************************
+メディアクエリ設定 0〜480
+************************/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+	.app_icon_radius {
+		border-radius: 52px !important;
+	border-radius: 23.6% !important;
+	}
+}
+/************************
+メディアクエリ設定 0〜320
+************************/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	.app_icon_radius {
+		border-radius: 46px !important;
+	border-radius: 24.7% !important;
+	}
+}
+</style>
+
+
+<h2 class="heading">ペロペロ感とは？</h2>
+<p><strong>フラットと質感のバランスが8:2</strong>であったり、流行のデザインであったりがペロペロ感になるのですが、<strong>ペロペロしたいと感じた場合</strong>は特別にどんなデザインでもペロペロ感が出ているアイコンになります。</p>
+
+<h2 class="heading">思わずペロペロしたくなるアプリアイコン28選！！</h2>
+<p>厳選に厳選を重ねて選び抜きましたのでペロペロ感が強いと思われます。こんな感じのアイコンがペロペロ感になりますので覚えておきましょう。</p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_268.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" style="border: 1px solid #CCCCCC !important;" src="../assets/img/press/image/image_269.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" style="border: 1px solid #CCCCCC !important;" src="../assets/img/press/image/image_270.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_271.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_272.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_273.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_274.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_275.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_276.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_277.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_278.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_279.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_280.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_281.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_282.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_283.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_284.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_285.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_286.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" style="border: 1px solid #CCCCCC !important;" src="../assets/img/press/image/image_287.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_288.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_289.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_290.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_291.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_293.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_294.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" style="border: 1px solid #CCCCCC !important;" src="../assets/img/press/image/image_295.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+<p class="m_0">
+		<img class="press_mini_image app_icon_radius m_0" src="../assets/img/press/image/image_297.jpg" widht="640" height="400" alt="" title="">
+</p>
+<p> </p>
+
+
+
+
+
+
+
+<h2 class="heading">アイコンギャラリーサイト</h2>
+<p>今回、ペロペロ感が出ているアイコンを探す為に閲覧したサイトも載せておきます。</p>
+
+
+
+
+<h3>IICNS: A Library collection of beatifully designed iOS App icons</h3>
+<p class="m_0">
+	<a target="_blank" href="http://iicns.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_263.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://iicns.com/">IICNS: A Library collection of beatifully designed iOS App icons</a>
+</p>
+<p> </p>
+
+
+<h3>iconDrop｜デザインから探せるiOSアプリアイコンギャラリー</h3>
+<p class="m_0">
+	<a target="_blank" href="http://icondrop.net/">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_264.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://icondrop.net/">iconDrop｜デザインから探せるiOSアプリアイコンギャラリー</a>
+</p>
+<p> </p>
+
+<h3>iOS Icon Gallery | A gallery showcasing great icon designs from the iOS ecosystem</h3>
+<p class="m_0">
+	<a target="_blank" href="http://iosicongallery.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_265.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://iosicongallery.com/">iOS Icon Gallery | A gallery showcasing great icon designs from the iOS ecosystem</a>
+</p>
+<p> </p>
+
+<h3>After iOS 7 icons</h3>
+<p class="m_0">
+	<a target="_blank" href="http://afterios7icon.tumblr.com/">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_266.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://afterios7icon.tumblr.com/">After iOS 7 icons</a>
+</p>
+<p> </p>
+
+
+<h3>Apple Inspires Me | Best Place for Apple Related Design Inspiration</h3>
+<p class="m_0">
+	<a target="_blank" href="http://www.appleinspires.me/">
+		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_267.jpg" widht="640" height="400" alt="" title="">
+	</a>
+</p>
+<p class="m_0">
+	<a target="_blank" href="http://www.appleinspires.me/">Apple Inspires Me | Best Place for Apple Related Design Inspiration</a>
+</p>
+<p> </p>
+<h2 class="heading">まとめ</h2>
+<p>いかがだったでしょうか？デザインは流行り廃りがありますが、ペロペロ感というのはいつの時代にもあります。<strong>2014年に限ってはフラットにちょい足しがペロペロ感</strong>である事は間違いないです。</p>
+
+<p class="m_0">
+フラット＋質感
+</p>
+<p class="m_0">
+フラット＋ロングシャドー
+</p>
+<p class="m_0">
+フラット＋パステルカラー
+</p>
+<p class="m_0">
+フラット＋くっきりグラデーション
+</p>
+<p class="m_0">
+フラット＋透明
+</p>
+<p class="m_0">
+フラット＋アニメ調
+</p>
+<p class="m_0">
+フラット＋リアル
+</p>
+<p>
+フラット＋アイコン重ね
+</p>
+
+
+<p>これからアプリのアイコンを作る機会があるならば、この手法を試してみては？</p>
+			]]>
+			</content:encoded>
+			<guid>
+			http://programmerbox.com/2014-02-14_app_icon_design_peropero/
+			</guid>
+			<pubDate>Fri, 14 Feb 2014 21:32:28 +0900</pubDate>
+			</item>
+			<item>
 			<title>Sharingvideoという動画キュレーションメディアを爆速で作ったった！！その工程と技術を解説する。</title>
 			<link>
 			http://programmerbox.com/2014-01-23_i_make_sharingvideo/
@@ -4794,193 +5122,6 @@ Zz(ρω-)o゜。
 			http://programmerbox.com/2013-08-13_cute_emoticon_download/
 			</guid>
 			<pubDate>Tue, 13 Aug 2013 10:35:27 +0900</pubDate>
-			</item>
-			<item>
-			<title>このロングシャドウgifアニメーションを見て!むちゃかわいいよ!!</title>
-			<link>
-			http://programmerbox.com/2013-08-09_long_shadow_animation/
-			</link>
-			<description>
-			<![CDATA[
-			ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。...
-			]]>
-			</description>
-			<content:encoded>
-			<![CDATA[
-			<p>ネットサーフィンしていたら面白いgifを発見したので紹介致します!見ているだけで良いデザインがヒラメく?かもしれません。動きが可愛すぎてボクはこの作品を見て癒されました。</p>
-<nav class="detail_press_index clearfix">
-	<h2 id="s_0p"><span class="color">目次</span></h2>
-	<ul class="left no_width">
-		<li class="n_1"><span class="scroll_btn">ネタ元：Bisous les copains</span></li>
-		<li class="n_2"><span class="scroll_btn">Bisous les copainsギャラリー</span></li>
-		<li class="n_3"><span class="scroll_btn">まとめ</span></li>
-	</ul>
-</nav>
-<h2 class="heading">ネタ元：Bisous les copains</h2>
-
-<h3>Bisous les copains</h3>
-<p class="m_0">
-	<a target="_blank" href="http://bisouslescopains.tumblr.com/">
-		<img class="press_screen_shot_image o_8 m_0" src="../assets/img/press/image/image_204.jpg" width="640" height="400" alt="" title="">
-	</a>
-</p>
-<p class="m_0">
-	<a target="_blank" href="http://bisouslescopains.tumblr.com/">Bisous les copains</a>
-</p>
-<p>超かわいいgifを公開しています。スゴい、スゴいよ!!</p>
-
-<h2 class="heading">Bisous les copainsギャラリー</h2>
-
-<p>
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_169.gif" width="500" height="350" alt="" title="">
-</p>
-
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_170.gif" width="500" height="450" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_171.gif" width="500" height="475" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_172.gif" width="500" height="375" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_173.gif" width="500" height="450" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_174.gif" width="500" height="462" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_175.gif" width="500" height="420" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_176.gif" width="500" height="361" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_177.gif" width="500" height="431" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_178.gif" width="500" height="530" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_179.gif" width="500" height="600" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_180.gif" width="500" height="500" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_181.gif" width="500" height="400" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_182.gif" width="500" height="450" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_183.gif" width="500" height="410" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_184.gif" width="500" height="362" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_185.gif" width="500" height="350" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_186.gif" width="500" height="475" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_187.gif" width="500" height="325" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_188.gif" width="500" height="375" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_189.gif" width="500" height="450" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_190.gif" width="500" height="400" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_191.gif" width="500" height="300" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_192.gif" width="500" height="300" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_193.gif" width="500" height="346" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_194.gif" width="500" height="419" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_195.gif" width="500" height="500" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_196.gif" width="500" height="358" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_197.gif" width="500" height="309" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_198.gif" width="500" height="350" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_199.gif" width="500" height="500" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_200.gif" width="500" height="612" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_201.gif" width="500" height="425" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_202.gif" width="500" height="375" alt="" title="">
-</p>
-
-<p class="m_t_60">
-		<img class="press_screen_shot_image m_0" src="../assets/img/press/image/image_203.gif" width="500" height="475" alt="" title="">
-</p>
-
-
-<h2 class="heading">まとめ</h2>
-<p>いかがでしたか?超かわいくないですか!?こうゆう遊び心のあるデザインって素敵ですよね。</p>
-			]]>
-			</content:encoded>
-			<guid>
-			http://programmerbox.com/2013-08-09_long_shadow_animation/
-			</guid>
-			<pubDate>Fri, 09 Aug 2013 10:44:34 +0900</pubDate>
 			</item>
 			</channel>
 		</rss>
